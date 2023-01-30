@@ -1,0 +1,41 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"68557c98"
+	],
+	tasks: [{
+		uid: "256a4c7b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "051332c7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "8d798465",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "3d9539cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

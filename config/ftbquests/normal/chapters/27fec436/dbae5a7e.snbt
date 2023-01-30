@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	text: [
+		"Unlock Botania By Making The Archmage Blood Stone From The Blood Magic Page"
+	],
+	dependencies: [
+		"d001066b",
+		"b88b59a0"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "ca30c4a0",
+		type: "checkmark",
+		title: "Unlock The Botania Stage"
+	}],
+	rewards: [{
+		uid: "43181736",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage3magic"
+	}]
+}

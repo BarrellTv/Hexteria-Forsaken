@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"0ec93f7e"
+	],
+	tasks: [{
+		uid: "f22ce93b",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_divining_rod_1",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "964b8bf1",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "121326f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

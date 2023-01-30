@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"abac62de"
+	],
+	tasks: [{
+		uid: "923cadfe",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "2eb9a44d",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "12fd4374",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

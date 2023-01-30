@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -6.5d,
+	text: [
+		"Unlock Blood Magic By Making The Sanguine Scientiem In The Tinker Construct Page"
+	],
+	dependencies: [
+		"7fa8cc2a",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "581e93df",
+		type: "checkmark",
+		title: "Unlock The Blood Magic Stage"
+	}],
+	rewards: [{
+		uid: "d5c31622",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage2magic"
+	}]
+}

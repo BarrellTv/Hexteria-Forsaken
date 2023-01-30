@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	dependencies: [
+		"9e85a3b3"
+	],
+	tasks: [{
+		uid: "aa6dc6fe",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "9abe3a4b",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	},
+	{
+		uid: "0d2feaa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

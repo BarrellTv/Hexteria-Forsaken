@@ -1,0 +1,32 @@
+{
+	x: 10.5d,
+	y: 6.0d,
+	text: [
+		"Enchanting can only be done during the night. Best tier enchants can be obtain during a full moon."
+	],
+	dependencies: [
+		"6617b7a6"
+	],
+	tasks: [{
+		uid: "3a019c78",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "c7dd32e1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "17656cd1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

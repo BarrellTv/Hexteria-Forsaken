@@ -1,0 +1,43 @@
+{
+	x: -6.5d,
+	y: -4.0d,
+	dependencies: [
+		"ae68bf95"
+	],
+	tasks: [{
+		uid: "e465a568",
+		type: "item",
+		items: [{
+			item: "bewitchment:candelabra_iron"
+		}]
+	},
+	{
+		uid: "11ccff04",
+		type: "item",
+		items: [{
+			item: "bewitchment:candelabra_silver"
+		}]
+	},
+	{
+		uid: "1e26e38c",
+		type: "item",
+		items: [{
+			item: "bewitchment:candelabra_gold"
+		}]
+	}],
+	rewards: [{
+		uid: "afd791ee",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5e18b778",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

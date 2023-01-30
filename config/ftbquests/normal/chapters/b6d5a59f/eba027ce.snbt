@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 3.5d,
+	dependencies: [
+		"2b5a1f23"
+	],
+	tasks: [{
+		uid: "381e79f3",
+		type: "item",
+		items: [{
+			item: "bewitchment:perpetual_ice"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b215a685",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "198a5cf1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

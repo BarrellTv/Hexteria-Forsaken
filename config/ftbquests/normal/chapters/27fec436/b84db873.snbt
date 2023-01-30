@@ -1,0 +1,22 @@
+{
+	x: 13.5d,
+	y: -7.5d,
+	text: [
+		"To Unlock The Draconic Evolutions Stage You Will Need To Finish The Ultimate Seed Reprocessor Quest From The Mystical Agriculture Page"
+	],
+	dependencies: [
+		"835f0eef",
+		"d5d956eb"
+	],
+	tasks: [{
+		uid: "0bde4b5c",
+		type: "checkmark",
+		title: "Unlock The Draconic Evolution Stage"
+	}],
+	rewards: [{
+		uid: "68bc2734",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage9tech"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	dependencies: [
+		"725214c2",
+		"0af10b3b"
+	],
+	tasks: [{
+		uid: "aaa3352a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:heavy_plating"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cfee0aab",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

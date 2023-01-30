@@ -1,0 +1,7 @@
+{
+	title: "Bewitchment",
+	icon: "bewitchment:brazier",
+	always_invisible: false,
+	group: -1147373858,
+	default_quest_shape: ""
+}

@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"If You Click The Lock With A Diamond It Will My The Chest Private"
+	],
+	tasks: [{
+		uid: "6e6b9ae2",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "89b02cb4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "1ec326d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

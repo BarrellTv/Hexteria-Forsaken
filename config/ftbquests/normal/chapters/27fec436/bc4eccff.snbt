@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	x: 17.5d,
+	y: -5.5d,
+	dependencies: [
+		"b80c393d",
+		"14454196"
+	],
+	tasks: [{
+		uid: "bacc422f",
+		type: "checkmark",
+		title: "Finish Project E"
+	}],
+	rewards: [{
+		uid: "e43f3d0a",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "5225f7e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

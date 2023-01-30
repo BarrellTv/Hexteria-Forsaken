@@ -1,0 +1,30 @@
+{
+	x: -9.0d,
+	y: 9.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "18551fb5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gravel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gravel"
+				}
+			}
+		}],
+		count: 128L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c4ce013c",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

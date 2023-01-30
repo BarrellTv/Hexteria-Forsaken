@@ -1,0 +1,3 @@
+[*]
+wiki_url: https://wiki.hexteriamc.net/
+wiki_icon: minecraft:Logo.png

@@ -1,0 +1,158 @@
+{
+	title: "Poppet Master",
+	x: 11.0d,
+	y: -4.5d,
+	dependencies: [
+		"c7d194bd",
+		"a929ecf8"
+	],
+	tasks: [{
+		uid: "072624cd",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_waterprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd6eaef6",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_wasting"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "375f8738",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_voodoo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a527cccd",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_voodooprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3b9d1ee",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_vampiric"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3ef6f65",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6fdabd7",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet"
+		}]
+	},
+	{
+		uid: "28821ac3",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_binding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e126c4ea",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_clumsy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d7093f8",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_deathprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b17db137",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_earthprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b623d0c",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_flameprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a2cf13d",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_hungerprotection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4fe01c23",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_spiritbane"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e3d5ca5",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "74705d6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "8ca9cd33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: -7.0d,
+	y: 1.0d,
+	dependencies: [
+		"276aabb2"
+	],
+	tasks: [{
+		uid: "dcbc7c9b",
+		type: "item",
+		items: [{
+			item: "enderio:block_transceiver"
+		}]
+	}],
+	rewards: [{
+		uid: "a043d6ec",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "412a9788",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "4039599a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

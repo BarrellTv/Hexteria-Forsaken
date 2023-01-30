@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	shape: "gear",
+	dependencies: [
+		"5b10381b"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "eaf75039",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 5"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "2cca58e6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

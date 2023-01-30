@@ -1,0 +1,39 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"07dc4214"
+	],
+	tasks: [{
+		uid: "f4698d0a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "6ab1f5bb",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "8dc4cbaa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "1cf15d48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

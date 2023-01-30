@@ -1,0 +1,56 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	dependencies: [
+		"b60ea306"
+	],
+	tasks: [{
+		uid: "b7d18760",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_helmet",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9ff47058",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_chest",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38ad5dd5",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_legings",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1f7f5f2",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_boots",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f877c599",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

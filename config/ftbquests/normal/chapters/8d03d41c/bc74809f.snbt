@@ -1,0 +1,35 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"32f1c360"
+	],
+	tasks: [{
+		uid: "45734468",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 2b,
+				insulation: 1b
+			},
+			Damage: 2s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7991884d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "2536ec68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

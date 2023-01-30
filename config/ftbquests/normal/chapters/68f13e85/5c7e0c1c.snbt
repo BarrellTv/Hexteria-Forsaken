@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"0739eb89"
+	],
+	tasks: [{
+		uid: "0355c47d",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1e5f3f27",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ee55148e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

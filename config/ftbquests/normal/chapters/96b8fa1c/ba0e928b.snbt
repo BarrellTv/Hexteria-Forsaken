@@ -1,0 +1,29 @@
+{
+	x: -10.0d,
+	y: 8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "52bb630a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
+				}
+			}
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "caa9c59f",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

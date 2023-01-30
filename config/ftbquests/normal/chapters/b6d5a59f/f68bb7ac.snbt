@@ -1,0 +1,68 @@
+{
+	x: 7.5d,
+	y: -5.5d,
+	dependencies: [
+		"5f84b8ba"
+	],
+	tasks: [{
+		uid: "010d502e",
+		type: "item",
+		items: [{
+			item: "bewitchment:green_witch_hood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8edf8f56",
+		type: "item",
+		items: [{
+			item: "bewitchment:green_witch_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5d336a93",
+		type: "item",
+		items: [{
+			item: "bewitchment:green_witch_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa09cded",
+		type: "item",
+		items: [{
+			item: "bewitchment:green_witch_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ad0f07d",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "13d3129d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "cf41c23d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 1.5d,
+	y: 9.5d,
+	dependencies: [
+		"a97344ea",
+		"d12931fa"
+	],
+	tasks: [{
+		uid: "d7d7ada7",
+		type: "item",
+		items: [{
+			item: "mysticaladaptations:insanium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "46a37af0",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "3acc5c8b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "8aaae9d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		},
+		count: 2
+	}]
+}

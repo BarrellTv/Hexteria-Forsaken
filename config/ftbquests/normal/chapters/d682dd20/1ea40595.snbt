@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: 7.0d,
+	dependencies: [
+		"c3439f4e"
+	],
+	tasks: [{
+		uid: "890b1b36",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_transfer_addon_pull"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "466f305b",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "d3cd3adb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

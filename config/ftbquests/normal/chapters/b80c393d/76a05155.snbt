@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"026539fe"
+	],
+	tasks: [{
+		uid: "c06664fd",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "dffcc8ba",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "c1198c04",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

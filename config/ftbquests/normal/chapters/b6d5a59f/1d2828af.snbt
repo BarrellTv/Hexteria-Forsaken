@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "535918d8",
+		type: "item",
+		items: [{
+			item: "bewitchment:spruce_heart"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6bfb0633",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "95c198f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

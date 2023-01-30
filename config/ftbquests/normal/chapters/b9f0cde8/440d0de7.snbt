@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	dependencies: [
+		"9e85a3b3"
+	],
+	tasks: [{
+		uid: "5515e54b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:emerald_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "a41e0b31",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	},
+	{
+		uid: "08db29e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	dependencies: [
+		"0515544e"
+	],
+	tasks: [{
+		uid: "ffb31194",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:gold_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "9da961aa",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "4df06fd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

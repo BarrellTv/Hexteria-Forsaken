@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"7a5402dc"
+	],
+	tasks: [{
+		uid: "fabc1d8d",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "7f31b30d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "5e287ce3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

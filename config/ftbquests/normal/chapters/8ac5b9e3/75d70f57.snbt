@@ -1,0 +1,28 @@
+{
+	x: 1.5d,
+	y: 17.5d,
+	dependencies: [
+		"1faabf44"
+	],
+	tasks: [{
+		uid: "64ef2da1",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "6ecbea02",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "4af2b154",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -4.5d,
+	y: 5.5d,
+	dependencies: [
+		"b8042360",
+		"87dee1e7"
+	],
+	tasks: [{
+		uid: "b181ebdc",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "083dbf29",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "4f486875",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "49c6ead3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

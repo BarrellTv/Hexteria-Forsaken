@@ -1,0 +1,29 @@
+{
+	icon: "bewitchment:brazier",
+	x: 0.5d,
+	y: -5.5d,
+	dependencies: [
+		"1b933583",
+		"b6d5a59f"
+	],
+	tasks: [{
+		uid: "d8b8cf29",
+		type: "checkmark",
+		title: "Finish Bewitchment"
+	}],
+	rewards: [{
+		uid: "1f9a66cc",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "8e3129e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

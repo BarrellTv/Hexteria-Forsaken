@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 5.5d,
+	dependencies: [
+		"ea33d8ce"
+	],
+	tasks: [{
+		uid: "7e740c39",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "03121bdc",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "e9f63c43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

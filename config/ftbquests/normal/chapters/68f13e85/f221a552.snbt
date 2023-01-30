@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"74b324fc"
+	],
+	tasks: [{
+		uid: "f7e1c1b1",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b597a582",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2bf665b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	x: -2.5d,
+	y: -5.5d,
+	dependencies: [
+		"4ee209ef",
+		"9c30aef6"
+	],
+	tasks: [{
+		uid: "06902343",
+		type: "checkmark",
+		title: "Finish Botania"
+	}],
+	rewards: [{
+		uid: "b184b649",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "66e2796b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

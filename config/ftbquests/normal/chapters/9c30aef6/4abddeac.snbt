@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"dbae5a7e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d5c22ab",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7433b2b5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

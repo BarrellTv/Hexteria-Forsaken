@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"59af6fb1"
+	],
+	tasks: [{
+		uid: "383ae719",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f5e691e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "330c2bd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

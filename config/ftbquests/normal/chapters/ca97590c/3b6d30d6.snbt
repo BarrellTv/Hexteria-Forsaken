@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -6.0d,
+	dependencies: [
+		"91e5bafc"
+	],
+	tasks: [{
+		uid: "4c184c12",
+		type: "item",
+		items: [{
+			item: "tconstruct:piggybackpack"
+		}]
+	}],
+	rewards: [{
+		uid: "76a7e34b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b2862791",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

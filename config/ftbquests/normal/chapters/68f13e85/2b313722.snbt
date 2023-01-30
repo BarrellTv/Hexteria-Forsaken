@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"dcc90cc2"
+	],
+	tasks: [{
+		uid: "eb2c25ea",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bad00bef",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "05d51acc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

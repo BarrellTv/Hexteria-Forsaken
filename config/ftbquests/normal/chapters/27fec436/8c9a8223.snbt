@@ -1,0 +1,29 @@
+{
+	icon: "storagenetwork:remote 1 1",
+	x: 3.5d,
+	y: -5.5d,
+	dependencies: [
+		"3be84774",
+		"7847d408"
+	],
+	tasks: [{
+		uid: "c7d873e4",
+		type: "checkmark",
+		title: "Finish Simple Storage"
+	}],
+	rewards: [{
+		uid: "3a7bcd8c",
+		type: "ftbmoney:money",
+		ftb_money: 35000L
+	},
+	{
+		uid: "911ece96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

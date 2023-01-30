@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -6.5d,
+	dependencies: [
+		"18a10954",
+		"2b1ebff4"
+	],
+	tasks: [{
+		uid: "d1bfd2d9",
+		type: "item",
+		items: [{
+			item: "bewitchment:diabolical_vein"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6539ce23",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "aed4b1ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

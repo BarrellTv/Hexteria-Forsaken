@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"c9c53482"
+	],
+	tasks: [{
+		uid: "680c90c5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "fdc364c7",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "13ae6871",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

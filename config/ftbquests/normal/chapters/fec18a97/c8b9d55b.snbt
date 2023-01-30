@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"12ad33ee"
+	],
+	tasks: [{
+		uid: "51001092",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "641450c2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "322c9d0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

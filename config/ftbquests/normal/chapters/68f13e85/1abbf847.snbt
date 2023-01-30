@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 0.5d,
+	dependencies: [
+		"dbf43313"
+	],
+	tasks: [{
+		uid: "7559579f",
+		type: "checkmark",
+		title: "Move Onto Tinkers To Make Better Tools",
+		icon: "tconstruct:smeltery_controller"
+	}],
+	rewards: [{
+		uid: "b6b39111",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 3.5d,
+	dependencies: [
+		"a8759999"
+	],
+	tasks: [{
+		uid: "8863ab43",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fc45dcd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e9278e89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

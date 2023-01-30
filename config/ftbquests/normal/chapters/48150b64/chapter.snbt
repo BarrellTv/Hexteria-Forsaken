@@ -1,0 +1,7 @@
+{
+	title: "Nether",
+	icon: "minecraft:skull 1 1",
+	always_invisible: false,
+	group: -1042719035,
+	default_quest_shape: ""
+}

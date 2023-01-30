@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: -4.0d,
+	dependencies: [
+		"65a64f41"
+	],
+	tasks: [{
+		uid: "c72efdb5",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_asteroids 1 5"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "6213fabf",
+		type: "ftbmoney:money",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "0be7f5bb",
+		type: "item",
+		item: "galacticraftplanets:schematic"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	dependencies: [
+		"a1520fba"
+	],
+	tasks: [{
+		uid: "bda5a8da",
+		type: "item",
+		items: [{
+			item: "ironchest:diamond_obsidian_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55f9ac43",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d8edc497",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

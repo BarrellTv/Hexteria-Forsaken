@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	dependencies: [
+		"e9df7d31"
+	],
+	tasks: [{
+		uid: "c899bf3c",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2d3dc57e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c9905bb3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

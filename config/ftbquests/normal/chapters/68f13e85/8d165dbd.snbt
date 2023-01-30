@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	dependencies: [
+		"43324b73"
+	],
+	tasks: [{
+		uid: "dd6064e2",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_copper 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5ca875b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cd951809",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

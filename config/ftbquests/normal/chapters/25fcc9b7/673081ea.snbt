@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	dependencies: [
+		"4434bad6"
+	],
+	tasks: [{
+		uid: "bcad1cd2",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f76bb204",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "3f22ab58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

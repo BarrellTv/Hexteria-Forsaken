@@ -1,0 +1,64 @@
+{
+	x: -6.5d,
+	y: 9.0d,
+	dependencies: [
+		"b6a95a80"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75861a92",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "5200b059",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3ef52c86",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	},
+	{
+		uid: "302474d3",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "cd39a089",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "e004a7f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "782cfe2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

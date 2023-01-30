@@ -1,0 +1,42 @@
+{
+	x: -7.5d,
+	y: 5.0d,
+	dependencies: [
+		"223cfa79"
+	],
+	tasks: [{
+		uid: "b83f4790",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_sphere",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66072fbe",
+		type: "ftbmoney:money",
+		ftb_money: 80000L
+	},
+	{
+		uid: "d9eaa4ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "1c56b9c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

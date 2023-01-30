@@ -1,0 +1,44 @@
+{
+	x: -2.5d,
+	y: -8.5d,
+	dependencies: [
+		"082cf3eb"
+	],
+	tasks: [{
+		uid: "026c843f",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier5_thermal_padding"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6151fb79",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier5_thermal_padding 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f69fb95",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier5_thermal_padding 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93722be3",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier5_thermal_padding 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "154eb020",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

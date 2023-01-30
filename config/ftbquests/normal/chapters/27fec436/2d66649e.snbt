@@ -1,0 +1,29 @@
+{
+	icon: "bloodmagic:altar",
+	x: -6.0d,
+	y: -4.5d,
+	dependencies: [
+		"fec18a97",
+		"b88b59a0"
+	],
+	tasks: [{
+		uid: "b8958917",
+		type: "checkmark",
+		title: "Finish Blood Magic"
+	}],
+	rewards: [{
+		uid: "58ef9bfb",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "410c537c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

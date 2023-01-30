@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	dependencies: [
+		"fbecf17d"
+	],
+	tasks: [{
+		uid: "d6717123",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2420f935",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "c5302deb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

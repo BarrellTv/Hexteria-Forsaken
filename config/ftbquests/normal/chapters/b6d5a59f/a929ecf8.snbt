@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	dependencies: [
+		"de28d4e9"
+	],
+	tasks: [{
+		uid: "ea54e523",
+		type: "item",
+		items: [{
+			item: "bewitchment:poppet_shelf_oak"
+		}]
+	}],
+	rewards: [{
+		uid: "23e680da",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "aac92306",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

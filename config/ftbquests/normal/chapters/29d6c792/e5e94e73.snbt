@@ -1,0 +1,29 @@
+{
+	title: "&6[Tier.2] &fVisit Moon: &2Deimos",
+	x: -3.5d,
+	y: 0.5d,
+	dependencies: [
+		"6a47b36c"
+	],
+	tasks: [{
+		uid: "f3979e57",
+		type: "dimension",
+		title: "&6[Tier.2] &fVisit Moon: &2Deimos",
+		dim: -1503
+	}],
+	rewards: [{
+		uid: "fb04d968",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "956d7c07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

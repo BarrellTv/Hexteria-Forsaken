@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"You Can Only Break IC2 Machines Using This Hammer Useing Any Other Tool Will Break The Machine And &cYOU WILL LOSE IT!"
+	],
+	dependencies: [
+		"4de33d06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5141066a",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8686faee",
+		type: "item",
+		items: [{
+			item: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49ee01be",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

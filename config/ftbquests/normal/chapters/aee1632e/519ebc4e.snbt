@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"2fc1efba"
+	],
+	tasks: [{
+		uid: "767856e0",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a8006d9",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "a17ab673",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

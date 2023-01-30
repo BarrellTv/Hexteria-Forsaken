@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: -8.5d,
+	dependencies: [
+		"88e5947c"
+	],
+	tasks: [{
+		uid: "3fd37db3",
+		type: "item",
+		items: [{
+			item: "extrautils2:crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "56306438",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6e8a8951",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

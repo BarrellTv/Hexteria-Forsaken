@@ -1,0 +1,29 @@
+{
+	title: "Finish Thermal",
+	x: -10.0d,
+	y: -1.5d,
+	dependencies: [
+		"25fcc9b7",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "e2756950",
+		type: "checkmark",
+		icon: "thermalexpansion:frame 1 148"
+	}],
+	rewards: [{
+		uid: "3ee0904f",
+		type: "ftbmoney:money",
+		ftb_money: 75000L
+	},
+	{
+		uid: "0f8c870e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

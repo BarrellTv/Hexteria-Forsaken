@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: 0.5d,
+	dependencies: [
+		"e6ea3507"
+	],
+	tasks: [{
+		uid: "00f3c9fb",
+		type: "item",
+		items: [{
+			item: "toughasnails:purified_water_bottle"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a79dbf3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "70fcef86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

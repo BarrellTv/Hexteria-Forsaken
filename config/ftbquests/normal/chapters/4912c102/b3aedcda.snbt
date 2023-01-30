@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "8fd23c49",
+		type: "item",
+		items: [{
+			item: "minecraft:purple_shulker_box"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0286a8db",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "469a606d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

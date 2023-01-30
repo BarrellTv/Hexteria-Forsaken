@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"92a55eb3"
+	],
+	tasks: [{
+		uid: "c50032a1",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
+	}],
+	rewards: [{
+		uid: "a5b34eda",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "95b8aec7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

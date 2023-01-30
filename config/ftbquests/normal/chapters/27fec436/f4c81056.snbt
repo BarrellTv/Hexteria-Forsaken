@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: -8.0d,
+	text: [
+		"To Unlock EnderIO You Need To Finish The Whole Extreme Reactor Page"
+	],
+	dependencies: [
+		"3a5d70c7",
+		"d5dc9a37"
+	],
+	tasks: [{
+		uid: "941f49ba",
+		type: "checkmark",
+		title: "Unlock The EnderIO Stage"
+	}],
+	rewards: [{
+		uid: "eddf9cc4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage7tech"
+	}]
+}

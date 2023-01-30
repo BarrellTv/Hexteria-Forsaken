@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	dependencies: [
+		"604ee605"
+	],
+	tasks: [{
+		uid: "2663a2a5",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "beaf682a",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "80030802",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

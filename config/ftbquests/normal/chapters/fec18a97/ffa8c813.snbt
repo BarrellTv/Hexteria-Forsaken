@@ -1,0 +1,31 @@
+{
+	x: 2.0d,
+	y: -8.0d,
+	dependencies: [
+		"12ad33ee"
+	],
+	tasks: [{
+		uid: "7fa422aa",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c7fa206",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2f4849d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

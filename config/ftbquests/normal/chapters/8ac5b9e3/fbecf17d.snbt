@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"620468e2"
+	],
+	tasks: [{
+		uid: "cd27b319",
+		type: "ftbmoney:money",
+		value: 100000L
+	}],
+	rewards: [{
+		uid: "2c2add18",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2e628179",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

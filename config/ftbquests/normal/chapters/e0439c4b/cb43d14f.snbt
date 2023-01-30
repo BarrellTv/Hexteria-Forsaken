@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"96dc07cc"
+	],
+	tasks: [{
+		uid: "b9125211",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04141b1e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5140d8d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

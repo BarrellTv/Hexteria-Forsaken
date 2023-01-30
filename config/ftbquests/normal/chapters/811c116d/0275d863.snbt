@@ -1,0 +1,43 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	dependencies: [
+		"2c2f969d"
+	],
+	tasks: [{
+		uid: "b2d16ac4",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eda9b17a",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "6e5350a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "753feb79",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

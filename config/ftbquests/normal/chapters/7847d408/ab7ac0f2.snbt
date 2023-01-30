@@ -1,0 +1,30 @@
+{
+	x: 12.5d,
+	y: 11.0d,
+	dependencies: [
+		"87535b82"
+	],
+	tasks: [{
+		uid: "d8f7b5ca",
+		type: "item",
+		items: [{
+			item: "storagenetwork:process_kabel"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3036e296",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "683c3607",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 13.5d,
+	y: -9.0d,
+	dependencies: [
+		"f5e4cd4b"
+	],
+	tasks: [{
+		uid: "d63deb4e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_transposition"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f54a4a5",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "647051e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

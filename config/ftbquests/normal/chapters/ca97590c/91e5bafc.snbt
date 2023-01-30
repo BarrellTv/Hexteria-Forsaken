@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "5dfb96f5",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "65ac6047",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

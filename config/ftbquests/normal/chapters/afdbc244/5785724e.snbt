@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"6df79651"
+	],
+	tasks: [{
+		uid: "2905b2f3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "6d5fdba8",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "9cdd6825",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "ddc5879f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

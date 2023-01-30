@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"00aa6a70"
+	],
+	tasks: [{
+		uid: "0753d90c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "fae29f0c",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "39e4d53d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,1124 @@
+{
+	title: "Common Crate",
+	icon: "ironchest:iron_chest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:fishing_rod"
+	},
+	{
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		item: "minecraft:chainmail_helmet"
+	},
+	{
+		item: "minecraft:iron_helmet"
+	},
+	{
+		item: "minecraft:golden_helmet"
+	},
+	{
+		item: "minecraft:diamond_chestplate"
+	},
+	{
+		item: "minecraft:chainmail_chestplate"
+	},
+	{
+		item: "minecraft:iron_chestplate"
+	},
+	{
+		item: "minecraft:golden_chestplate"
+	},
+	{
+		item: "minecraft:diamond_leggings"
+	},
+	{
+		item: "minecraft:chainmail_leggings"
+	},
+	{
+		item: "minecraft:iron_leggings"
+	},
+	{
+		item: "minecraft:golden_leggings"
+	},
+	{
+		item: "minecraft:diamond_boots"
+	},
+	{
+		item: "minecraft:chainmail_boots"
+	},
+	{
+		item: "minecraft:iron_boots"
+	},
+	{
+		item: "minecraft:golden_boots"
+	},
+	{
+		item: "minecraft:coal",
+		count: 64
+	},
+	{
+		item: "minecraft:coal",
+		count: 48
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 131",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 131",
+		count: 32
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 64
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 129",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 129",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 128",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 128",
+		count: 32
+	},
+	{
+		item: "minecraft:diamond",
+		count: 16
+	},
+	{
+		item: "minecraft:emerald",
+		count: 16
+	},
+	{
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		item: "minecraft:glowstone_dust",
+		count: 64
+	},
+	{
+		item: "minecraft:brick",
+		count: 64
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 64
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 22"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 24"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 25"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 26"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 27"
+	},
+	{
+		item: "actuallyadditions:item_helm_emerald"
+	},
+	{
+		item: "actuallyadditions:item_chest_emerald"
+	},
+	{
+		item: "actuallyadditions:item_pants_emerald"
+	},
+	{
+		item: "actuallyadditions:item_boots_emerald"
+	},
+	{
+		item: {
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:item_helm_obsidian"
+	},
+	{
+		item: "actuallyadditions:item_chest_obsidian"
+	},
+	{
+		item: "actuallyadditions:item_pants_obsidian"
+	},
+	{
+		item: "actuallyadditions:stone_paxel"
+	},
+	{
+		item: "actuallyadditions:iron_paxel"
+	},
+	{
+		item: "botania:manaresource",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 16
+	},
+	{
+		item: "ironjetpacks:wood_jetpack"
+	},
+	{
+		item: "ironjetpacks:copper_jetpack"
+	},
+	{
+		item: "ironjetpacks:stone_jetpack"
+	},
+	{
+		item: "ironjetpacks:bronze_jetpack"
+	},
+	{
+		item: "extraplanets:uranium_sword"
+	},
+	{
+		item: "extraplanets:red_gem_sword"
+	},
+	{
+		item: "extraplanets:crystal_sword"
+	},
+	{
+		item: "extraplanets:white_gem_sword"
+	},
+	{
+		item: "extraplanets:blue_gem_sword"
+	},
+	{
+		item: "extraplanets:tungsten_sword"
+	},
+	{
+		item: "extraplanets:blue_diamond_sword"
+	},
+	{
+		item: "extraplanets:zinc_sword"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 3",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 4",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 9",
+		count: 16
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 64
+	},
+	{
+		item: "mysticalagriculture:crafting 1 1",
+		count: 32
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 1",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 2",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 3",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 4",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 5",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 132",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 132",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 133",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 133",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 160",
+		count: 32
+	},
+	{
+		item: "bigreactors:ingotyellorium",
+		count: 32
+	},
+	{
+		item: "actuallyadditions:item_boots_obsidian"
+	},
+	{
+		item: {
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: "extraplanets:palladium_sword"
+	},
+	{
+		item: "actuallyadditions:wooden_paxel"
+	},
+	{
+		item: "thermalfoundation:material 1 134",
+		count: 32
+	},
+	{
+		item: "minecraft:emerald",
+		count: 8
+	},
+	{
+		item: "minecraft:diamond",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 4",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 8
+	},
+	{
+		item: "botania:manaresource",
+		count: 8
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 8
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 3",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 9",
+		count: 8
+	},
+	{
+		item: "minecraft:cauldron"
+	},
+	{
+		item: "minecraft:brewing_stand"
+	},
+	{
+		item: "minecraft:clay_ball",
+		count: 64
+	},
+	{
+		item: "minecraft:flint",
+		count: 64
+	},
+	{
+		item: "minecraft:egg",
+		count: 16
+	},
+	{
+		item: "minecraft:bone",
+		count: 64
+	},
+	{
+		item: "minecraft:leather",
+		count: 64
+	},
+	{
+		item: "minecraft:string",
+		count: 64
+	},
+	{
+		item: "minecraft:feather",
+		count: 64
+	},
+	{
+		item: "minecraft:gunpowder",
+		count: 64
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 16
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_food 1 14",
+		count: 8
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:milk_bucket"
+	},
+	{
+		item: "minecraft:wheat",
+		count: 64
+	},
+	{
+		item: "minecraft:paper",
+		count: 64
+	},
+	{
+		item: "minecraft:book",
+		count: 64
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 64
+	},
+	{
+		item: "minecraft:dye",
+		count: 64
+	},
+	{
+		item: "minecraft:ender_eye",
+		count: 4
+	},
+	{
+		item: "minecraft:bucket"
+	},
+	{
+		item: "minecraft:water_bucket"
+	},
+	{
+		item: "minecraft:lava_bucket"
+	},
+	{
+		item: {
+			id: "minecraft:clock",
+			tag: {
+				"quark:clock_calculated": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:compass",
+			tag: {
+				"quark:compass_calculated": 1b,
+				"quark:compass_in_nether": 0b
+			}
+		}
+	},
+	{
+		item: "minecraft:saddle"
+	},
+	{
+		item: "actuallyadditions:item_food 1 11",
+		count: 8
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: "minecraft:cooked_porkchop",
+		count: 32
+	},
+	{
+		item: "minecraft:cooked_fish",
+		count: 64
+	},
+	{
+		item: "minecraft:cooked_fish 1 1",
+		count: 64
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 32
+	},
+	{
+		item: "minecraft:cooked_chicken",
+		count: 32
+	},
+	{
+		item: "minecraft:bread",
+		count: 64
+	},
+	{
+		item: "minecraft:melon",
+		count: 64
+	},
+	{
+		item: "minecraft:golden_apple",
+		count: 16
+	},
+	{
+		item: "minecraft:cookie",
+		count: 64
+	},
+	{
+		item: "minecraft:porkchop",
+		count: 64
+	},
+	{
+		item: "minecraft:fish 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:rotten_flesh",
+		count: 64
+	},
+	{
+		item: "minecraft:spider_eye",
+		count: 64
+	},
+	{
+		item: "minecraft:fish 1 3",
+		count: 64
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "minecraft:sugar",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling 1 1",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling 1 3",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling 1 4",
+		count: 64
+	},
+	{
+		item: "minecraft:sapling 1 5",
+		count: 64
+	},
+	{
+		item: "randomthings:spectresapling"
+	},
+	{
+		item: "minecraft:wheat_seeds",
+		count: 64
+	},
+	{
+		item: "minecraft:nether_wart",
+		count: 64
+	},
+	{
+		item: "minecraft:vine",
+		count: 64
+	},
+	{
+		item: "minecraft:waterlily",
+		count: 64
+	},
+	{
+		item: "minecraft:fermented_spider_eye",
+		count: 16
+	},
+	{
+		item: "minecraft:blaze_powder",
+		count: 16
+	},
+	{
+		item: "minecraft:magma_cream",
+		count: 16
+	},
+	{
+		item: "minecraft:speckled_melon",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_food 1 10",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_food 1 12",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_food 1 13",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_food 1 15",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_food 1 19",
+		count: 8
+	},
+	{
+		item: "bewitchment:fortunes_favor"
+	},
+	{
+		item: {
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}
+	},
+	{
+		item: "exnihilocreatio:item_mesh 1 1"
+	},
+	{
+		item: "exnihilocreatio:item_mesh 1 2"
+	},
+	{
+		item: {
+			id: "openblocks:luggage",
+			tag: {}
+		}
+	},
+	{
+		item: "botania:rune"
+	},
+	{
+		item: "botania:rune 1 1"
+	},
+	{
+		item: "botania:rune 1 2"
+	},
+	{
+		item: "botania:rune 1 3"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		count: 16
+	},
+	{
+		item: "scalinghealth:difficultychanger 1 1",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_food 1 20",
+		count: 8
+	},
+	{
+		item: "exnihilocreatio:crook_blaze"
+	},
+	{
+		item: "actuallyadditions:item_food 1 18",
+		count: 8
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 6
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 4
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 2
+	},
+	{
+		item: "bloodmagic:slate",
+		count: 3
+	},
+	{
+		item: "bloodmagic:slate",
+		count: 2
+	},
+	{
+		item: "bloodmagic:slate"
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 3
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 2
+	},
+	{
+		item: "minecraft:skull 1 1"
+	},
+	{
+		item: "chisel:chisel_iron"
+	},
+	{
+		item: "exnihilocreatio:hammer_iron"
+	},
+	{
+		item: "extendedcrafting:handheld_table"
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 64
+	},
+	{
+		item: "minecraft:prismarine 1 1",
+		count: 16
+	},
+	{
+		item: "minecraft:prismarine 1 2",
+		count: 16
+	},
+	{
+		item: "minecraft:soul_sand",
+		count: 64
+	},
+	{
+		item: "minecraft:grass",
+		count: 64
+	},
+	{
+		item: "minecraft:ice",
+		count: 32
+	},
+	{
+		item: "minecraft:lit_pumpkin",
+		count: 64
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 16
+	},
+	{
+		item: "minecraft:bone_block",
+		count: 32
+	},
+	{
+		item: "minecraft:slime",
+		count: 16
+	},
+	{
+		item: "minecraft:white_shulker_box"
+	},
+	{
+		item: "minecraft:black_shulker_box"
+	},
+	{
+		item: "minecraft:red_shulker_box"
+	},
+	{
+		item: "minecraft:green_shulker_box"
+	},
+	{
+		item: "minecraft:brown_shulker_box"
+	},
+	{
+		item: "minecraft:purple_shulker_box"
+	},
+	{
+		item: "minecraft:light_blue_shulker_box"
+	},
+	{
+		item: "minecraft:magenta_shulker_box"
+	},
+	{
+		item: "minecraft:orange_shulker_box"
+	},
+	{
+		item: "minecraft:chorus_flower",
+		count: 64
+	},
+	{
+		item: "minecraft:melon_block",
+		count: 16
+	},
+	{
+		item: "minecraft:chorus_plant",
+		count: 64
+	},
+	{
+		item: "exnihilocreatio:block_crucible 1 1"
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: "ironchest:iron_chest 1 1"
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: "ironchest:iron_chest 1 3"
+	},
+	{
+		item: "exnihilocreatio:block_sieve"
+	},
+	{
+		item: "exnihilocreatio:block_barrel1"
+	},
+	{
+		item: "exnihilocreatio:block_barrel0"
+	},
+	{
+		item: "extrautils2:spike_stone",
+		count: 8
+	},
+	{
+		item: "extrautils2:spike_wood",
+		count: 8
+	},
+	{
+		item: "extrautils2:spike_iron",
+		count: 4
+	},
+	{
+		item: "extrautils2:spike_gold",
+		count: 4
+	},
+	{
+		item: "minecraft:stone",
+		count: 64
+	},
+	{
+		item: "minecraft:stone",
+		count: 32
+	},
+	{
+		item: "minecraft:prismarine",
+		count: 16
+	},
+	{
+		item: "minecraft:log",
+		count: 64
+	},
+	{
+		item: "minecraft:log 1 1",
+		count: 64
+	},
+	{
+		item: "minecraft:log 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:log 1 3",
+		count: 64
+	},
+	{
+		item: "minecraft:clay",
+		count: 64
+	},
+	{
+		item: "minecraft:mycelium",
+		count: 16
+	},
+	{
+		item: "minecraft:snow",
+		count: 64
+	},
+	{
+		item: "minecraft:obsidian",
+		count: 32
+	},
+	{
+		item: "minecraft:sea_lantern",
+		count: 16
+	},
+	{
+		item: "minecraft:magma",
+		count: 64
+	},
+	{
+		item: "minecraft:brick_block",
+		count: 64
+	},
+	{
+		item: "minecraft:stonebrick",
+		count: 64
+	},
+	{
+		item: "minecraft:glass",
+		count: 64
+	},
+	{
+		item: "minecraft:hay_block",
+		count: 32
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 16
+	},
+	{
+		item: "minecraft:pumpkin",
+		count: 32
+	},
+	{
+		item: "minecraft:blue_shulker_box"
+	},
+	{
+		item: "minecraft:lime_shulker_box"
+	},
+	{
+		item: "minecraft:yellow_shulker_box"
+	},
+	{
+		item: "minecraft:pink_shulker_box"
+	},
+	{
+		item: "minecraft:gray_shulker_box"
+	},
+	{
+		item: "minecraft:silver_shulker_box"
+	},
+	{
+		item: "minecraft:cyan_shulker_box"
+	},
+	{
+		item: "minecraft:grass",
+		count: 32
+	},
+	{
+		item: "ironchest:iron_chest 1 4"
+	},
+	{
+		item: "minecraft:tnt",
+		count: 64
+	},
+	{
+		item: "minecraft:furnace",
+		count: 64
+	},
+	{
+		item: "minecraft:hopper",
+		count: 32
+	},
+	{
+		item: "exnihilocreatio:item_mesh 1 3"
+	},
+	{
+		item: "extendedcrafting:table_basic"
+	},
+	{
+		item: "minecraft:chest",
+		count: 64
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "bloodmagic:altar"
+	},
+	{
+		item: "bloodmagic:blood_rune",
+		count: 16
+	},
+	{
+		item: "minecraft:ender_chest",
+		count: 2
+	},
+	{
+		item: "minecraft:ender_chest"
+	},
+	{
+		item: "minecraft:sponge",
+		count: 64
+	},
+	{
+		item: "minecraft:web",
+		count: 64
+	},
+	{
+		item: "minecraft:netherrack",
+		count: 64
+	},
+	{
+		item: "minecraft:glowstone",
+		count: 64
+	},
+	{
+		item: "minecraft:netherrack",
+		count: 32
+	},
+	{
+		item: "minecraft:anvil"
+	}],
+	loot_crate: {
+		string_id: "common_crate",
+		item_name: "Common Crate",
+		color: 261268,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

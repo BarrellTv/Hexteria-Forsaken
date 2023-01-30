@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "baf21f56",
+		type: "item",
+		items: [{
+			item: "bewitchment:ebb_of_death"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7b157f2d",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "46b80e09",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

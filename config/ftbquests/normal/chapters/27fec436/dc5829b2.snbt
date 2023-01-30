@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	x: 9.5d,
+	y: -5.5d,
+	dependencies: [
+		"5565ac99",
+		"afdbc244"
+	],
+	tasks: [{
+		uid: "acca0839",
+		type: "checkmark",
+		title: "Finish AE2"
+	}],
+	rewards: [{
+		uid: "9409803a",
+		type: "ftbmoney:money",
+		ftb_money: 75000L
+	},
+	{
+		uid: "3f28da62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

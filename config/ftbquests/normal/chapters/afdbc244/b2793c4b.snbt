@@ -1,0 +1,42 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	dependencies: [
+		"a5120740"
+	],
+	tasks: [{
+		uid: "5269c11e",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "34430e25",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "291a1cc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "b2ce718b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

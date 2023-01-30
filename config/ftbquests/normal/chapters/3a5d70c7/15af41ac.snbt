@@ -1,0 +1,39 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"fc799eac"
+	],
+	tasks: [{
+		uid: "446e836c",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "23510d16",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "abada4e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "d88fd5bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

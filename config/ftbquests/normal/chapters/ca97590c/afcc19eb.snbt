@@ -1,0 +1,37 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"91e5bafc"
+	],
+	tasks: [{
+		uid: "e23afdae",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5b0d79da",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "b4821749",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

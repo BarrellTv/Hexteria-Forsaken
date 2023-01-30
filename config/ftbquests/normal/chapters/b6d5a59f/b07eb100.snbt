@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 2.0d,
+	dependencies: [
+		"fac33fc4",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "e842e1c5",
+		type: "item",
+		items: [{
+			item: "bewitchment:swirl_of_depths"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6297f7dc",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d4b10cca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

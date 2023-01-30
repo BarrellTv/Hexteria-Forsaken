@@ -1,0 +1,29 @@
+{
+	icon: "ironchest:iron_chest 1 5",
+	x: -9.5d,
+	y: -4.5d,
+	dependencies: [
+		"4912c102",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "c4e07e46",
+		type: "checkmark",
+		title: "Finish Iron Chest"
+	}],
+	rewards: [{
+		uid: "4c1d24ca",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "43d196f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

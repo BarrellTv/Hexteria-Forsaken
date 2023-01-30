@@ -1,0 +1,55 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"88f74b23"
+	],
+	tasks: [{
+		uid: "e599bf28",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbe8057e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ae6b3eff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "84f5c08b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	icon: "environmentaltech:solar_cell_litherite",
+	x: 2.0d,
+	y: -0.5d,
+	dependencies: [
+		"f6408148"
+	],
+	tasks: [{
+		uid: "e83e99f3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	},
+	{
+		uid: "edc25a11",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_litherite"
+		}],
+		count: 9L
+	},
+	{
+		uid: "5f8127f2",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "93044b03",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2cf99fd4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "7c9d096f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

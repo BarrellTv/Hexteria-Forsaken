@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"4db0e9bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3119356c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "c2bd2404",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2edd0718",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

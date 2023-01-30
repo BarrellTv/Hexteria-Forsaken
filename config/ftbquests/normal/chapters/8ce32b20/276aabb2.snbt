@@ -1,0 +1,39 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"e7d805f8"
+	],
+	tasks: [{
+		uid: "00c3ec12",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2b2b6e3b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "18c34779",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "b24925c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

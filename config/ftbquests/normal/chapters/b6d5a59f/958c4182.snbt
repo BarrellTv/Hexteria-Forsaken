@@ -1,0 +1,46 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "878a6ce0",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ee816cf1",
+		type: "item",
+		items: [{
+			item: "bewitchment:garnet"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fdea3fa5",
+		type: "item",
+		items: [{
+			item: "bewitchment:amethyst"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "617d74cf",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "7ba58d5f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

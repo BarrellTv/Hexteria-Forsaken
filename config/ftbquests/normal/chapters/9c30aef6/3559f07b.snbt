@@ -1,0 +1,58 @@
+{
+	x: -2.5d,
+	y: 7.0d,
+	dependencies: [
+		"d1ce622b"
+	],
+	tasks: [{
+		uid: "1ee9693e",
+		type: "item",
+		items: [{
+			item: "botania:manasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82188195",
+		type: "item",
+		items: [{
+			item: "botania:manasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90e0b8dd",
+		type: "item",
+		items: [{
+			item: "botania:manasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37b3b3a7",
+		type: "item",
+		items: [{
+			item: "botania:manasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc777a8b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "82e998bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

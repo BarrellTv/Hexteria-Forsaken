@@ -1,0 +1,64 @@
+{
+	icon: "environmentaltech:solar_cell_ionite",
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"80316a81"
+	],
+	tasks: [{
+		uid: "351e4428",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_5"
+		}]
+	},
+	{
+		uid: "ddc362f1",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_ionite"
+		}],
+		count: 121L
+	},
+	{
+		uid: "39dd1e3a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_5"
+		}],
+		count: 48L
+	},
+	{
+		uid: "911bbde6",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "6c00de68",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "b3c87bb9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "52f87598",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

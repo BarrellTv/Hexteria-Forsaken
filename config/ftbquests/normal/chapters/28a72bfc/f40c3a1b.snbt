@@ -1,0 +1,55 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	dependencies: [
+		"0af10b3b",
+		"ba316bf2"
+	],
+	tasks: [{
+		uid: "77963694",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "630f231d",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5aad302",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38f3343e",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:thermal_padding_t2 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "904fc06d",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "7ee20ad6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

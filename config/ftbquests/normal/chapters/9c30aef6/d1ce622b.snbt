@@ -1,0 +1,40 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	dependencies: [
+		"20dbe0a2"
+	],
+	tasks: [{
+		uid: "b0fcccc9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d4eb166d",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "45734a07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "b1df4312",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

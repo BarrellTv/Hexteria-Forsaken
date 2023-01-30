@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"2b5a1f23"
+	],
+	tasks: [{
+		uid: "634e3d8a",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_ingot"
+		}],
+		count: 32L
+	}]
+}

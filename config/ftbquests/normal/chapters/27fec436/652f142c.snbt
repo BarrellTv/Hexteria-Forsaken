@@ -1,0 +1,29 @@
+{
+	icon: "galacticraftplanets:rocket_t3 1 4",
+	x: -9.0d,
+	y: -2.5d,
+	dependencies: [
+		"28a72bfc",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "29466153",
+		type: "checkmark",
+		title: "Finish Galacticraft"
+	}],
+	rewards: [{
+		uid: "0580357f",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "fc7dc307",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

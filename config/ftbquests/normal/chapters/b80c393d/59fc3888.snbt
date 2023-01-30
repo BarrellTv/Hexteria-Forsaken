@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"77c218ad"
+	],
+	tasks: [{
+		uid: "82dbe5a3",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d74493c",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "8f0b61f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

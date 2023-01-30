@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"Make Sure To Place In A Oxygen Filled Area So The Flame Works To Heat The Crucible Up",
+		"Only Flames Work In Outer Space You Can Use Lava And Such Down The Road Just Note Torchs And Furnaces Dont Heat Up The Crucible Like Normal"
+	],
+	dependencies: [
+		"ed58acb9"
+	],
+	tasks: [{
+		uid: "091939c1",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "d689de70",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "55625802",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

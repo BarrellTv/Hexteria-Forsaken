@@ -1,0 +1,30 @@
+{
+	x: -8.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a28b9aca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			}
+		}],
+		count: 256L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "87631900",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

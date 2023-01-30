@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"e39fcb37"
+	],
+	tasks: [{
+		uid: "c09c1efb",
+		type: "item",
+		items: [{
+			item: "extraplanets:ultimate_oxygen_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "2262645e",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "0b458c46",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "994da013",
+		type: "item",
+		items: [{
+			item: "bewitchment:essence_of_vitality"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7d8d4240",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "2f8edf32",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

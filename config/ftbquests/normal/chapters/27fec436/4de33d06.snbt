@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -8.5d,
+	text: [
+		"Finish The Cryo-Stabilized Fluxduct From The Thermal Page",
+		"",
+		"Unlocks The Mod Inudtrial Craft"
+	],
+	dependencies: [
+		"403e8f9b",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "32721d4a",
+		type: "checkmark",
+		title: "Unlock The IndustrialCraft 2 Stage"
+	}],
+	rewards: [{
+		uid: "63f8bebe",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage2tech"
+	}]
+}

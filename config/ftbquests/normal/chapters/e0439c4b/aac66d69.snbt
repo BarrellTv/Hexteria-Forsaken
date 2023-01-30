@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"a55bfef7"
+	],
+	tasks: [{
+		uid: "1b3f5ee4",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}],
+		count: 64L
+	},
+	{
+		uid: "1c4faf46",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit_popped"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3d913ddf",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "b419dfa6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	dependencies: [
+		"ba316bf2"
+	],
+	tasks: [{
+		uid: "fe492015",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:battery",
+			tag: {},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12dbaf91",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cb0f17be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

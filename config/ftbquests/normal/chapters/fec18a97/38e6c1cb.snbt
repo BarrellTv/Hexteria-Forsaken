@@ -1,0 +1,32 @@
+{
+	x: 11.0d,
+	y: -8.0d,
+	dependencies: [
+		"598b2daa"
+	],
+	tasks: [{
+		uid: "3e8e048f",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_elemental_affinity",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3355a43e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "0713ab81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

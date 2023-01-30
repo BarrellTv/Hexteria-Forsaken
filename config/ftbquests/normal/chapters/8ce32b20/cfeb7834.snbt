@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	dependencies: [
+		"e7d805f8"
+	],
+	tasks: [{
+		uid: "9e3e5fdc",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e7dd36d5",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "75aff243",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

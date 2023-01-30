@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"48e95c1b"
+	],
+	tasks: [{
+		uid: "7deaac41",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5b9ae0a9",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e5823d3a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

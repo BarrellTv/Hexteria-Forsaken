@@ -1,0 +1,29 @@
+{
+	icon: "ic2:te 1 43",
+	x: -6.5d,
+	y: -5.5d,
+	dependencies: [
+		"8d03d41c",
+		"b88b59a0"
+	],
+	tasks: [{
+		uid: "28f76fcf",
+		type: "checkmark",
+		title: "Finish IC2"
+	}],
+	rewards: [{
+		uid: "04bf371e",
+		type: "ftbmoney:money",
+		ftb_money: 30000L
+	},
+	{
+		uid: "93c6f429",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

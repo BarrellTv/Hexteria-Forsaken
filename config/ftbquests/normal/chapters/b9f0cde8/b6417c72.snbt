@@ -1,0 +1,39 @@
+{
+	x: 0.5d,
+	y: 12.0d,
+	dependencies: [
+		"a97344ea"
+	],
+	tasks: [{
+		uid: "75154275",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "47f7842a",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "40c174ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "e1e70e9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		}
+	}]
+}

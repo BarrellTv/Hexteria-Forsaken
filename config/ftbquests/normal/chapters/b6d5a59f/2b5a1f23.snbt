@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	dependencies: [
+		"ddb52240",
+		"db5f0819",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "7ba292d3",
+		type: "item",
+		items: [{
+			item: "bewitchment:bottled_frostfire"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ab2b0c07",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "0dc02917",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

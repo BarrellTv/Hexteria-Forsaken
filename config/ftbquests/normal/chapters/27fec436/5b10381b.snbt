@@ -1,0 +1,22 @@
+{
+	x: 10.5d,
+	y: -7.0d,
+	text: [
+		"To Unlock The Mystical Agriculture Stage You Need To Finish The Farming Station Quest On The EnderIO Page"
+	],
+	dependencies: [
+		"5565ac99",
+		"a03dc43d"
+	],
+	tasks: [{
+		uid: "55e8d1a6",
+		type: "checkmark",
+		title: "Unlock The Mystical Agriculture Stage"
+	}],
+	rewards: [{
+		uid: "5eca9aba",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage8magic"
+	}]
+}

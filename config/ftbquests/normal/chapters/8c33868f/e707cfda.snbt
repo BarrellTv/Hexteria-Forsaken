@@ -1,0 +1,31 @@
+{
+	x: 7.0d,
+	y: -5.0d,
+	dependencies: [
+		"88e5947c"
+	],
+	tasks: [{
+		uid: "8774d8f9",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba2bac16",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "0aad6ebf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

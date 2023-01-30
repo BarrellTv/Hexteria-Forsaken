@@ -1,0 +1,29 @@
+{
+	icon: "extrautils2:suncrystal",
+	x: -8.0d,
+	y: -1.5d,
+	dependencies: [
+		"8c33868f",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "a514a81b",
+		type: "checkmark",
+		title: "Finish Extra Utilites"
+	}],
+	rewards: [{
+		uid: "83c0499b",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "f894a3b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

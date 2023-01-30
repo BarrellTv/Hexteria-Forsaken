@@ -1,0 +1,64 @@
+{
+	icon: "environmentaltech:solar_cell_erodium",
+	x: 3.0d,
+	y: -0.5d,
+	dependencies: [
+		"54d1b218"
+	],
+	tasks: [{
+		uid: "bffb5902",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_2"
+		}]
+	},
+	{
+		uid: "51603830",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_erodium"
+		}],
+		count: 25L
+	},
+	{
+		uid: "d3b91436",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2"
+		}],
+		count: 24L
+	},
+	{
+		uid: "0a7f4f2e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9a60599a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d7eaaf72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "bb9668ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

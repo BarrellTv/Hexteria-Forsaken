@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "94f242fe",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e3e53988",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "cc5aef98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

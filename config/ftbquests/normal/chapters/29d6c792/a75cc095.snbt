@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	dependencies: [
+		"47457711"
+	],
+	tasks: [{
+		uid: "f32836ae",
+		type: "dimension",
+		title: "&3[Tier.4] &fVisit Moon: &2Ganymede",
+		dim: -1506
+	}],
+	rewards: [{
+		uid: "36b0a670",
+		type: "ftbmoney:money",
+		ftb_money: 2250L
+	},
+	{
+		uid: "89541e6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

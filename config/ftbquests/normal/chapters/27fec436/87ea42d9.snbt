@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		"Unlock Bewitchment By Making The TerraSteel Armor From The Botania Page"
+	],
+	dependencies: [
+		"669251d2",
+		"4ee209ef"
+	],
+	tasks: [{
+		uid: "e9096f88",
+		type: "checkmark",
+		title: "Unlock The Bewitchment Stage"
+	}],
+	rewards: [{
+		uid: "62551ac6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage4magic"
+	}]
+}

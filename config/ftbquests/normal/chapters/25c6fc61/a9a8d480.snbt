@@ -1,0 +1,40 @@
+{
+	x: -9.5d,
+	y: 5.0d,
+	dependencies: [
+		"d84a402b"
+	],
+	tasks: [{
+		uid: "79fcc604",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "7bd3d192",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "5ece0698",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "4dfbc991",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 5
+	}]
+}

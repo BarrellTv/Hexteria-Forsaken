@@ -1,0 +1,13 @@
+{
+	x: 9.0d,
+	y: -7.5d,
+	dependencies: [
+		"4db0e9bc",
+		"f4c81056"
+	],
+	tasks: [{
+		uid: "7319f2fa",
+		type: "checkmark",
+		title: "Stage 7 Mods"
+	}]
+}

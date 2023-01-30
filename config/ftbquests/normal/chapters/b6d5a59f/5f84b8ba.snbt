@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -5.5d,
+	dependencies: [
+		"18a10954",
+		"2b1ebff4"
+	],
+	tasks: [{
+		uid: "cf6af24d",
+		type: "item",
+		items: [{
+			item: "bewitchment:pure_filament"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1db2f555",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d9218175",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

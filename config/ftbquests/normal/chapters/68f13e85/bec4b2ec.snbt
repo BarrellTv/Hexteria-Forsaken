@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 9.0d,
+	dependencies: [
+		"74950a36"
+	],
+	tasks: [{
+		uid: "c7b010a4",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oil_canister_partial 1 1001"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c919613",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "501ff22e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

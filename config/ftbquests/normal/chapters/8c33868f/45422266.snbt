@@ -1,0 +1,30 @@
+{
+	x: 5.5d,
+	y: -3.0d,
+	dependencies: [
+		"5c5aa502"
+	],
+	tasks: [{
+		uid: "008ca7c9",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_gold"
+		}]
+	}],
+	rewards: [{
+		uid: "d9667875",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9006f5f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

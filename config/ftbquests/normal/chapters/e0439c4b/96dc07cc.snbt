@@ -1,0 +1,46 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"a55bfef7"
+	],
+	tasks: [{
+		uid: "89f5aeaa",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_block"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9606ba47",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_stairs"
+		}],
+		count: 8L
+	},
+	{
+		uid: "53143e5a",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_pillar"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9a968719",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a9658b55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

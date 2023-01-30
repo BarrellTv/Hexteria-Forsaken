@@ -1,0 +1,27 @@
+{
+	title: "1 Week Of Time Played",
+	icon: {
+		id: "randomthings:timeinabottle",
+		tag: {
+			timeData: {
+				storedTime: 620
+			}
+		}
+	},
+	x: 0.5d,
+	y: 14.5d,
+	dependencies: [
+		"b5ee2864"
+	],
+	tasks: [{
+		uid: "74360b34",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 12096000
+	}],
+	rewards: [{
+		uid: "3ee17523",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 1.0d,
+	y: 10.0d,
+	dependencies: [
+		"9f467ade"
+	],
+	tasks: [{
+		uid: "591d7b95",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "db99d47a",
+		type: "ftbmoney:money",
+		ftb_money: 60000L
+	},
+	{
+		uid: "43f3a81d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "40e3dafa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

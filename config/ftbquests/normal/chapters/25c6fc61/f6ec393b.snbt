@@ -1,0 +1,47 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	dependencies: [
+		"af7789bf"
+	],
+	tasks: [{
+		uid: "61c6a894",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "363469a2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "17a7f5d2",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	},
+	{
+		uid: "f2c2e987",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "8588a485",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

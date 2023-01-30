@@ -1,0 +1,39 @@
+{
+	x: -0.5d,
+	y: 11.5d,
+	dependencies: [
+		"a97344ea"
+	],
+	tasks: [{
+		uid: "f63e1c50",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:dragon_egg_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "87821988",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "033979bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "39eda75d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		}
+	}]
+}

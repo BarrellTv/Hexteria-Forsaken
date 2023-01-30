@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	dependencies: [
+		"f36eb06b"
+	],
+	tasks: [{
+		uid: "8691c1b8",
+		type: "item",
+		items: [{
+			item: "bhc:blue_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "c351a1ac",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "fe3a46f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

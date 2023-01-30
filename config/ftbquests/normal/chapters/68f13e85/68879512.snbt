@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: 9.5d,
+	dependencies: [
+		"a4461b72",
+		"68415686"
+	],
+	tasks: [{
+		uid: "259201e1",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "104391b2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "84fa9e06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

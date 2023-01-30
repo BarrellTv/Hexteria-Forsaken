@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -11.0d,
+	dependencies: [
+		"d64dfbff"
+	],
+	tasks: [{
+		uid: "5fabfa20",
+		type: "item",
+		items: [{
+			item: "bewitchment:nazar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "465d27c9",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "eccb6cfc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

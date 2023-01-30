@@ -1,0 +1,33 @@
+{
+	x: -2.5d,
+	y: -6.5d,
+	dependencies: [
+		"ba917c5f"
+	],
+	tasks: [{
+		uid: "a2d205b4",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "8cded5b6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "daace86e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

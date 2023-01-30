@@ -1,0 +1,60 @@
+{
+	x: -5.5d,
+	y: 2.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "94558061",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	},
+	{
+		uid: "a2c62420",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_detector"
+		}]
+	},
+	{
+		uid: "32e35ed8",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	},
+	{
+		uid: "e226e1cf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "b6c66eca",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "0c03aeae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "9827f5ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

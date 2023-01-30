@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"c1aea68b"
+	],
+	tasks: [{
+		uid: "6654f928",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "f6aebd6e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "8f871825",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

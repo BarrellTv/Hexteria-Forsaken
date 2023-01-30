@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -9.0d,
+	dependencies: [
+		"d63f9494"
+	],
+	tasks: [{
+		uid: "0822a3f6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "9813a48a",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "92b5963c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

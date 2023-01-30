@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	dependencies: [
+		"88f74b23"
+	],
+	tasks: [{
+		uid: "311f792e",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:retriever"
+		}]
+	}],
+	rewards: [{
+		uid: "19cce314",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

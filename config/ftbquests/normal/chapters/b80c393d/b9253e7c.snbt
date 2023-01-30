@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -6.5d,
+	dependencies: [
+		"c73eaf61"
+	],
+	tasks: [{
+		uid: "8fe8e1e9",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "63610472",
+		type: "ftbmoney:money",
+		ftb_money: 30000L
+	},
+	{
+		uid: "bbbcbf72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"d79d3320"
+	],
+	tasks: [{
+		uid: "54f66099",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "05c91305",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

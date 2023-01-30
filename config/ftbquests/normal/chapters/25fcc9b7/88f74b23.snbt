@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "136e3b84",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a809a5f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

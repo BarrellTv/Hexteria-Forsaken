@@ -1,0 +1,40 @@
+{
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"f7ef8e2c"
+	],
+	tasks: [{
+		uid: "4f28ea0b",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier4_items 1 3"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "762fc2ec",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "d763e4b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	},
+	{
+		uid: "619639f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

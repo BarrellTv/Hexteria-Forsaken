@@ -1,0 +1,39 @@
+{
+	x: 0.5d,
+	y: 7.0d,
+	dependencies: [
+		"af7789bf"
+	],
+	tasks: [{
+		uid: "a28f8189",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "62019d3d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "cd5f31fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "eaca4d57",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

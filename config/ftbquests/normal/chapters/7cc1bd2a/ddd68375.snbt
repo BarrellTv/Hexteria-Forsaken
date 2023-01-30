@@ -1,0 +1,32 @@
+{
+	x: -14.5d,
+	y: -3.5d,
+	dependencies: [
+		"41d5e5ef",
+		"0e6fd5e8",
+		"1942e679"
+	],
+	tasks: [{
+		uid: "412e7d45",
+		type: "item",
+		items: [{
+			item: "extraplanets:item_tier10_electric_rocket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da72553c",
+		type: "ftbmoney:money",
+		ftb_money: 75000L
+	},
+	{
+		uid: "27dbe9fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

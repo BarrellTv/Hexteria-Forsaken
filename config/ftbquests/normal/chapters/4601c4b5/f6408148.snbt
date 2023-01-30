@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"98c1b5af"
+	],
+	tasks: [{
+		uid: "d77903a9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:tool_multiblock_assembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d6785d1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

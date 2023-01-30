@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: -8.0d,
+	dependencies: [
+		"12ad33ee"
+	],
+	tasks: [{
+		uid: "5112e454",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_lava"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cafd544a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f1b49a44",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

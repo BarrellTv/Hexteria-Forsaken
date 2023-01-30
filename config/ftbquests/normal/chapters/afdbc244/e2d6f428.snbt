@@ -1,0 +1,35 @@
+{
+	x: 3.5d,
+	y: 9.0d,
+	dependencies: [
+		"3d8cd63b"
+	],
+	tasks: [{
+		uid: "06ffb2cb",
+		type: "item",
+		items: [{
+			id: "extracells:storage.gas",
+			tag: {
+				fuzzyMode: "IGNORE_ALL"
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5652123",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "98a732c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

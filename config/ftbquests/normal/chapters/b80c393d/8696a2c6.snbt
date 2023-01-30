@@ -1,0 +1,42 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"afe573a6"
+	],
+	tasks: [{
+		uid: "a435264b",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "337c63e7",
+		type: "ftbmoney:money",
+		ftb_money: 30000L
+	},
+	{
+		uid: "35e8e182",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "6ee19e0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

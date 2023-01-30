@@ -1,0 +1,29 @@
+{
+	x: -8.0d,
+	y: -5.5d,
+	dependencies: [
+		"f98d02f1"
+	],
+	tasks: [{
+		uid: "ead38a33",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "58602f43",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5328b505",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

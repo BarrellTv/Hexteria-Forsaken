@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -8.5d,
+	dependencies: [
+		"88e5947c"
+	],
+	tasks: [{
+		uid: "74511205",
+		type: "item",
+		items: [{
+			item: "extrautils2:angelblock"
+		}]
+	}],
+	rewards: [{
+		uid: "35f66d2a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ba6851ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

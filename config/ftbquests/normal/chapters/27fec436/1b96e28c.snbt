@@ -1,0 +1,29 @@
+{
+	icon: "enderio:block_farm_station",
+	x: 8.5d,
+	y: -5.5d,
+	dependencies: [
+		"5565ac99",
+		"8ce32b20"
+	],
+	tasks: [{
+		uid: "dbd79ca2",
+		type: "checkmark",
+		title: "Finish Enderio"
+	}],
+	rewards: [{
+		uid: "9251aaff",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "129a3aee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

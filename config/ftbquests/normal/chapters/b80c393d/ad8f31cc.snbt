@@ -1,0 +1,31 @@
+{
+	x: 2.0d,
+	y: -8.5d,
+	dependencies: [
+		"5a8a465c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f8b34d0",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_covalence_dust 1 2"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "a282fc34",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "44602355",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

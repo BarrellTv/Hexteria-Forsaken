@@ -1,0 +1,64 @@
+{
+	icon: "environmentaltech:lightning_cont_2",
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"58d34e55"
+	],
+	tasks: [{
+		uid: "d29b1793",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_2"
+		}]
+	},
+	{
+		uid: "f8ed06ef",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c296da0e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_rod_insulated"
+		}],
+		count: 4L
+	},
+	{
+		uid: "65efc319",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_rod"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e92e3c45",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "e9f7771e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "d2abd723",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

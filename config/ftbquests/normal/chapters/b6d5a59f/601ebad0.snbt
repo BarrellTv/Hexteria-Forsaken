@@ -1,0 +1,39 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "472148b9",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_oven"
+		}]
+	}],
+	rewards: [{
+		uid: "e02e6f3d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "3bb32ee0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "7d6cced0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

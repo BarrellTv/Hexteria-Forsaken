@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	dependencies: [
+		"52d62655"
+	],
+	tasks: [{
+		uid: "ca821bd1",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53ff9b9b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3b8f722a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

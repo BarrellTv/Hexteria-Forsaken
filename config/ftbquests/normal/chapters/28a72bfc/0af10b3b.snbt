@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	dependencies: [
+		"0814ea7d"
+	],
+	tasks: [{
+		uid: "2d8d1974",
+		type: "checkmark",
+		title: "Finish Basic Galacticraft On Intro Page",
+		icon: "galacticraftcore:rocket_t1"
+	}]
+}

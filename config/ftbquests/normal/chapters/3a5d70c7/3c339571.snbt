@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"c6042b05"
+	],
+	tasks: [{
+		uid: "1e1132c6",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotgraphite"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c3d5e898",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "13472beb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

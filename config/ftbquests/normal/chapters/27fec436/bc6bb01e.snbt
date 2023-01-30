@@ -1,0 +1,23 @@
+{
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Finish Making The Diamond And Obsidian Chest From The Iron Chest Page"
+	],
+	dependencies: [
+		"8353c0ab",
+		"42794cca",
+		"7b887c5f"
+	],
+	tasks: [{
+		uid: "d76da38a",
+		type: "checkmark",
+		title: "Unlock The Storage Drawers Stage"
+	}],
+	rewards: [{
+		uid: "2dedd3be",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage2storage"
+	}]
+}

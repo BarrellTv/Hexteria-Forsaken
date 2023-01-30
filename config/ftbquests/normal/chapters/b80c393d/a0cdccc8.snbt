@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"76a05155"
+	],
+	tasks: [{
+		uid: "6ae9cfb1",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "2c4e9edd",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "2e90dd8e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -0.5d,
+	y: 3.5d,
+	dependencies: [
+		"aaf3f0ff",
+		"00aa6a70"
+	],
+	tasks: [{
+		uid: "c3ec6374",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:intermedium_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "a92f2873",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "a2eff3de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "ebe4d5a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	}]
+}

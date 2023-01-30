@@ -1,0 +1,29 @@
+{
+	x: -14.5d,
+	y: -0.5d,
+	dependencies: [
+		"748f8257"
+	],
+	tasks: [{
+		uid: "de14deba",
+		type: "item",
+		items: [{
+			item: "extraplanets:advanced_launch_pad 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "f0c51161",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "9d6f820e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 0.5d,
+	y: -11.0d,
+	dependencies: [
+		"d64dfbff"
+	],
+	tasks: [{
+		uid: "c7430ebf",
+		type: "item",
+		items: [{
+			item: "bewitchment:gluttons_sash"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "816febc3",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "3563b1b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "3453be6c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

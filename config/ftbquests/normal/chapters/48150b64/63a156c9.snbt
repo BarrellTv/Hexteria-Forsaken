@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"97fe3e38"
+	],
+	tasks: [{
+		uid: "b03f4d67",
+		type: "kill",
+		icon: "minecraft:diamond_sword",
+		entity: "minecraft:wither_skeleton",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "bc97e234",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "059f7d35",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

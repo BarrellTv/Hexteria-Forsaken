@@ -1,0 +1,40 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"c619d82d"
+	],
+	tasks: [{
+		uid: "7ba00333",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "08ce615d",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "45b1626a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "8f971a31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

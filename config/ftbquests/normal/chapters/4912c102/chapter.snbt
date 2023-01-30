@@ -1,0 +1,7 @@
+{
+	title: "Iron Chest",
+	icon: "ironchest:iron_chest 1 5",
+	always_invisible: false,
+	group: 866336272,
+	default_quest_shape: ""
+}

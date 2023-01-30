@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	dependencies: [
+		"2d88148d"
+	],
+	tasks: [{
+		uid: "b89e45f3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "759dd3cd",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "32f47af4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	dependencies: [
+		"b6845d36"
+	],
+	tasks: [{
+		uid: "efa8b487",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:solar 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "7ae1be62",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "195fdb4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

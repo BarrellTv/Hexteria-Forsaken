@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: -3.0d,
+	dependencies: [
+		"ae68bf95"
+	],
+	tasks: [{
+		uid: "73d1affb",
+		type: "item",
+		items: [{
+			item: "bewitchment:goblet"
+		}]
+	}],
+	rewards: [{
+		uid: "1251ba65",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

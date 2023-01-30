@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"4abddeac"
+	],
+	tasks: [{
+		uid: "6c3c2e92",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ba2dfb12",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9ea74b23",
+		type: "item",
+		item: "botania:petal",
+		count: 4
+	}]
+}

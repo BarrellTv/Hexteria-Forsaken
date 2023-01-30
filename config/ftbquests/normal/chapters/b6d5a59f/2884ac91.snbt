@@ -1,0 +1,30 @@
+{
+	x: 5.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "7b7cf1c5",
+		type: "item",
+		items: [{
+			item: "bewitchment:droplet_of_wisdom"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "bbfa3fef",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "1525d721",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

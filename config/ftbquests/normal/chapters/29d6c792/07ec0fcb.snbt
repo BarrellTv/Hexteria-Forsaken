@@ -1,0 +1,29 @@
+{
+	x: 19.0d,
+	y: -1.0d,
+	dependencies: [
+		"e7fefa92"
+	],
+	tasks: [{
+		uid: "8a42d472",
+		type: "dimension",
+		title: "&4[Tier.10] &fVisit Planet: &2Kepler22b",
+		dim: -22
+	}],
+	rewards: [{
+		uid: "d8bbf14d",
+		type: "ftbmoney:money",
+		ftb_money: 17500L
+	},
+	{
+		uid: "689b2fbd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		},
+		count: 2
+	}]
+}

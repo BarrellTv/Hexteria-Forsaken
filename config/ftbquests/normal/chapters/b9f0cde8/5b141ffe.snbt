@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: [
+		"4cc3ad47",
+		"0515544e"
+	],
+	tasks: [{
+		uid: "2a7eb5b9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:superium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "d3756895",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "25a5c267",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

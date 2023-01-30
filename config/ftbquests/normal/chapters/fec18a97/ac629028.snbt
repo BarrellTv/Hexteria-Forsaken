@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"abac62de"
+	],
+	tasks: [{
+		uid: "80e0f7a2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "8905691b",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "96eaf7e3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

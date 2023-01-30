@@ -1,0 +1,29 @@
+{
+	x: 5.5d,
+	y: -8.0d,
+	dependencies: [
+		"7efc3414"
+	],
+	tasks: [{
+		uid: "7716b712",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:filter 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "58f45046",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e08f70e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

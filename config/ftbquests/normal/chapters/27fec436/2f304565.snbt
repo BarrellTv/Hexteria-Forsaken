@@ -1,0 +1,29 @@
+{
+	icon: "environmentaltech:litherite_crystal",
+	x: -0.5d,
+	y: -5.5d,
+	dependencies: [
+		"4601c4b5",
+		"1b933583"
+	],
+	tasks: [{
+		uid: "6a99f17c",
+		type: "checkmark",
+		title: "Finish Environmental Tech"
+	}],
+	rewards: [{
+		uid: "4c90a461",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "c6fa48ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

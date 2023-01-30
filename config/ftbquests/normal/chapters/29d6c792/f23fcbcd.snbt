@@ -1,0 +1,29 @@
+{
+	x: 13.0d,
+	y: -1.0d,
+	dependencies: [
+		"753ac89c"
+	],
+	tasks: [{
+		uid: "cf2f4688",
+		type: "dimension",
+		title: "&9[Tier.7] &fVisit Planet: &2Neptune",
+		dim: -18
+	}],
+	rewards: [{
+		uid: "d7e5e2d3",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "550bfe74",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		},
+		count: 2
+	}]
+}

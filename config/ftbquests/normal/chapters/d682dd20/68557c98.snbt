@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "214884c4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "224a5dbf",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "e8b7af53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

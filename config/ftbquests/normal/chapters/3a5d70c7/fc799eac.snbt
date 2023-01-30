@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"c1aea68b"
+	],
+	tasks: [{
+		uid: "a8a3169c",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotblutonium"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0eafeb1b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "980f030d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

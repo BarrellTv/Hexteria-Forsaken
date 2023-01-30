@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Barrell",
+      "uniqueId": "1897ef24-2a2d-404b-8499-977f4b1cfc6d"
+    },
+    "time": 1666320304862,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Chanc\\curseforge\\minecraft\\Instances\\Hexteria Forsaken\\config\\heap-2022-10-20_21.44.39.hprof"
+    }
+  }
+]

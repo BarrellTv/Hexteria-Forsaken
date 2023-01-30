@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: -5.0d,
+	dependencies: [
+		"a22e12c3"
+	],
+	tasks: [{
+		uid: "e350d500",
+		type: "item",
+		items: [{
+			item: "bewitchment:golden_thread"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cf8783a3",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "12ba8151",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

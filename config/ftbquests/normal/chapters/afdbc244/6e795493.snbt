@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"7e45ebb0"
+	],
+	tasks: [{
+		uid: "44d4fcab",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "a58631f7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3fafabf2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

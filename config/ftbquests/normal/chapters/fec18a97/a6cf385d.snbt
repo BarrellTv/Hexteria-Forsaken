@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: -8.0d,
+	dependencies: [
+		"19176602"
+	],
+	tasks: [{
+		uid: "de9b7014",
+		type: "item",
+		items: [{
+			id: "animus:sigil_leech",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3df13c24",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "241147ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: -3.5d,
+	y: -5.5d,
+	dependencies: [
+		"5ab3c98e"
+	],
+	tasks: [{
+		uid: "1f022787",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ef6d105",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "cde193a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "e2b82e72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

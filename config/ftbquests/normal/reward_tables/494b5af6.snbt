@@ -1,0 +1,1732 @@
+{
+	title: "Epic Crate",
+	icon: "galacticraftplanets:treasure_t2",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		count: 48
+	},
+	{
+		item: "scalinghealth:difficultychanger 1 1",
+		count: 48
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 24
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 64
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 64
+	},
+	{
+		item: "minecraft:prismarine_shard",
+		count: 64
+	},
+	{
+		item: "minecraft:prismarine_crystals",
+		count: 64
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 48
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 2
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 8
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 6
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 12
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 10
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 10
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 8
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 2
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "minecraft:golden_apple",
+		count: 6
+	},
+	{
+		item: "minecraft:golden_apple",
+		count: 4
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 8
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 6
+	},
+	{
+		item: "minecraft:beacon",
+		count: 3
+	},
+	{
+		item: "minecraft:beacon",
+		count: 2
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "actuallyadditions:block_misc 1 6",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:block_misc 1 6",
+		count: 4
+	},
+	{
+		item: "minecraft:enchanting_table",
+		count: 3
+	},
+	{
+		item: "minecraft:enchanting_table",
+		count: 2
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 24
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 16
+	},
+	{
+		item: "minecraft:ender_chest",
+		count: 3
+	},
+	{
+		item: "minecraft:ender_chest",
+		count: 2
+	},
+	{
+		item: "minecraft:ender_chest"
+	},
+	{
+		item: "minecraft:magma_cream",
+		count: 64
+	},
+	{
+		item: "minecraft:fire_charge",
+		count: 64
+	},
+	{
+		item: "minecraft:blaze_powder",
+		count: 64
+	},
+	{
+		item: "minecraft:lead",
+		count: 2
+	},
+	{
+		item: "minecraft:lead"
+	},
+	{
+		item: "bhc:red_heart",
+		count: 3
+	},
+	{
+		item: "bhc:yellow_heart",
+		count: 2
+	},
+	{
+		item: "bhc:green_heart"
+	},
+	{
+		item: "actuallyadditions:gold_paxel"
+	},
+	{
+		item: "actuallyadditions:diamond_paxel"
+	},
+	{
+		item: "actuallyadditions:emerald_paxel"
+	},
+	{
+		item: {
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}
+	},
+	{
+		item: "bloodmagic:altar"
+	},
+	{
+		item: {
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}
+	},
+	{
+		item: "bloodmagic:slate 1 2",
+		count: 3
+	},
+	{
+		item: "bloodmagic:slate 1 2",
+		count: 2
+	},
+	{
+		item: "bloodmagic:slate 1 2"
+	},
+	{
+		item: "minecraft:redstone_block",
+		count: 8
+	},
+	{
+		item: "minecraft:redstone_block",
+		count: 6
+	},
+	{
+		item: "minecraft:lapis_block",
+		count: 8
+	},
+	{
+		item: "minecraft:lapis_block",
+		count: 6
+	},
+	{
+		item: "avaritia:extreme_crafting_table"
+	},
+	{
+		item: "appliedenergistics2:inscriber"
+	},
+	{
+		item: "minecraft:rabbit_stew",
+		count: 64
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 1",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 1",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 2",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 2",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 3",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 3",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 4",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 4",
+		count: 6
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 5",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 5",
+		count: 6
+	},
+	{
+		item: "bloodmagic:monster_soul 1 1"
+	},
+	{
+		item: "actuallyadditions:block_crystal",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 1",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 1",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 1"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 7",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:item_misc 1 7",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:item_misc 1 7"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 8",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:item_misc 1 8"
+	},
+	{
+		item: "apotheosis:hellshelf",
+		count: 3
+	},
+	{
+		item: "apotheosis:hellshelf",
+		count: 2
+	},
+	{
+		item: "apotheosis:hellshelf"
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 12
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 6
+	},
+	{
+		item: "minecraft:anvil",
+		count: 3
+	},
+	{
+		item: "minecraft:anvil",
+		count: 2
+	},
+	{
+		item: "minecraft:anvil"
+	},
+	{
+		item: "appliedenergistics2:material 1 10",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:material 1 2",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 2",
+		count: 12
+	},
+	{
+		item: "appliedenergistics2:material 1 9"
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 8",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:material 1 8",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 12",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:material 1 42",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 42",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 5",
+		count: 32
+	},
+	{
+		item: "bhc:heart_amulet"
+	},
+	{
+		item: "bhc:red_heart_canister"
+	},
+	{
+		item: "bewitchment:fortunes_favor"
+	},
+	{
+		item: "bloodmagic:soul_forge"
+	},
+	{
+		item: "botania:manaresource",
+		count: 64
+	},
+	{
+		item: "botania:manaresource",
+		count: 32
+	},
+	{
+		item: "minecraft:glowstone",
+		count: 32
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 4",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 3",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 9",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 16
+	},
+	{
+		item: "botania:manaresource 1 16",
+		count: 16
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "industrialforegoing:mob_imprisonment_tool"
+	},
+	{
+		item: "industrialforegoing:mob_imprisonment_tool"
+	},
+	{
+		item: "botania:rune",
+		count: 2
+	},
+	{
+		item: "botania:rune"
+	},
+	{
+		item: "botania:rune 1 1",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 1"
+	},
+	{
+		item: "botania:rune 1 3",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 3"
+	},
+	{
+		item: "botania:rune 1 2",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 2"
+	},
+	{
+		item: "botania:rune 1 8",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 8"
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 1,
+				color2: 1,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 8,
+				color2: 8,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 6,
+				color2: 6,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: "artifacts:everlasting_cooked_beef"
+	},
+	{
+		item: "artifacts:everlasting_cooked_porkchop"
+	},
+	{
+		item: "artifacts:everlasting_cooked_chicken"
+	},
+	{
+		item: "botania:fertilizer",
+		count: 64
+	},
+	{
+		item: "enderio:block_simple_wired_charger"
+	},
+	{
+		item: "enderio:block_simple_sag_mill"
+	},
+	{
+		item: "enderio:block_simple_stirling_generator"
+	},
+	{
+		item: "enderio:block_simple_alloy_smelter"
+	},
+	{
+		item: "enderio:block_simple_furnace"
+	},
+	{
+		item: "enderio:block_simple_crafter"
+	},
+	{
+		item: "draconicevolution:draconium_dust",
+		count: 12
+	},
+	{
+		item: "draconicevolution:draconium_dust",
+		count: 8
+	},
+	{
+		item: "exnihilocreatio:hammer_diamond"
+	},
+	{
+		item: "excompressum:compressed_hammer_iron"
+	},
+	{
+		item: "extendedcrafting:table_elite"
+	},
+	{
+		item: "extendedcrafting:material 1 9",
+		count: 4
+	},
+	{
+		item: "extendedcrafting:material 1 9",
+		count: 2
+	},
+	{
+		item: "extendedcrafting:material 1 15",
+		count: 4
+	},
+	{
+		item: "extendedcrafting:material 1 15",
+		count: 2
+	},
+	{
+		item: "extendedcrafting:material 1 7",
+		count: 2
+	},
+	{
+		item: "extendedcrafting:material 1 7"
+	},
+	{
+		item: "extrautils2:spike_iron",
+		count: 8
+	},
+	{
+		item: "extrautils2:spike_iron",
+		count: 6
+	},
+	{
+		item: "extrautils2:spike_gold",
+		count: 8
+	},
+	{
+		item: "extrautils2:spike_gold",
+		count: 6
+	},
+	{
+		item: "extrautils2:spike_diamond",
+		count: 4
+	},
+	{
+		item: "extrautils2:spike_diamond",
+		count: 2
+	},
+	{
+		item: "extendedcrafting:material 1 36",
+		count: 6
+	},
+	{
+		item: "extendedcrafting:material 1 36",
+		count: 4
+	},
+	{
+		item: "extendedcrafting:material 1 24",
+		count: 6
+	},
+	{
+		item: "extendedcrafting:material 1 24",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage 1 1",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage 1 1",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage 1 2",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage 1 2",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage 1 3",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage 1 3",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage 1 4",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage 1 4",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage 1 5",
+		count: 12
+	},
+	{
+		item: "thermalfoundation:storage 1 5",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:storage_alloy",
+		count: 6
+	},
+	{
+		item: "thermalfoundation:storage_alloy",
+		count: 4
+	},
+	{
+		item: {
+			id: "botania:magnetring",
+			tag: {}
+		}
+	},
+	{
+		item: "thermalfoundation:storage 1 7",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage 1 7",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage 1 8",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage 1 8",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage 1 6",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage 1 6",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 1",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 1",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 2",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 2",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 3",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 3",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 4",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 4",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 5",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 5",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 6",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 6",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 7",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 7"
+	},
+	{
+		item: {
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		}
+	},
+	{
+		item: "minecraft:end_crystal"
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:sky_compass"
+	},
+	{
+		item: "appliedenergistics2:grindstone"
+	},
+	{
+		item: "extrautils2:resonator"
+	},
+	{
+		item: "artifacts:shock_pendant"
+	},
+	{
+		item: "artifacts:flame_pendant"
+	},
+	{
+		item: "artifacts:thorn_pendant"
+	},
+	{
+		item: "artifacts:ultimate_pendant"
+	},
+	{
+		item: "artifacts:panic_necklace"
+	},
+	{
+		item: "artifacts:snorkel"
+	},
+	{
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		item: "appliedenergistics2:material 1 19"
+	},
+	{
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		item: "artifacts:feral_claws"
+	},
+	{
+		item: "artifacts:power_glove"
+	},
+	{
+		item: "artifacts:magma_stone"
+	},
+	{
+		item: "artifacts:drinking_hat"
+	},
+	{
+		item: "artifacts:night_vision_goggles"
+	},
+	{
+		item: "extrautils2:passivegenerator 1 2"
+	},
+	{
+		item: "extrautils2:passivegenerator 1 3"
+	},
+	{
+		item: "extrautils2:passivegenerator 1 4"
+	},
+	{
+		item: "artifacts:everlasting_cooked_rabbit"
+	},
+	{
+		item: "artifacts:everlasting_cooked_cod"
+	},
+	{
+		item: "avaritia:resource"
+	},
+	{
+		item: "avaritia:resource",
+		count: 2
+	},
+	{
+		item: "avaritia:resource 1 1"
+	},
+	{
+		item: "avaritia:resource 1 1",
+		count: 2
+	},
+	{
+		item: "bhc:red_heart_canister",
+		count: 2
+	},
+	{
+		item: "bhc:yellow_heart_canister"
+	},
+	{
+		item: "extrautils2:angelblock",
+		count: 4
+	},
+	{
+		item: "bhc:relic_apple"
+	},
+	{
+		item: "bhc:relic_apple",
+		count: 2
+	},
+	{
+		item: "bloodmagic:sigil_divination"
+	},
+	{
+		item: "bloodmagic:sigil_air"
+	},
+	{
+		item: "bloodmagic:sigil_water"
+	},
+	{
+		item: "botania:manaresource 1 4"
+	},
+	{
+		item: "botania:manaresource 1 4",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 7",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 7",
+		count: 3
+	},
+	{
+		item: "botania:manaresource 1 8"
+	},
+	{
+		item: "botania:manaresource 1 8",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 9"
+	},
+	{
+		item: "botania:manaresource 1 9",
+		count: 2
+	},
+	{
+		item: "botania:pool 1 2"
+	},
+	{
+		item: {
+			id: "computercraft:turtle_expanded",
+			tag: {
+				rightUpgrade: "minecraft:diamond_pickaxe"
+			}
+		}
+	},
+	{
+		item: {
+			id: "computercraft:turtle_expanded",
+			tag: {
+				rightUpgrade: "minecraft:diamond_shovel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "computercraft:turtle_expanded",
+			tag: {
+				rightUpgrade: "minecraft:diamond_axe"
+			}
+		}
+	},
+	{
+		item: "draconicevolution:diss_enchanter"
+	},
+	{
+		item: "draconicevolution:draconic_ingot"
+	},
+	{
+		item: "draconicevolution:draconium_ingot"
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 2
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 3
+	},
+	{
+		item: "draconicevolution:wyvern_core"
+	},
+	{
+		item: "draconicevolution:draconic_core"
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 2
+	},
+	{
+		item: "draconicevolution:dragon_heart"
+	},
+	{
+		item: "enderio:item_material 1 41"
+	},
+	{
+		item: "enderio:block_enderman_skull"
+	},
+	{
+		item: "enderio:block_enderman_skull",
+		count: 2
+	},
+	{
+		item: "enderio:block_enderman_skull",
+		count: 3
+	},
+	{
+		item: "enderio:block_alloy_smelter"
+	},
+	{
+		item: "enderio:block_stirling_generator"
+	},
+	{
+		item: "enderio:block_sag_mill"
+	},
+	{
+		item: "enderio:block_wired_charger"
+	},
+	{
+		item: "enderio:block_vat"
+	},
+	{
+		item: "enderio:block_combustion_generator"
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2"
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2",
+		count: 2
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2",
+		count: 3
+	},
+	{
+		item: "environmentaltech:solar_cont_2"
+	},
+	{
+		item: "environmentaltech:void_ore_miner_cont_2"
+	},
+	{
+		item: "environmentaltech:void_res_miner_cont_2"
+	},
+	{
+		item: "environmentaltech:void_botanic_miner_cont_2"
+	},
+	{
+		item: "environmentaltech:laser_lens_crystal"
+	},
+	{
+		item: "environmentaltech:laser_lens_crystal",
+		count: 2
+	},
+	{
+		item: "extrautils2:passivegenerator 1 5"
+	},
+	{
+		item: "industrialforegoing:mob_slaughter_factory"
+	},
+	{
+		item: "industrialforegoing:latex_processing_unit"
+	},
+	{
+		item: "industrialforegoing:fluid_pump"
+	},
+	{
+		item: "industrialforegoing:ore_washer"
+	},
+	{
+		item: "industrialforegoing:ore_sieve"
+	},
+	{
+		item: "ic2:te 1 43"
+	},
+	{
+		item: "ic2:te 1 46"
+	},
+	{
+		item: "ic2:te 1 47"
+	},
+	{
+		item: "ic2:te 1 55"
+	},
+	{
+		item: "ic2:te 1 56"
+	},
+	{
+		item: "ironjetpacks:iron_jetpack"
+	},
+	{
+		item: "ironjetpacks:silver_jetpack"
+	},
+	{
+		item: "ironjetpacks:gold_jetpack"
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 100L
+			}
+		}
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 200L
+			}
+		}
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 500L
+			}
+		}
+	},
+	{
+		item: "mekanism:energytablet"
+	},
+	{
+		item: "mekanism:speedupgrade"
+	},
+	{
+		item: "mekanism:speedupgrade",
+		count: 2
+	},
+	{
+		item: "mekanism:energyupgrade"
+	},
+	{
+		item: "mekanism:energyupgrade",
+		count: 2
+	},
+	{
+		item: "mekanism:reinforcedalloy"
+	},
+	{
+		item: "mekanism:reinforcedalloy",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 6
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3",
+		count: 3
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3"
+	},
+	{
+		item: "randomthings:ingredient 1 2"
+	},
+	{
+		item: "randomthings:ingredient 1 2",
+		count: 2
+	},
+	{
+		item: "randomthings:ingredient 1 2",
+		count: 3
+	},
+	{
+		item: "randomthings:spectrekey"
+	},
+	{
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		count: 2
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		},
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:upgrade",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "thermalfoundation:material 1 513"
+	},
+	{
+		item: "thermalfoundation:material 1 513",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 513",
+		count: 3
+	},
+	{
+		item: "thermalfoundation:material 1 514"
+	},
+	{
+		item: "thermalfoundation:material 1 514",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 514",
+		count: 3
+	},
+	{
+		item: "thermalfoundation:material 1 515"
+	},
+	{
+		item: "thermalfoundation:material 1 515",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 515",
+		count: 3
+	},
+	{
+		item: "thermalfoundation:material 1 512"
+	},
+	{
+		item: "thermalfoundation:material 1 512",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 512",
+		count: 3
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		count: 6
+	},
+	{
+		item: "thermalfoundation:material 1 2050",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 2050",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 2050",
+		count: 6
+	},
+	{
+		item: "thermalfoundation:material 1 2052",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:material 1 2052",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 2052",
+		count: 6
+	},
+	{
+		item: "tconstruct:materials 1 19"
+	},
+	{
+		item: "tconstruct:materials 1 19",
+		count: 2
+	},
+	{
+		item: "tconstruct:materials 1 18"
+	},
+	{
+		item: "tconstruct:materials 1 18",
+		count: 2
+	},
+	{
+		item: "tconstruct:materials 1 18",
+		count: 3
+	},
+	{
+		item: "tconstruct:edible 1 1",
+		count: 2
+	},
+	{
+		item: "tconstruct:edible 1 1",
+		count: 4
+	},
+	{
+		item: "tconstruct:edible 1 2",
+		count: 2
+	},
+	{
+		item: "tconstruct:edible 1 2",
+		count: 4
+	},
+	{
+		item: "tconstruct:edible 1 4",
+		count: 2
+	},
+	{
+		item: "tconstruct:edible 1 4",
+		count: 4
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 30"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 37"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 41"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 46"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 47"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 48"
+	},
+	{
+		item: "waystones:waystone"
+	},
+	{
+		item: "waystones:waystone",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "epic_crate",
+		item_name: "Epic Crate",
+		color: 7020198,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

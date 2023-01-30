@@ -1,0 +1,67 @@
+{
+	x: -0.5d,
+	y: 10.5d,
+	dependencies: [
+		"725214c2"
+	],
+	tasks: [{
+		uid: "77bd9f0a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2 1 8"
+		}]
+	},
+	{
+		uid: "59362af6",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:sealer"
+		}]
+	},
+	{
+		uid: "98b1cad8",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_compressor"
+		}]
+	},
+	{
+		uid: "8d0893d7",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:collector"
+		}]
+	},
+	{
+		uid: "b0563f02",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:distributor"
+		}]
+	}],
+	rewards: [{
+		uid: "63be8b6b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1a682eba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "75bfced0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

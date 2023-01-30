@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"f7ef8e2c"
+	],
+	tasks: [{
+		uid: "fe688556",
+		type: "item",
+		items: [{
+			item: "extraplanets:basic_solar_evaporation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "8193e67d",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "1efe532c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

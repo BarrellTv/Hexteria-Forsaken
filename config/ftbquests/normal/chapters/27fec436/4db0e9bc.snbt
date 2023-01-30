@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: -7.0d,
+	text: [
+		"To Unlock The Applied Energistics Stage You Need To Finish The Whole Simple Storage Network Page"
+	],
+	dependencies: [
+		"d5dc9a37",
+		"7847d408"
+	],
+	tasks: [{
+		uid: "4ccf1dd6",
+		type: "checkmark",
+		title: "Unlock The Applied Energistics Stage"
+	}],
+	rewards: [{
+		uid: "fd89d305",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage7storage"
+	}]
+}

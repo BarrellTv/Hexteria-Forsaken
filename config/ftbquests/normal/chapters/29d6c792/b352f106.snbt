@@ -1,0 +1,29 @@
+{
+	x: 17.0d,
+	y: -1.0d,
+	dependencies: [
+		"c4074ddf"
+	],
+	tasks: [{
+		uid: "4d77ea91",
+		type: "dimension",
+		title: "&c[Tier.9] &fVisit Planet: &2Eris",
+		dim: -21
+	}],
+	rewards: [{
+		uid: "af0d99e9",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "33e9bcd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		},
+		count: 2
+	}]
+}

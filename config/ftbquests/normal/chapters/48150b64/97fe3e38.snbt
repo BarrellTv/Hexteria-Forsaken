@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	dependencies: [
+		"efa7362b"
+	],
+	tasks: [{
+		uid: "aa1eeadc",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "90a97ff1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "732d0eca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

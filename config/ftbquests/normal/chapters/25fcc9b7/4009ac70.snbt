@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: -7.0d,
+	dependencies: [
+		"8be2b716"
+	],
+	tasks: [{
+		uid: "79a8334c",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:retriever 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c623e368",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "34433813",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

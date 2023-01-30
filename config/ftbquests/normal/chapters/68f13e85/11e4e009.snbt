@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	dependencies: [
+		"147d8f80"
+	],
+	tasks: [{
+		uid: "22f38e5c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "143aea2d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "44f9936e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

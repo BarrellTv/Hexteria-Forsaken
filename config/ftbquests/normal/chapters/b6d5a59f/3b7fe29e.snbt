@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"fac33fc4",
+		"05f52fe2",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "fe8891c2",
+		type: "item",
+		items: [{
+			item: "bewitchment:heaven_extract"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "69b6fe4f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "811500cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

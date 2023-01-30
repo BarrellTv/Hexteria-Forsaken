@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"0af10b3b",
+		"f7fcd03f"
+	],
+	tasks: [{
+		uid: "69392a2b",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:solar"
+		}]
+	}],
+	rewards: [{
+		uid: "25e6926c",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "76406d2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

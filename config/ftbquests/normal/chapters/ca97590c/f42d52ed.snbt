@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"91e5bafc"
+	],
+	tasks: [{
+		uid: "66892e18",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "2e9d5446",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2e4d45b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

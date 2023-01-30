@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: -5.5d,
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "361f8bff",
+		type: "item",
+		items: [{
+			item: "bewitchment:spinning_wheel"
+		}]
+	}],
+	rewards: [{
+		uid: "c8c75636",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "2c8c6117",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

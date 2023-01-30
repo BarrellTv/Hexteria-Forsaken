@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: -8.0d,
+	text: [
+		"Unlock Mekanism By Making The Thermal Centifuge From Industrial Craft 2"
+	],
+	dependencies: [
+		"2683b0bb",
+		"b88b59a0"
+	],
+	tasks: [{
+		uid: "30cbed3b",
+		type: "checkmark",
+		title: "Unlock The Mekanism Stage"
+	}],
+	rewards: [{
+		uid: "b99d3da4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage3tech"
+	}]
+}

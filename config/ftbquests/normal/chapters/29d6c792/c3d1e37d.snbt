@@ -1,0 +1,28 @@
+{
+	x: 9.0d,
+	y: 0.5d,
+	dependencies: [
+		"b4ac80b7"
+	],
+	tasks: [{
+		uid: "58b96a1f",
+		type: "dimension",
+		title: "&d[Tier.5] &fVisit Moon: &2Rhea",
+		dim: -1507
+	}],
+	rewards: [{
+		uid: "befd17c8",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "d86442c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

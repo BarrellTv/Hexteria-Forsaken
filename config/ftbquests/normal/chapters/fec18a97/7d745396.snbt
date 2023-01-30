@@ -1,0 +1,39 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"07dc4214"
+	],
+	tasks: [{
+		uid: "68c5032d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "7a67c506",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "6e07d07a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "5dab5114",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

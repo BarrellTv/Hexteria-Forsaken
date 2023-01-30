@@ -1,0 +1,38 @@
+{
+	x: 10.5d,
+	y: 3.0d,
+	dependencies: [
+		"0687f219"
+	],
+	tasks: [{
+		uid: "2527bdec",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e548b9d5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a0509e0b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f9d0ca6d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

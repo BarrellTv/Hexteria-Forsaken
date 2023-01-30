@@ -1,0 +1,43 @@
+{
+	title: "Tier 6 Inferium Seed",
+	x: -3.5d,
+	y: 8.5d,
+	dependencies: [
+		"a97344ea",
+		"c322a530"
+	],
+	tasks: [{
+		uid: "57fb6efd",
+		type: "item",
+		title: "Tier 6 Inferium Seed",
+		items: [{
+			item: "mysticalagradditions:tier6_inferium_seeds"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1272d411",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "5ea8458e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "27912417",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	}]
+}

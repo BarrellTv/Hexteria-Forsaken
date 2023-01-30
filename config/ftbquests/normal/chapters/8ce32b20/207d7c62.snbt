@@ -1,0 +1,40 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"fe01b7ed"
+	],
+	tasks: [{
+		uid: "c84d6359",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 11"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5085b051",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "f3377cdb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "95dbb67a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

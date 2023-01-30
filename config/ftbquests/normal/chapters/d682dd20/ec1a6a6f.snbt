@@ -1,0 +1,39 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	dependencies: [
+		"73a5cc07"
+	],
+	tasks: [{
+		uid: "76918702",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:froster"
+		}]
+	}],
+	rewards: [{
+		uid: "94c10c83",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "449cf6c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "7b3ef35f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

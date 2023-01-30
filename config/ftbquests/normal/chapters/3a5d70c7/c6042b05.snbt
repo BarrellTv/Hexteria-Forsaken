@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	dependencies: [
+		"08952a58"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66b85908",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotyellorium"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1397c668",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "c1b455a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 9.0d,
+	y: 0.5d,
+	dependencies: [
+		"5a4a56a9"
+	],
+	tasks: [{
+		uid: "0ab83d62",
+		type: "item",
+		items: [{
+			id: "tanaddons:thirst_quencher",
+			tag: {
+				FluidStored: 0,
+				ForgeEnergy: 0,
+				TimeStart: 100
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4fd419f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8c5d6698",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

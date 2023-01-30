@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	dependencies: [
+		"42def79b"
+	],
+	tasks: [{
+		uid: "540b2db7",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e3765057",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b797035f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

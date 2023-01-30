@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	dependencies: [
+		"537ce1e5"
+	],
+	tasks: [{
+		uid: "dc399eae",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal 1 2"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7d8bc1e",
+		type: "ftbmoney:money",
+		ftb_money: 75000L
+	},
+	{
+		uid: "b494318f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

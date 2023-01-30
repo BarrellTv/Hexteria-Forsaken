@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"c1aea68b"
+	],
+	tasks: [{
+		uid: "3695cb70",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorfuelrod"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "36dc0364",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "a218c391",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

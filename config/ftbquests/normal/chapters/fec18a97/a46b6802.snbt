@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: -8.0d,
+	dependencies: [
+		"8c0c0d56"
+	],
+	tasks: [{
+		uid: "50002e0b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "264c9a41",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "bf1546e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

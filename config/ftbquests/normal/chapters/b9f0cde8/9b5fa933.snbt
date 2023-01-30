@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"3085293a"
+	],
+	tasks: [{
+		uid: "e17c0581",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "974e6bfd",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "03b9ceb0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"efa7362b",
+		"d265c29b"
+	],
+	tasks: [{
+		uid: "48f51dce",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "28e148af",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "50930525",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

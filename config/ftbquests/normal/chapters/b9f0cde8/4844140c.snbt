@@ -1,0 +1,41 @@
+{
+	x: -0.5d,
+	y: 9.5d,
+	dependencies: [
+		"a97344ea",
+		"463988bf"
+	],
+	tasks: [{
+		uid: "e7744ec7",
+		type: "item",
+		items: [{
+			item: "mysticaladaptations:insanium_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "6a4af242",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "99dc49ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "a64798d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		},
+		count: 2
+	}]
+}

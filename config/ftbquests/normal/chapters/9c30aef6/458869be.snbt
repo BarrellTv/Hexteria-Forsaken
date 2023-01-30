@@ -1,0 +1,37 @@
+{
+	x: 2.5d,
+	y: 5.5d,
+	dependencies: [
+		"94c41be9"
+	],
+	tasks: [{
+		uid: "d8c280a2",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30087a25",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "07db7167",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

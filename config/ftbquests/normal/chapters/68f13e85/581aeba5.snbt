@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	shape: "pentagon",
+	text: [
+		"&cMake Sure You Have All Of Your Space Gear On!",
+		"&7Once You Are Ready Click The &c\";\" &7Key On Your Number Pad",
+		"&7It Will Open The Schematic Section To Guide You On How To Build A Simple &bOxygen Collection &7System",
+		"If You Cant See Machines After Unlocking A Stage Relog And Everything Should Be Fixed!",
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "782c97e1",
+		type: "checkmark",
+		title: "Info"
+	}],
+	rewards: [{
+		uid: "b6ef43ca",
+		type: "item",
+		item: "extraplanets:oxygen_tank_extremely_heavy_full"
+	},
+	{
+		uid: "fb6ef3c6",
+		type: "item",
+		item: {
+			id: "pouchofunknown:pouch",
+			tag: {
+				Inventory: []
+			}
+		}
+	}]
+}

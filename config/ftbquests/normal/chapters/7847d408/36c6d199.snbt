@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: 10.5d,
+	dependencies: [
+		"d9be5467"
+	],
+	tasks: [{
+		uid: "d9ea0d24",
+		type: "item",
+		items: [{
+			item: "storagenetwork:picker_remote"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea517445",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "95a3d0d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

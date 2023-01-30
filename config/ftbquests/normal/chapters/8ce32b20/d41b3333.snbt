@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"704e6377"
+	],
+	tasks: [{
+		uid: "4f5cc19b",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "93300404",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "20c5943b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

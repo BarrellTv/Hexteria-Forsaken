@@ -1,0 +1,30 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	dependencies: [
+		"b6584f51"
+	],
+	tasks: [{
+		uid: "9d7197df",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:rocket_t2 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1494196",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "01f6e317",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

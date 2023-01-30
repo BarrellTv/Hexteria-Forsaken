@@ -1,0 +1,39 @@
+{
+	x: -4.5d,
+	y: 6.0d,
+	dependencies: [
+		"c3439f4e"
+	],
+	tasks: [{
+		uid: "e6c8abfb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "ba3fc036",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "4c9ce101",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "5fb95fa8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

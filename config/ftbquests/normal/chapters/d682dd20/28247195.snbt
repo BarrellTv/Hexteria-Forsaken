@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"94389ba5"
+	],
+	tasks: [{
+		uid: "6e44ebe4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "037d03d0",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "4edc6d4c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

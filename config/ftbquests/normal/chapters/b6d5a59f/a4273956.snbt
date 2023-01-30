@@ -1,0 +1,58 @@
+{
+	x: -5.0d,
+	y: -7.0d,
+	dependencies: [
+		"f4a5422e"
+	],
+	tasks: [{
+		uid: "0a41db01",
+		type: "item",
+		items: [{
+			item: "bewitchment:silver_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1c583d5",
+		type: "item",
+		items: [{
+			item: "bewitchment:silver_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbfce6bd",
+		type: "item",
+		items: [{
+			item: "bewitchment:silver_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9a6d2e1",
+		type: "item",
+		items: [{
+			item: "bewitchment:silver_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bceadcc",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "642febc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

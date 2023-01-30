@@ -1,0 +1,39 @@
+{
+	x: 1.5d,
+	y: 11.5d,
+	dependencies: [
+		"a97344ea"
+	],
+	tasks: [{
+		uid: "edacabae",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:neutronium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "43011953",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "fbc4a227",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "bb2a0b1f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		}
+	}]
+}

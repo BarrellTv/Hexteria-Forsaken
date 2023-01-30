@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"f42d52ed"
+	],
+	tasks: [{
+		uid: "9b1a32e0",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2ab75a83",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "afd9a570",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

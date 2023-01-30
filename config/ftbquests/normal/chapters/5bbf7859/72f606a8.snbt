@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	dependencies: [
+		"df5dee2c"
+	],
+	tasks: [{
+		uid: "cf5a060d",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "997a89af",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "8d3e5872",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	}]
+}

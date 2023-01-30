@@ -1,0 +1,36 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	dependencies: [
+		"890ead7f"
+	],
+	tasks: [{
+		uid: "dbb2c890",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "a32565f8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}],
+	rewards: [{
+		uid: "9bd4a2c0",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "10b11c5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

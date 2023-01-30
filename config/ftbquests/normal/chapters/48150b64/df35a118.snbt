@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"efa7362b"
+	],
+	tasks: [{
+		uid: "0578ba2e",
+		type: "item",
+		items: [{
+			item: "netherex:thornstalk"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a82fe4a9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f26a6e82",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	dependencies: [
+		"e91800d1"
+	],
+	tasks: [{
+		uid: "b5120b31",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium_crystal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ef87019a",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "88703317",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

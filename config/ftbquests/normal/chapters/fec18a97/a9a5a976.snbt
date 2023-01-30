@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: -8.0d,
+	dependencies: [
+		"12ad33ee"
+	],
+	tasks: [{
+		uid: "567c1170",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_water"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f9068b1",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "14e2971c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

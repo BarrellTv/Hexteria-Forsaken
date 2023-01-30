@@ -1,0 +1,12 @@
+{
+	x: 17.0d,
+	y: -2.5d,
+	dependencies: [
+		"cf105f32"
+	],
+	tasks: [{
+		uid: "69eaac6b",
+		type: "checkmark",
+		title: "&c[Tier.9]"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 9.5d,
+	dependencies: [
+		"f55b2be2"
+	],
+	tasks: [{
+		uid: "deac8bce",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:aluminum_wire"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "cc256e63",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

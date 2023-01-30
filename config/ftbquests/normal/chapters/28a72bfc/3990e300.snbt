@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"a4461b72",
+		"0af10b3b"
+	],
+	tasks: [{
+		uid: "23b04c69",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars_machine 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "2c37201d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "23e2fc9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

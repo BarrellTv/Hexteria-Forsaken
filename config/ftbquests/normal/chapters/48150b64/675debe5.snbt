@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	dependencies: [
+		"d265c29b"
+	],
+	tasks: [{
+		uid: "2535c295",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b0e99535",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "96ae07cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

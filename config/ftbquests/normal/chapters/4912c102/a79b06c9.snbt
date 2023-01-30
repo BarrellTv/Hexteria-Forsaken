@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: -4.0d,
+	dependencies: [
+		"5519cc30"
+	],
+	tasks: [{
+		uid: "4de077f8",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_gold_shulker_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f36e54db",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "a3019ba5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

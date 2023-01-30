@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: 17.5d,
+	dependencies: [
+		"1faabf44"
+	],
+	tasks: [{
+		uid: "cd2891ae",
+		type: "item",
+		items: [{
+			item: "enderio:block_creative_spawner"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "05e549d8",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "8e59e0fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

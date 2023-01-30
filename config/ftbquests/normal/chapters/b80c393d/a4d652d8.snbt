@@ -1,0 +1,42 @@
+{
+	x: -5.5d,
+	y: 11.5d,
+	dependencies: [
+		"a737b434"
+	],
+	tasks: [{
+		uid: "641e1162",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_sphere",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7342d128",
+		type: "ftbmoney:money",
+		ftb_money: 140000L
+	},
+	{
+		uid: "581f4e75",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "3aff5ac0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

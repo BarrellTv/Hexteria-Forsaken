@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "819b4c73",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 512L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "28d54901",
+		type: "ftbmoney:money",
+		ftb_money: 16L
+	}]
+}

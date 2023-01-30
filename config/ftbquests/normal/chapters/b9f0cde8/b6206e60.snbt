@@ -1,0 +1,33 @@
+{
+	title: "Tier 4 Inferium Seed",
+	x: -3.5d,
+	y: 4.5d,
+	dependencies: [
+		"a87b4f21",
+		"0515544e"
+	],
+	tasks: [{
+		uid: "582fcd89",
+		type: "item",
+		title: "Tier 4 Inferium Seed",
+		items: [{
+			item: "mysticalagriculture:tier4_inferium_seeds"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2f2ee5a9",
+		type: "ftbmoney:money",
+		ftb_money: 6000L
+	},
+	{
+		uid: "9607410c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

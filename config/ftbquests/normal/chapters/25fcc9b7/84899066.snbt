@@ -1,0 +1,47 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"8a9c491c"
+	],
+	tasks: [{
+		uid: "1d2e82eb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "28610d6d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "709f4998",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "6549a668",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

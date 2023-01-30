@@ -1,0 +1,7 @@
+{
+	title: "Industrial Forgoing",
+	icon: "industrialforegoing:plastic",
+	always_invisible: false,
+	group: -1775160597,
+	default_quest_shape: ""
+}

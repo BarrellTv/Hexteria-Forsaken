@@ -1,0 +1,30 @@
+{
+	x: -11.0d,
+	y: -2.5d,
+	dependencies: [
+		"b6584f51"
+	],
+	tasks: [{
+		uid: "92b9e52a",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_asteroids 1 5"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1fbd9990",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "f81f18a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

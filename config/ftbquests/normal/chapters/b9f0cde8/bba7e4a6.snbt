@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"0515544e"
+	],
+	tasks: [{
+		uid: "73ab83e3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "17c5bffc",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "3691496e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	dependencies: [
+		"18a10954",
+		"2b1ebff4"
+	],
+	tasks: [{
+		uid: "2fe704fb",
+		type: "item",
+		items: [{
+			item: "bewitchment:spirit_string"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5e98ec3d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d32f65e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a25f866b",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 256L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b1c4ebba",
+		type: "ftbmoney:money",
+		ftb_money: 8L
+	}]
+}

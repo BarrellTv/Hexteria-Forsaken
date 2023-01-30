@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"7d892d21"
+	],
+	tasks: [{
+		uid: "868879ff",
+		type: "item",
+		items: [{
+			item: "extraplanets:ultimate_fuel_loader"
+		}]
+	}],
+	rewards: [{
+		uid: "49f56f4a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "c5bf5ede",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

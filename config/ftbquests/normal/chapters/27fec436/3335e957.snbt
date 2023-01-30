@@ -1,0 +1,29 @@
+{
+	title: "Finish Extended Crafting",
+	icon: "extendedcrafting:table_ultimate",
+	x: -9.0d,
+	y: -1.5d,
+	dependencies: [
+		"25c6fc61",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "5a815973",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e189fcd6",
+		type: "ftbmoney:money",
+		ftb_money: 150000L
+	},
+	{
+		uid: "9602250d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

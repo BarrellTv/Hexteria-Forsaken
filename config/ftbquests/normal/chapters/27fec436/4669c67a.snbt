@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -8.0d,
+	text: [
+		"Unlock Industrial Foregoing By Finishing Making A Void Ore Miner Controller Tier 4 In Environmental Tech"
+	],
+	dependencies: [
+		"1b933583",
+		"a05157dc"
+	],
+	tasks: [{
+		uid: "7da78a12",
+		type: "checkmark",
+		title: "Unlock The Industrial Foregoing Stage"
+	}],
+	rewards: [{
+		uid: "cf90a6f1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage5tech"
+	}]
+}

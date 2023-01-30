@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"0d9144df"
+	],
+	tasks: [{
+		uid: "df81f752",
+		type: "dimension",
+		title: "&d[Tier.5] &fVisit Planet: &2Saturn",
+		dim: -16
+	}],
+	rewards: [{
+		uid: "46bff1ea",
+		type: "ftbmoney:money",
+		ftb_money: 6000L
+	},
+	{
+		uid: "c38b72d8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -5.5d,
+	dependencies: [
+		"0ad66483",
+		"6abac02d"
+	],
+	tasks: [{
+		uid: "f4c4eadc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_energy_core"
+		}]
+	}],
+	rewards: [{
+		uid: "1803e222",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "86104078",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

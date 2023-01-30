@@ -1,0 +1,14 @@
+{
+	title: "Botania",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	always_invisible: false,
+	group: -1147373858,
+	default_quest_shape: ""
+}

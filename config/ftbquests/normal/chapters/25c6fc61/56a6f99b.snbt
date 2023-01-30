@@ -1,0 +1,14 @@
+{
+	title: "Ready for Extended Crafting?",
+	x: 0.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "010d79e8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "7ae12c1c",
+		type: "item",
+		item: "extendedcrafting:guide"
+	}]
+}

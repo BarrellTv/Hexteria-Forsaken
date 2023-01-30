@@ -1,0 +1,31 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	dependencies: [
+		"0c0960bc"
+	],
+	tasks: [{
+		uid: "3bc318d3",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:astro_miner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "befd61b1",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "f139bb62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

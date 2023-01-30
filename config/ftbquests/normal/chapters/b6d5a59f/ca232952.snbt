@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: -7.0d,
+	dependencies: [
+		"f4a5422e"
+	],
+	tasks: [{
+		uid: "9b905538",
+		type: "item",
+		items: [{
+			item: "bewitchment:brazier"
+		}]
+	}],
+	rewards: [{
+		uid: "8cb7f916",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "f0be9fe8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

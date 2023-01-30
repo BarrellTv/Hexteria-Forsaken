@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"f7ef8e2c"
+	],
+	tasks: [{
+		uid: "e8305f62",
+		type: "item",
+		items: [{
+			item: "extraplanets:basic_chemical_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "dd89f376",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "dd31ee20",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

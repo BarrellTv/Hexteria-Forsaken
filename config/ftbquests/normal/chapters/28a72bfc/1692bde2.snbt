@@ -1,0 +1,38 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"a4461b72",
+		"0af10b3b"
+	],
+	tasks: [{
+		uid: "0ebd3a5b",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:air_lock_frame"
+		}],
+		count: 4L
+	},
+	{
+		uid: "38959b96",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:air_lock_frame 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c9d9b928",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "63843b23",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "5c0ad6d9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f6228e5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5c21fb77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

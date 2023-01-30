@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	dependencies: [
+		"147d8f80"
+	],
+	tasks: [{
+		uid: "f1500e22",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	}],
+	rewards: [{
+		uid: "405c90dc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

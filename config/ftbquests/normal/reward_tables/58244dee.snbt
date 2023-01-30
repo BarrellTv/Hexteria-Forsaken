@@ -1,0 +1,2621 @@
+{
+	title: "Tech Box",
+	icon: "ironchest:iron_chest 1 6",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "extraplanets:basic_purifier"
+	},
+	{
+		item: "extraplanets:solar"
+	},
+	{
+		item: "extraplanets:solar 1 4"
+	},
+	{
+		item: "extraplanets:ultimate_refinery"
+	},
+	{
+		item: "extraplanets:advanced_refinery"
+	},
+	{
+		item: "extraplanets:ultimate_oxygen_compressor"
+	},
+	{
+		item: "extraplanets:advanced_oxygen_compressor"
+	},
+	{
+		item: "extraplanets:basic_chemical_injector"
+	},
+	{
+		item: "extraplanets:basic_solar_evaporation_chamber"
+	},
+	{
+		item: "extraplanets:advanced_fuel_loader"
+	},
+	{
+		item: "extraplanets:ultimate_fuel_loader"
+	},
+	{
+		item: "galacticraftcore:solar"
+	},
+	{
+		item: "galacticraftcore:solar 1 4"
+	},
+	{
+		item: "galacticraftplanets:mars_machine 1 8"
+	},
+	{
+		item: "galacticraftcore:sealer"
+	},
+	{
+		item: "galacticraftcore:machine2"
+	},
+	{
+		item: "galacticraftcore:machine2 1 4"
+	},
+	{
+		item: "galacticraftcore:machine2 1 8"
+	},
+	{
+		item: "galacticraftcore:cargo"
+	},
+	{
+		item: "galacticraftcore:cargo 1 4"
+	},
+	{
+		item: "galacticraftcore:distributor"
+	},
+	{
+		item: "galacticraftcore:fuel_loader"
+	},
+	{
+		item: "galacticraftcore:refinery"
+	},
+	{
+		item: "extraplanets:basic_densifier"
+	},
+	{
+		item: "extraplanets:vehicle_charger"
+	},
+	{
+		item: "galacticraftcore:collector"
+	},
+	{
+		item: "galacticraftcore:oxygen_compressor"
+	},
+	{
+		item: "galacticraftcore:machine"
+	},
+	{
+		item: "galacticraftcore:machine 1 12"
+	},
+	{
+		item: "mekanism:machineblock"
+	},
+	{
+		item: "mekanism:machineblock 1 1"
+	},
+	{
+		item: "mekanism:machineblock 1 2"
+	},
+	{
+		item: "mekanism:machineblock 1 3"
+	},
+	{
+		item: "mekanism:machineblock 1 4"
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 1
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 3
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 6
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 4
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 6
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 4
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 1
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 3
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 3
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 1
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 4
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 6
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: "mekanism:machineblock 1 8"
+	},
+	{
+		item: "mekanism:machineblock 1 9"
+	},
+	{
+		item: "mekanism:machineblock 1 10"
+	},
+	{
+		item: "mekanismgenerators:generator 1 1"
+	},
+	{
+		item: "mekanismgenerators:generator 1 4"
+	},
+	{
+		item: "mekanismgenerators:generator 1 5"
+	},
+	{
+		item: "mekanismgenerators:generator 1 6"
+	},
+	{
+		item: "mekanism:machineblock2 1 5"
+	},
+	{
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 4s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 5s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 2
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: {
+			id: "ae2wtlib:wut",
+			tag: {
+				StoredTerminals: [{
+					id: "wft:wft",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wit:wit",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				InfinityEnergy: 0,
+				SelectedTerminal: 0,
+				internalCurrentPower: 0.0d
+			}
+		}
+	},
+	{
+		item: {
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "wft:wft",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "wit:wit",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "wpt:wpt",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wft:wft_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wit:wit_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct_creative",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	},
+	{
+		item: "ae2stuff:visualiser"
+	},
+	{
+		item: "appliedenergistics2:part 1 340"
+	},
+	{
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		item: "appliedenergistics2:part 1 480"
+	},
+	{
+		item: "appliedenergistics2:part 1 520"
+	},
+	{
+		item: "extrautils2:passivegenerator 1 8"
+	},
+	{
+		item: "enderio:block_normal_wireless_charger"
+	},
+	{
+		item: "industrialforegoing:froster"
+	},
+	{
+		item: "industrialforegoing:ore_washer"
+	},
+	{
+		item: "industrialforegoing:ore_fermenter"
+	},
+	{
+		item: "industrialforegoing:ore_sieve"
+	},
+	{
+		item: "industrialforegoing:oredictionary_converter"
+	},
+	{
+		item: "industrialforegoing:energy_field_provider"
+	},
+	{
+		item: "industrialforegoing:fluiddictionary_converter"
+	},
+	{
+		item: "industrialforegoing:item_splitter"
+	},
+	{
+		item: "industrialforegoing:mob_duplicator"
+	},
+	{
+		item: "industrialforegoing:block_destroyer"
+	},
+	{
+		item: "industrialforegoing:protein_reactor"
+	},
+	{
+		item: "industrialforegoing:protein_generator"
+	},
+	{
+		item: "industrialforegoing:hydrator"
+	},
+	{
+		item: "industrialforegoing:wither_builder"
+	},
+	{
+		item: "industrialforegoing:fluid_pump"
+	},
+	{
+		item: "industrialforegoing:fluid_crafter"
+	},
+	{
+		item: "industrialforegoing:plant_interactor"
+	},
+	{
+		item: "industrialforegoing:block_placer"
+	},
+	{
+		item: "industrialforegoing:villager_trade_exchanger"
+	},
+	{
+		item: "industrialforegoing:resourceful_furnace"
+	},
+	{
+		item: "industrialforegoing:black_hole_tank"
+	},
+	{
+		item: "industrialforegoing:mob_slaughter_factory"
+	},
+	{
+		item: "industrialforegoing:animal_resource_harvester"
+	},
+	{
+		item: "industrialforegoing:water_resources_collector"
+	},
+	{
+		item: "industrialforegoing:water_condensator"
+	},
+	{
+		item: "industrialforegoing:black_hole_unit"
+	},
+	{
+		item: "industrialforegoing:latex_processing_unit"
+	},
+	{
+		item: "industrialforegoing:sewage_composter_solidifier"
+	},
+	{
+		item: "industrialforegoing:animal_byproduct_recolector"
+	},
+	{
+		item: "industrialforegoing:sludge_refiner"
+	},
+	{
+		item: "industrialforegoing:mob_detector"
+	},
+	{
+		item: "industrialforegoing:lava_fabricator"
+	},
+	{
+		item: "industrialforegoing:bioreactor"
+	},
+	{
+		item: "industrialforegoing:crop_recolector"
+	},
+	{
+		item: "industrialforegoing:biofuel_generator"
+	},
+	{
+		item: "industrialforegoing:enchantment_refiner"
+	},
+	{
+		item: "industrialforegoing:enchantment_invoker"
+	},
+	{
+		item: "industrialforegoing:dye_mixer"
+	},
+	{
+		item: "industrialforegoing:black_hole_controller_reworked"
+	},
+	{
+		item: "industrialforegoing:ore_processor"
+	},
+	{
+		item: "industrialforegoing:laser_drill",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:laser_base"
+	},
+	{
+		item: "industrialforegoing:tree_fluid_extractor"
+	},
+	{
+		item: "industrialforegoing:enchantment_extractor"
+	},
+	{
+		item: "industrialforegoing:enchantment_aplicator"
+	},
+	{
+		item: "industrialforegoing:mob_relocator"
+	},
+	{
+		item: "industrialforegoing:potion_enervator"
+	},
+	{
+		item: "industrialforegoing:animal_independence_selector"
+	},
+	{
+		item: "industrialforegoing:animal_stock_increaser"
+	},
+	{
+		item: "industrialforegoing:crop_sower"
+	},
+	{
+		item: "industrialforegoing:crop_enrich_material_injector"
+	},
+	{
+		item: "industrialforegoing:material_stonework_factory"
+	},
+	{
+		item: "industrialforegoing:spores_recreator"
+	},
+	{
+		item: "industrialforegoing:animal_growth_increaser"
+	},
+	{
+		item: "industrialforegoing:conveyor",
+		count: 32
+	},
+	{
+		item: "enderio:block_enhanced_vat"
+	},
+	{
+		item: "enderio:block_enhanced_sag_mill"
+	},
+	{
+		item: "enderio:block_soul_binder"
+	},
+	{
+		item: "enderio:block_vat"
+	},
+	{
+		item: "enderio:block_sag_mill"
+	},
+	{
+		item: "enderio:block_combustion_generator"
+	},
+	{
+		item: "enderio:block_wired_charger"
+	},
+	{
+		item: "enderio:block_alloy_smelter"
+	},
+	{
+		item: "enderio:block_enhanced_alloy_smelter"
+	},
+	{
+		item: "enderio:block_enhanced_wired_charger"
+	},
+	{
+		item: "enderio:block_enhanced_combustion_generator"
+	},
+	{
+		item: "enderio:block_slice_and_splice"
+	},
+	{
+		item: "enderio:block_farm_station"
+	},
+	{
+		item: "enderio:block_powered_spawner"
+	},
+	{
+		item: "enderio:block_cap_bank 1 2"
+	},
+	{
+		item: "enderio:block_cap_bank 1 1"
+	},
+	{
+		item: "enderio:block_simple_alloy_smelter"
+	},
+	{
+		item: "enderio:block_simple_furnace"
+	},
+	{
+		item: "enderio:block_cap_bank 1 3"
+	},
+	{
+		item: "enderio:block_transceiver"
+	},
+	{
+		item: "enderio:block_simple_stirling_generator"
+	},
+	{
+		item: "enderio:block_stirling_generator"
+	},
+	{
+		item: "enderio:block_simple_sag_mill"
+	},
+	{
+		item: "enderio:block_simple_crafter"
+	},
+	{
+		item: "enderio:block_crafter"
+	},
+	{
+		item: "enderio:block_wireless_charger"
+	},
+	{
+		item: "enderio:block_simple_wired_charger"
+	},
+	{
+		item: "enderio:block_tank 1 1"
+	},
+	{
+		item: "enderio:block_tank"
+	},
+	{
+		item: "enderio:item_power_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_power_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_me_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:block_enhanced_wireless_charger"
+	},
+	{
+		item: "enderio:block_wireless_charger_extension"
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 13s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				Level: 0b
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 15s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 14s
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}
+	},
+	{
+		item: "enderio:item_power_conduit 1 2",
+		count: 32
+	},
+	{
+		item: "enderio:item_redstone_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:item_me_conduit",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0 1 4",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0 1 3",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0 1 2",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0 1 1",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 3s
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 1b
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 2b
+			},
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_0",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 1b
+			},
+			Damage: 4s
+		},
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_32 1 4",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 2b
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_32 1 2",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 1b
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_32 1 6",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 2b
+			},
+			Damage: 4s
+		},
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_16",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_16 1 2",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_16 1 4",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_16 1 6",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:duct_32",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 2b
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "thermaldynamics:duct_32",
+			tag: {
+				DenseType: 1b
+			}
+		},
+		count: 32
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermaldynamics:duct_64",
+		count: 16
+	},
+	{
+		item: "thermaldynamics:duct_64 1 1",
+		count: 16
+	},
+	{
+		item: "thermaldynamics:duct_64 1 2",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 3"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 3b
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 2b
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 0b
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 2b,
+				insulation: 2b
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 2b,
+				insulation: 1b
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 2b,
+				insulation: 0b
+			},
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 6b,
+				insulation: 0b
+			},
+			Damage: 6s
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 5b,
+				insulation: 0b
+			},
+			Damage: 5s
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 3b,
+				insulation: 1b
+			},
+			Damage: 3s
+		},
+		count: 32
+	},
+	{
+		item: "ic2:te 1 8"
+	},
+	{
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 131s
+		}
+	},
+	{
+		item: "ic2:te 1 56"
+	},
+	{
+		item: "ic2:te 1 3"
+	},
+	{
+		item: "ic2:te 1 4"
+	},
+	{
+		item: "ic2:te 1 10"
+	},
+	{
+		item: "ic2:te 1 11"
+	},
+	{
+		item: "ic2:resource 1 12"
+	},
+	{
+		item: "ic2:te 1 46"
+	},
+	{
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 134s
+		}
+	},
+	{
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 133s
+		}
+	},
+	{
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 132s
+		}
+	},
+	{
+		item: "ic2:te 1 55"
+	},
+	{
+		item: "ic2:te 1 54"
+	},
+	{
+		item: "ic2:te 1 52"
+	},
+	{
+		item: "ic2:te 1 47"
+	},
+	{
+		item: "ic2:resource 1 13"
+	},
+	{
+		item: {
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 8",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 51",
+		count: 32
+	},
+	{
+		item: "appliedenergistics2:material 1 49",
+		count: 32
+	},
+	{
+		item: "appliedenergistics2:material 1 46",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 2",
+		count: 32
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 3",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 128",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 129",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 131",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 132",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 133",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 134",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 135",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 160",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 161",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 162",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 163",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 164",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 165",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 166",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 167",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 1",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 64",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 65",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 66",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 67",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 68",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 69",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 70",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 71",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 72",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 96",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 97",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 98",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 99",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 100",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 101",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 102",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 103",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:fertilizer",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 1",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 2",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 768",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 769",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 770",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 771",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 772",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 800",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:material 1 802",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 816",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 817",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 818",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 819",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 864",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 865",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 866",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 892",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 893",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 894",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 895",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 1024",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 1025",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 1026",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 1027",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2048",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2049",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2050",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2051",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2052",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 2053",
+		count: 8
+	},
+	{
+		item: "mekanism:dust",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 1",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 2",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 3",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 4",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 5",
+		count: 32
+	},
+	{
+		item: "mekanism:dust 1 6",
+		count: 32
+	},
+	{
+		item: "mekanism:ingot",
+		count: 8
+	},
+	{
+		item: "mekanism:ingot 1 1",
+		count: 32
+	},
+	{
+		item: "mekanism:ingot 1 2",
+		count: 32
+	},
+	{
+		item: "mekanism:ingot 1 3",
+		count: 32
+	},
+	{
+		item: "mekanism:ingot 1 4",
+		count: 16
+	},
+	{
+		item: "mekanism:ingot 1 5",
+		count: 32
+	},
+	{
+		item: "mekanism:ingot 1 6",
+		count: 32
+	},
+	{
+		item: "mekanism:enrichediron",
+		count: 16
+	},
+	{
+		item: "mekanism:otherdust",
+		count: 8
+	},
+	{
+		item: "mekanism:otherdust 1 1",
+		count: 16
+	},
+	{
+		item: "mekanism:otherdust 1 3",
+		count: 64
+	},
+	{
+		item: "mekanism:otherdust 1 6",
+		count: 16
+	},
+	{
+		item: "mekanism:otherdust 1 5",
+		count: 8
+	},
+	{
+		item: "mekanism:otherdust 1 4",
+		count: 16
+	},
+	{
+		item: "industrialforegoing:tinydryrubber",
+		count: 64
+	},
+	{
+		item: "industrialforegoing:dryrubber",
+		count: 32
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 16
+	},
+	{
+		item: "ic2:ingot",
+		count: 8
+	},
+	{
+		item: "ic2:ingot"
+	},
+	{
+		item: "ic2:plate",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 1",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 2",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 3",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 4",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 5",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 6",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 7",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 8",
+		count: 16
+	},
+	{
+		item: "ic2:plate 1 9",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 10",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 11",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 12",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 13",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 14",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 15",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 16",
+		count: 8
+	},
+	{
+		item: "ic2:plate 1 17",
+		count: 8
+	},
+	{
+		item: "ic2:casing",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 1",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 2",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 3",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 4",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 5",
+		count: 8
+	},
+	{
+		item: "ic2:casing 1 6",
+		count: 8
+	},
+	{
+		item: "environmentaltech:litherite_crystal",
+		count: 64
+	},
+	{
+		item: "environmentaltech:erodium_crystal",
+		count: 32
+	},
+	{
+		item: "environmentaltech:kyronite_crystal",
+		count: 16
+	},
+	{
+		item: "environmentaltech:pladium_crystal",
+		count: 8
+	},
+	{
+		item: "environmentaltech:ionite_crystal",
+		count: 4
+	},
+	{
+		item: "environmentaltech:aethium_crystal",
+		count: 2
+	},
+	{
+		item: "environmentaltech:lonsdaleite_crystal",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 3",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 4",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 9",
+		count: 8
+	},
+	{
+		item: "enderio:item_material 1 39",
+		count: 8
+	},
+	{
+		item: "enderio:item_material 1 14",
+		count: 8
+	},
+	{
+		item: "enderio:item_material 1 15",
+		count: 8
+	},
+	{
+		item: "enderio:item_material 1 16",
+		count: 4
+	},
+	{
+		item: "enderio:item_material 1 17",
+		count: 4
+	},
+	{
+		item: "enderio:item_material 1 18",
+		count: 2
+	},
+	{
+		item: "enderio:item_material 1 19",
+		count: 4
+	},
+	{
+		item: "enderio:item_material 1 20",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot",
+		count: 32
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 1",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 3",
+		count: 4
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 4",
+		count: 4
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 5",
+		count: 32
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 6",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal",
+		count: 32
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 1",
+		count: 32
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 2",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 3",
+		count: 32
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 4",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal 1 5",
+		count: 32
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 1",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 2",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 3",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 4",
+		count: 8
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 5",
+		count: 16
+	}],
+	loot_crate: {
+		string_id: "tech_box",
+		item_name: "Tech Box",
+		color: 4870484,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

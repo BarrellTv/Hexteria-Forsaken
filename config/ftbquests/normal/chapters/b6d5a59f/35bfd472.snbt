@@ -1,0 +1,68 @@
+{
+	x: 3.0d,
+	y: -9.0d,
+	dependencies: [
+		"6b00e424"
+	],
+	tasks: [{
+		uid: "0e677a1d",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_hood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a19c196",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f851f30",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c306efd1",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6ff359c",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "2bec72cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "108b9dad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"76a05155"
+	],
+	tasks: [{
+		uid: "d816fd88",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}]
+	}]
+}

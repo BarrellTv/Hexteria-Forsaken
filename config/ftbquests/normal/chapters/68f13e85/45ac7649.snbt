@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 10.0d,
+	dependencies: [
+		"74950a36"
+	],
+	tasks: [{
+		uid: "4d6abf17",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:fuel_canister_partial 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e08c124",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ee822369",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

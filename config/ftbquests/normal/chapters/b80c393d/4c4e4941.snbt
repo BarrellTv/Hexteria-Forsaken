@@ -1,0 +1,41 @@
+{
+	x: -4.0d,
+	y: 13.0d,
+	dependencies: [
+		"ae134c7c"
+	],
+	tasks: [{
+		uid: "8042e8e6",
+		type: "item",
+		items: [{
+			item: "projectex:final_star_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "60efa1a6",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "d2b0638f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "80b6c956",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		},
+		count: 2
+	}]
+}

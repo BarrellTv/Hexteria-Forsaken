@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "661913ca",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:range_addon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5327e0e2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "40430f5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

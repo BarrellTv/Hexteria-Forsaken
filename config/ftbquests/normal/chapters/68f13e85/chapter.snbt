@@ -1,0 +1,40 @@
+{
+	title: "Intro",
+	icon: "exnihilocreatio:block_sieve",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -2.0d,
+		y: -4.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:wallet.png",
+		hover: [],
+		click: "https://www.paypal.com/donate/?hosted_button_id=V3WYJZF97SAZJ",
+		dev: false
+	},
+	{
+		x: 2.0d,
+		y: -4.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "minecraft:discord.png",
+		hover: [],
+		click: "https://discord.gg/Ryr8QUAzAq",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -6.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "minecraft:logo.png",
+		hover: [],
+		click: "https://www.hexteriamc.net",
+		dev: false
+	}]
+}

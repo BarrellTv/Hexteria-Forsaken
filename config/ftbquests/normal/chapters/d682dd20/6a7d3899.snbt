@@ -1,0 +1,74 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"f0946e26"
+	],
+	tasks: [{
+		uid: "1709ed82",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	},
+	{
+		uid: "3f2a0cfd",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	},
+	{
+		uid: "2cc7e122",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	},
+	{
+		uid: "6915b4eb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	},
+	{
+		uid: "43557079",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	},
+	{
+		uid: "bee4a9fa",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:adult_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "e15074ce",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "28453fba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "a6643a26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	dependencies: [
+		"c4ac5cda"
+	],
+	tasks: [{
+		uid: "4a885cff",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "351acea2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7149fa98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

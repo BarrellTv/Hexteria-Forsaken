@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: 7.0d,
+	dependencies: [
+		"4d0b1a75"
+	],
+	tasks: [{
+		uid: "737695d2",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2d59460",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b9ae8bc2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 3
+	}]
+}

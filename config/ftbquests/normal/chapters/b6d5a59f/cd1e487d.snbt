@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "5e046e3f",
+		type: "item",
+		items: [{
+			item: "bewitchment:oak_spirit"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "20399131",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "0ba5ad2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

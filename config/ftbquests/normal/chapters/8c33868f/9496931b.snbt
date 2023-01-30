@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -9.0d,
+	dependencies: [
+		"88e5947c"
+	],
+	tasks: [{
+		uid: "a9c1a201",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	}],
+	rewards: [{
+		uid: "50842248",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3ef8b7cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

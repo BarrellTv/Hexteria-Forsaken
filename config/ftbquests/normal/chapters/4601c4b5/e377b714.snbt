@@ -1,0 +1,64 @@
+{
+	icon: "environmentaltech:nano_cont_personal_2",
+	x: -3.0d,
+	y: 2.5d,
+	dependencies: [
+		"478a5c8c"
+	],
+	tasks: [{
+		uid: "77d319f4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:nano_cont_personal_2"
+		}]
+	},
+	{
+		uid: "b0fe45d0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2"
+		}],
+		count: 36L
+	},
+	{
+		uid: "433a80c0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel"
+		}],
+		count: 24L
+	},
+	{
+		uid: "f955cc56",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d2e54607",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "74807bfd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "a3b19f9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"f42d52ed"
+	],
+	tasks: [{
+		uid: "5035b9ea",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "1d5785e9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1c1a80c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

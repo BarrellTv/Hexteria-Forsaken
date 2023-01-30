@@ -1,0 +1,27 @@
+{
+	title: "1 Day Of Time Played",
+	icon: {
+		id: "randomthings:timeinabottle",
+		tag: {
+			timeData: {
+				storedTime: 160
+			}
+		}
+	},
+	x: -0.5d,
+	y: 1.5d,
+	dependencies: [
+		"620468e2"
+	],
+	tasks: [{
+		uid: "d5610be2",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "0460e562",
+		type: "ftbmoney:money",
+		ftb_money: 625L
+	}]
+}

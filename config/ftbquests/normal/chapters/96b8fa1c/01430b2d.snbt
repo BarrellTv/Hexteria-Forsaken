@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5acb709c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stone"
+				}
+			}
+		}],
+		count: 256L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0197be70",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

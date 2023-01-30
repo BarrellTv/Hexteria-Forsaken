@@ -1,0 +1,41 @@
+{
+	x: -2.5d,
+	y: -11.0d,
+	dependencies: [
+		"d64dfbff"
+	],
+	tasks: [{
+		uid: "428f646a",
+		type: "item",
+		items: [{
+			item: "bewitchment:fortunes_favor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d3894ea",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "b8d9dd5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "386a0ddf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: 0.5d,
+	dependencies: [
+		"0c47f563"
+	],
+	tasks: [{
+		uid: "ec53b2ee",
+		type: "item",
+		items: [{
+			item: "toughasnails:canteen"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4480690d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0737da0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

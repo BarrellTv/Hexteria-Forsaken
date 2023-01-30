@@ -1,0 +1,29 @@
+{
+	x: 15.0d,
+	y: -1.0d,
+	dependencies: [
+		"cf105f32"
+	],
+	tasks: [{
+		uid: "5a533e2e",
+		type: "dimension",
+		title: "&1[Tier.8] &fVisit Planet: &2Pluto",
+		dim: -19
+	}],
+	rewards: [{
+		uid: "927398a3",
+		type: "ftbmoney:money",
+		ftb_money: 12500L
+	},
+	{
+		uid: "8929fa4b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		},
+		count: 2
+	}]
+}

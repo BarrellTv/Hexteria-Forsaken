@@ -1,0 +1,22 @@
+{
+	x: 10.5d,
+	y: -8.0d,
+	text: [
+		"Unlock The QuarryPlus Stage By Finishing The 64k Storage Cell Quest From The Applied Energistics Page"
+	],
+	dependencies: [
+		"5565ac99",
+		"5feab1ed"
+	],
+	tasks: [{
+		uid: "0644ddc6",
+		type: "checkmark",
+		title: "Unlock The Quarry Plus Stage"
+	}],
+	rewards: [{
+		uid: "3ac78640",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage8tech"
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	dependencies: [
+		"56a6f99b"
+	],
+	tasks: [{
+		uid: "8e995772",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "6708ba0f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "65423126",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "53712c31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "8227e6ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

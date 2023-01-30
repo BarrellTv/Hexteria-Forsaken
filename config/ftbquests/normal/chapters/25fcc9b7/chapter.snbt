@@ -1,0 +1,7 @@
+{
+	title: "Thermal",
+	icon: "thermalexpansion:frame 1 148",
+	always_invisible: false,
+	group: -1775160597,
+	default_quest_shape: ""
+}

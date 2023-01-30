@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	dependencies: [
+		"537ce1e5"
+	],
+	tasks: [{
+		uid: "f5373665",
+		type: "ftbmoney:money",
+		value: 1000000L
+	}],
+	rewards: [{
+		uid: "e7a93e8c",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "e3043dc6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		},
+		count: 2
+	}]
+}

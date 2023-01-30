@@ -1,0 +1,71 @@
+{
+	x: 2.0d,
+	y: 10.5d,
+	dependencies: [
+		"5145fa7b"
+	],
+	tasks: [{
+		uid: "31fae6ae",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8bbbcbb5",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "95b17870",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "176e50fe",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "669b3dcc",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "15a1404e",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "944ff652",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "7d1d685c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

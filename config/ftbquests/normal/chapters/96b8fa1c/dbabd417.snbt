@@ -1,0 +1,30 @@
+{
+	x: -6.0d,
+	y: 12.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8d466a37",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 1024L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f84ac89c",
+		type: "ftbmoney:money",
+		ftb_money: 16L
+	}]
+}

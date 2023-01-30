@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"b4ce8aa2"
+	],
+	tasks: [{
+		uid: "17ca3c31",
+		type: "item",
+		items: [{
+			item: "extraplanets:ultimate_refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "b7a71261",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "50473659",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

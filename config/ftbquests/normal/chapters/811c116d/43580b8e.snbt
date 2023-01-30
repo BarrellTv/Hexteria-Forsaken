@@ -1,0 +1,92 @@
+{
+	title: "32x Elite",
+	x: -4.5d,
+	y: -0.5d,
+	dependencies: [
+		"a87b1235"
+	],
+	tasks: [{
+		uid: "6d6c1b6a",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 1s
+		}],
+		count: 32L
+	},
+	{
+		uid: "f5cb1ed5",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "f4d21ba5",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		}],
+		count: 32L
+	},
+	{
+		uid: "3c6f25bb",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		}],
+		count: 32L
+	},
+	{
+		uid: "99863d8a",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "76401bf4",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "43be0600",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "5198ac41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

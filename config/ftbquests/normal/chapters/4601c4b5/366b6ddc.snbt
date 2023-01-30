@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"a4078c92"
+	],
+	tasks: [{
+		uid: "568fd119",
+		type: "item",
+		items: [{
+			item: "environmentaltech:erodium_crystal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "57306a7a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b0168e25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

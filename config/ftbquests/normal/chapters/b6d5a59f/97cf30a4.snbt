@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	dependencies: [
+		"fac33fc4",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "b73d424d",
+		type: "item",
+		items: [{
+			item: "bewitchment:otherworldly_tears"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "42c21003",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "5329ad8f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

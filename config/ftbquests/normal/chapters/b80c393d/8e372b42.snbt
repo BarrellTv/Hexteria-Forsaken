@@ -1,0 +1,41 @@
+{
+	x: 3.0d,
+	y: -6.5d,
+	dependencies: [
+		"b5e238ee",
+		"0ec93f7e",
+		"ad8f31cc"
+	],
+	tasks: [{
+		uid: "6edd6625",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "c93e8623",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "681bca6f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "87cf66f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

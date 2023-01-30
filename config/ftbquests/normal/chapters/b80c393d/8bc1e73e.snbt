@@ -1,0 +1,40 @@
+{
+	x: -1.0d,
+	y: 8.0d,
+	dependencies: [
+		"9eb8e948",
+		"ac4c967a"
+	],
+	tasks: [{
+		uid: "c5e4eef4",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "1ab337b3",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "fa9abd62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "d6fc95a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

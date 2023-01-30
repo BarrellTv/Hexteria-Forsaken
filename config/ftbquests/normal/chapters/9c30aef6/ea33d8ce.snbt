@@ -1,0 +1,42 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	dependencies: [
+		"19612d5e"
+	],
+	tasks: [{
+		uid: "606f0636",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "93a4c009",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a3dc74af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "a7f5cc8d",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}
+	}]
+}

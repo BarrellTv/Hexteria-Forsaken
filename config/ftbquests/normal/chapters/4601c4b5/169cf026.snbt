@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"4b82d633"
+	],
+	tasks: [{
+		uid: "593c6591",
+		type: "item",
+		items: [{
+			item: "environmentaltech:ionite_crystal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8f97121f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "ab8f9e94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

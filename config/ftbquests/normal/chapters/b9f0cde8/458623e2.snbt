@@ -1,0 +1,39 @@
+{
+	x: 0.5d,
+	y: 10.5d,
+	dependencies: [
+		"a97344ea"
+	],
+	tasks: [{
+		uid: "8edf4d04",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:awakened_draconium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "361c1c32",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "86a91dd3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "b2d75191",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	}]
+}

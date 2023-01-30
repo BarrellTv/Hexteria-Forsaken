@@ -1,0 +1,68 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	dependencies: [
+		"7c11ed23"
+	],
+	tasks: [{
+		uid: "c63ec802",
+		type: "item",
+		items: [{
+			item: "bewitchment:ritual_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5a4d7d2",
+		type: "item",
+		items: [{
+			item: "bewitchment:focal_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8309e49",
+		type: "item",
+		items: [{
+			item: "bewitchment:phasing_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7afc377e",
+		type: "item",
+		items: [{
+			item: "bewitchment:fiery_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30ee2de8",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "ab7d5d48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "ec784ea1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

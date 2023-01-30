@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: -7.0d,
+	dependencies: [
+		"710705cc",
+		"9a2ce1db"
+	],
+	tasks: [{
+		uid: "369243cd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56be0137",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "4bb00060",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"b22dfe72"
+	],
+	tasks: [{
+		uid: "ad97f10c",
+		type: "dimension",
+		title: "&b[Tier.3] &fVisit Planet: &2Nibiru",
+		dim: -2544
+	}],
+	rewards: [{
+		uid: "33407171",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "91f8a364",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

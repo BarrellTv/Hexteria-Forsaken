@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: -3.0d,
+	dependencies: [
+		"6cc1e058"
+	],
+	tasks: [{
+		uid: "ddc6b4c5",
+		type: "item",
+		items: [{
+			item: "bewitchment:filled_goblet"
+		}]
+	}],
+	rewards: [{
+		uid: "87a070e9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "595576ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

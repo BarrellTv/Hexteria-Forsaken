@@ -1,0 +1,30 @@
+{
+	x: -11.0d,
+	y: 12.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5bf34081",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "netherrack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any netherrack"
+				}
+			}
+		}],
+		count: 1024L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a0d9fc48",
+		type: "ftbmoney:money",
+		ftb_money: 16L
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	icon: "environmentaltech:solar_cell_pladium",
+	x: 5.0d,
+	y: -0.5d,
+	dependencies: [
+		"0bdacc38"
+	],
+	tasks: [{
+		uid: "0dee60c3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_4"
+		}]
+	},
+	{
+		uid: "2cd3294d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_pladium"
+		}],
+		count: 81L
+	},
+	{
+		uid: "0dee01cc",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_4"
+		}],
+		count: 40L
+	},
+	{
+		uid: "cd6c12e1",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6bcce797",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "dbe92e1f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "fcdd8b1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

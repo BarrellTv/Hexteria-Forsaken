@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "1f788f58",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "74bb5f65",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

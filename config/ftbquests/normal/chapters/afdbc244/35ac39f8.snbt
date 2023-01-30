@@ -1,0 +1,53 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	dependencies: [
+		"6df79651"
+	],
+	tasks: [{
+		uid: "edf050b6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	},
+	{
+		uid: "63a02783",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "4a9a75c4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "fd45bab9",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "51b32904",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "80251f69",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

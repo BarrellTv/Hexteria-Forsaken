@@ -1,0 +1,39 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	dependencies: [
+		"f29d88a8"
+	],
+	tasks: [{
+		uid: "b96d75fd",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "baecf99b",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "45b90b98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "9767a501",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

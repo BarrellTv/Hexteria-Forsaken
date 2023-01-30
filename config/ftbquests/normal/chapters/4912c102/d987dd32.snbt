@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "bc85d45a",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "b9fa855d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

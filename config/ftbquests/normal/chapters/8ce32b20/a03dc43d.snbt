@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"236b4c94"
+	],
+	tasks: [{
+		uid: "a1f7d121",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}],
+	rewards: [{
+		uid: "ca35c86d",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "a5370b7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "1d2b0bad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

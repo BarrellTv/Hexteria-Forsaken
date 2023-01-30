@@ -1,0 +1,74 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "2b8b2785",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}]
+	},
+	{
+		uid: "0f8199ce",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	},
+	{
+		uid: "1b75425a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	},
+	{
+		uid: "59aba486",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:hydrator"
+		}]
+	},
+	{
+		uid: "6dda312b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plant_interactor"
+		}]
+	},
+	{
+		uid: "7bc52115",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:leaf_shearing"
+		}]
+	}],
+	rewards: [{
+		uid: "70d05096",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "e33abfaf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "acaae84e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

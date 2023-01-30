@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"e39fcb37"
+	],
+	tasks: [{
+		uid: "3290206e",
+		type: "item",
+		items: [{
+			item: "extraplanets:oxygen_tank_very_heavy_full 1 7200"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6565bc1b",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	}]
+}

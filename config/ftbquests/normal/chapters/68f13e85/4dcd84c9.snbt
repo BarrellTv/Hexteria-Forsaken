@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 6.5d,
+	dependencies: [
+		"43324b73"
+	],
+	tasks: [{
+		uid: "cc0e5c43",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_aluminium 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6e27e9da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7101d282",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

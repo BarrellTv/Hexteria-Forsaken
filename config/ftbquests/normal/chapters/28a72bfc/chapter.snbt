@@ -1,0 +1,7 @@
+{
+	title: "Galacticraft",
+	icon: "galacticraftplanets:rocket_t3 1 4",
+	always_invisible: false,
+	group: 339005989,
+	default_quest_shape: ""
+}

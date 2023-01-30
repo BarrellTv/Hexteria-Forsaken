@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"c1aea68b"
+	],
+	tasks: [{
+		uid: "db01f6ed",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorglass"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "75941e48",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "d8412143",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"52d62655"
+	],
+	tasks: [{
+		uid: "f0e53156",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "01e0d4f5",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "574498d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

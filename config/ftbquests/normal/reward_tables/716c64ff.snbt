@@ -1,0 +1,967 @@
+{
+	title: "Farming Crate",
+	icon: "randomthings:specialchest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "mysticalagriculture:tier1_inferium_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:stone_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:dirt_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:nature_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:wood_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:water_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:ice_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:zombie_seeds",
+		count: 12
+	},
+	{
+		item: "mysticalagriculture:tier2_inferium_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:rubber_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:copper_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:aluminum_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:sulfur_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:silicon_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:slime_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:sheep_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:cow_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:chicken_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:pig_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:grains_of_infinity_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:aluminum_brass_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:basalt_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:mystical_flower_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:limestone_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:marble_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:coal_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:nether_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:dye_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:fire_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:tier3_inferium_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:ardite_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:knightslime_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:tin_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:redstone_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:obsidian_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:lead_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:silver_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:skeleton_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:blitz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:blizz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:conductive_iron_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:basalz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:glowstone_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:electrical_steel_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:bronze_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:manasteel_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:sky_stone_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:certus_quartz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:black_quartz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:ender_biotite_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:guardian_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:rabbit_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:creeper_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:iron_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:nether_quartz_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:redstone_alloy_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:graphite_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:saltpeter_seeds",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:tier4_inferium_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:nickel_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:elementium_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:meteoric_iron_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:osmium_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:steel_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:constantan_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:electrum_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:invar_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:cobalt_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:mithril_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:fluix_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:hop_graphite_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:glowstone_ingot_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:energetic_alloy_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:dark_steel_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:soularium_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:enderman_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:ghast_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:blaze_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:pulsating_iron_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:lapis_lazuli_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:gold_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:end_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:experience_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:lumium_seeds",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:signalum_seeds",
+		count: 4
+	},
+	{
+		item: "harvestcraft:oatsseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:barleyseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:asparagusseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:strawberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:raspberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:candleberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:blueberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:blackberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:parsnipseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:peanutseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:radishseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:rutabagaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:sweetpotatoseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:wintersquashseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:zucchiniseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:beetseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:onionseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cucumberseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cantaloupeseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:bambooshootseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cornseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:ryeseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:mustardseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:coffeeseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:teaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:spiceleafseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:gingerseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:garlicseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:celeryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:rhubarbseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:turnipseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:broccoliseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cauliflowerseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:leekseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:lettuceseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:scallionseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:artichokeseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:brusselsproutseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cabbageseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:spinachseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:pineappleseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:quinoaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:tomatoseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:peasseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:okraseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:eggplantseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:chilipepperseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:bellpepperseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:soybeanseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:beanseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:greengrapeseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:huckleberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:jicamaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:juteseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:kenafseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:kohlrabiseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:lentilseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:milletseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:mulberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:flaxseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:elderberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:chickpeaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cassavaseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:arrowrootseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:amaranthseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:agaveseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:kaleseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:gigapickleseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cottonseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:kiwiseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cranberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:riceseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:seaweedseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:curryleafseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:sesameseedsseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:waterchestnutseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:juniperberryseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:taroseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:sisalseeditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:tomatilloseeditem",
+		count: 16
+	},
+	{
+		item: "minecraft:diamond_hoe"
+	},
+	{
+		item: "minecraft:wheat_seeds",
+		count: 16
+	},
+	{
+		item: "minecraft:pumpkin_seeds",
+		count: 16
+	},
+	{
+		item: "minecraft:melon_seeds",
+		count: 16
+	},
+	{
+		item: "minecraft:beetroot_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:belladonna_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:garlic_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:hellebore_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:mandrake_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:white_sage_seeds",
+		count: 16
+	},
+	{
+		item: "bewitchment:wormwood_seeds",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 1",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 3",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 4",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 5",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 6",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 7",
+		count: 16
+	},
+	{
+		item: "botania:grassseeds 1 8",
+		count: 16
+	},
+	{
+		item: "botania:overgrowthseed",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_coffee_seed",
+		count: 16
+	},
+	{
+		item: "bewitchment:aconitum_seeds",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_white"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_green"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_black"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_light_blue"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_blue"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_red"
+	},
+	{
+		item: "actuallyadditions:item_hoe_quartz"
+	},
+	{
+		item: "actuallyadditions:item_hoe_obsidian"
+	},
+	{
+		item: "appliedenergistics2:certus_quartz_hoe"
+	},
+	{
+		item: "appliedenergistics2:nether_quartz_hoe"
+	},
+	{
+		item: "bewitchment:silver_hoe"
+	},
+	{
+		item: "netherex:blazed_amedian_hoe"
+	},
+	{
+		item: "netherex:frosted_amedian_hoe"
+	},
+	{
+		item: "netherex:withered_amedian_hoe"
+	},
+	{
+		item: "thermalfoundation:tool.hoe_platinum"
+	},
+	{
+		item: "thermalfoundation:tool.hoe_invar"
+	},
+	{
+		item: "thermalfoundation:tool.hoe_constantan"
+	},
+	{
+		item: "randomthings:grassseeds",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 1",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 2",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 3",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 4",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 5",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 6",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 7",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 8",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 9",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 10",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 11",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 12",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 13",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 14",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 15",
+		count: 16
+	},
+	{
+		item: "randomthings:grassseeds 1 16",
+		count: 16
+	},
+	{
+		item: "randomthings:lotusseeds",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_flax_seed",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_canola_seed",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_rice_seed",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_misc 1 23",
+		count: 16
+	},
+	{
+		item: "actuallyadditions:item_misc 1 24",
+		count: 16
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		},
+		count: 16
+	},
+	{
+		item: "exnihilocreatio:item_seed_rubber",
+		count: 16
+	},
+	{
+		item: "exnihilocreatio:item_material 1 4",
+		count: 16
+	},
+	{
+		item: "botania:worldseed",
+		count: 16
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		},
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "farming_crate",
+		item_name: "Farming Crate",
+		color: 1819148,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

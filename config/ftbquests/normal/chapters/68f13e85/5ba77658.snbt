@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"59af6fb1"
+	],
+	tasks: [{
+		uid: "79de7d37",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "551bf6ae",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "de80abc6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

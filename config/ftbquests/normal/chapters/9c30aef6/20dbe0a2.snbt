@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	dependencies: [
+		"b8042360"
+	],
+	tasks: [{
+		uid: "8ceb2ca5",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "40237c80",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "6e41c115",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

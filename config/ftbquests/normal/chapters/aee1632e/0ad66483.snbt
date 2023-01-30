@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"3302a710",
+		"2fc1efba"
+	],
+	tasks: [{
+		uid: "e9d6b539",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9a334139",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "ff3929f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

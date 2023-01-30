@@ -1,0 +1,30 @@
+{
+	x: 9.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "b148dda6",
+		type: "item",
+		items: [{
+			item: "bewitchment:cloudy_oil"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d9654477",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "e8e97c27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

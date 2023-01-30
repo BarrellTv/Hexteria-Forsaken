@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 7.5d,
+	dependencies: [
+		"fd2b04dc",
+		"69a17d72"
+	],
+	tasks: [{
+		uid: "e6e7393f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "c239b009",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4d1eb16a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

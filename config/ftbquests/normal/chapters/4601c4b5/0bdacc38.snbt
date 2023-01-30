@@ -1,0 +1,55 @@
+{
+	icon: "environmentaltech:solar_cell_kyronite",
+	x: 4.0d,
+	y: -0.5d,
+	dependencies: [
+		"e341a208"
+	],
+	tasks: [{
+		uid: "05b545f3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_3"
+		}]
+	},
+	{
+		uid: "8a4d6c24",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_kyronite"
+		}],
+		count: 49L
+	},
+	{
+		uid: "50df78b1",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_3"
+		}],
+		count: 32L
+	},
+	{
+		uid: "67e6c7f1",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d057368c",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "8828654f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,80 @@
+{
+	icon: "environmentaltech:void_botanic_miner_cont_6",
+	x: 7.0d,
+	y: 2.5d,
+	dependencies: [
+		"04f8aade"
+	],
+	tasks: [{
+		uid: "fdc8a16c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_botanic_miner_cont_6"
+		}]
+	},
+	{
+		uid: "76b2f2ec",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_6"
+		}],
+		count: 92L
+	},
+	{
+		uid: "b25dba2f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel"
+		}],
+		count: 56L
+	},
+	{
+		uid: "5934d054",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}],
+		count: 20L
+	},
+	{
+		uid: "e41ba3eb",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core"
+		}],
+		count: 6L
+	},
+	{
+		uid: "4854da1e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "7a0b4262",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "c28e192c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "8bc31afd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

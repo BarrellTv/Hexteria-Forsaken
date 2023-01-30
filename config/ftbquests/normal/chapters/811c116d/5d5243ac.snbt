@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	dependencies: [
+		"8066e5f4"
+	],
+	tasks: [{
+		uid: "8d860d86",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "5aa10ef8",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "cb770e77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

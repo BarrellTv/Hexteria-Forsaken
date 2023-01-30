@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	dependencies: [
+		"de28d4e9"
+	],
+	tasks: [{
+		uid: "cdf7fb04",
+		type: "item",
+		items: [{
+			item: "bewitchment:pentacle"
+		}]
+	}],
+	rewards: [{
+		uid: "fa4151be",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0c5e011f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

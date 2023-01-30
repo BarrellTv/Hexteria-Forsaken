@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	dependencies: [
+		"6f1438a8"
+	],
+	tasks: [{
+		uid: "13f73125",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "8df66c1f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f29f8640",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

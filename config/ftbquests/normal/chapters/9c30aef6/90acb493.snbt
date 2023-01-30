@@ -1,0 +1,68 @@
+{
+	x: 0.5d,
+	y: 15.0d,
+	dependencies: [
+		"5541fda9"
+	],
+	tasks: [{
+		uid: "34f33e85",
+		type: "item",
+		items: [{
+			item: "botania:elementiumhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ba986c7",
+		type: "item",
+		items: [{
+			item: "botania:elementiumchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09b00287",
+		type: "item",
+		items: [{
+			item: "botania:elementiumlegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4f96c419",
+		type: "item",
+		items: [{
+			item: "botania:elementiumboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3d46aa9",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "2350bf7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "842cb675",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

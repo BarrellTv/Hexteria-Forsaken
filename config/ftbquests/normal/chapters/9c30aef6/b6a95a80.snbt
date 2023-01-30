@@ -1,0 +1,61 @@
+{
+	x: -5.5d,
+	y: 7.5d,
+	dependencies: [
+		"35523750"
+	],
+	tasks: [{
+		uid: "d4c5a65e",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b8cf1b82",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "893b8236",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b87c8aad",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 3"
+		}],
+		count: 2L
+	},
+	{
+		uid: "247f35f0",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "c290b3e3",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "00743ca7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

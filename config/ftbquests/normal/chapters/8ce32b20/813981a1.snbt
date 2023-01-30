@@ -1,0 +1,40 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"890aafd1"
+	],
+	tasks: [{
+		uid: "c4f13da2",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "32130d2e",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "a717bf5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "08911536",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

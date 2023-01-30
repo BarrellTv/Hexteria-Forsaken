@@ -1,0 +1,42 @@
+{
+	x: 2.5d,
+	y: 8.5d,
+	dependencies: [
+		"a97344ea",
+		"56d981f3"
+	],
+	tasks: [{
+		uid: "d7446704",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8dcd62e7",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "272b9ae2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "63bb86a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		},
+		count: 2
+	}]
+}

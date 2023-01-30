@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: -8.0d,
+	dependencies: [
+		"19176602"
+	],
+	tasks: [{
+		uid: "e87ffbd2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_frost",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2cef45b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "7bc2be41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"af13cae4"
+	],
+	tasks: [{
+		uid: "7d71c0a6",
+		type: "item",
+		items: [{
+			item: "minecraft:end_bricks"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "68fb6051",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5bf9c9ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

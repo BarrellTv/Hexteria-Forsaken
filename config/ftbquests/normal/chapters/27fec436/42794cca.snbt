@@ -1,0 +1,9 @@
+{
+	x: -9.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: "cfc9b709",
+		type: "checkmark",
+		title: "Stage 1 Mods"
+	}]
+}

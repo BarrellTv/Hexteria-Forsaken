@@ -1,0 +1,34 @@
+{
+	x: -0.5d,
+	y: -8.0d,
+	dependencies: [
+		"07419038"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ace5b5cb",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2746a447",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "80893fa2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

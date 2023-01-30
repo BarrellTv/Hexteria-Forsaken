@@ -1,0 +1,23 @@
+{
+	title: "Sell Shop",
+	icon: {
+		id: "lodsofemone:coin_big",
+		tag: {
+			value: 10000L
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.0d,
+		y: 6.0d,
+		width: 2.5d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "minecraft:shop.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

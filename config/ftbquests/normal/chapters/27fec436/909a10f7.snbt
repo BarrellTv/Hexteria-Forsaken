@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -5.5d,
+	dependencies: [
+		"3a5d70c7",
+		"d5dc9a37"
+	],
+	tasks: [{
+		uid: "acd69a62",
+		type: "checkmark",
+		title: "Finish Extreme Reactor",
+		icon: "bigreactors:reactorcontroller"
+	}],
+	rewards: [{
+		uid: "4c2d5b15",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "b51c7e36",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

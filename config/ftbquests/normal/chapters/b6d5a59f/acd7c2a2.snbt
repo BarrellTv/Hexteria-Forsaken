@@ -1,0 +1,41 @@
+{
+	x: -1.5d,
+	y: -12.0d,
+	dependencies: [
+		"d64dfbff"
+	],
+	tasks: [{
+		uid: "afb44ace",
+		type: "item",
+		items: [{
+			item: "bewitchment:hecates_visage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0eb66f9",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "55ec0272",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "ff7d3551",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

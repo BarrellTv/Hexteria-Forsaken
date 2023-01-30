@@ -1,0 +1,42 @@
+{
+	x: -7.0d,
+	y: -6.5d,
+	dependencies: [
+		"a4da1b35"
+	],
+	tasks: [{
+		uid: "133ef697",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "80e15464",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "94e8f24f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "64433924",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

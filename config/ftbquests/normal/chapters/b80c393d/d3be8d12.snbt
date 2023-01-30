@@ -1,0 +1,41 @@
+{
+	x: -3.0d,
+	y: -8.5d,
+	dependencies: [
+		"ce7dd020"
+	],
+	tasks: [{
+		uid: "2345dee1",
+		type: "item",
+		items: [{
+			item: "projectex:arcane_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fd18fd1",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "c4956cf4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "a490867d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

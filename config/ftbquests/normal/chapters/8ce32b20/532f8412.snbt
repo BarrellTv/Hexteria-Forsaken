@@ -1,0 +1,39 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	dependencies: [
+		"236b4c94"
+	],
+	tasks: [{
+		uid: "274bd456",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "30a33063",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "590eaf82",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "0cc15001",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

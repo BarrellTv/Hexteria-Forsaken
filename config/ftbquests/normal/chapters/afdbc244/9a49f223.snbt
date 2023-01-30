@@ -1,0 +1,68 @@
+{
+	x: -0.5d,
+	y: 7.0d,
+	dependencies: [
+		"5785724e"
+	],
+	tasks: [{
+		uid: "1d6cea08",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "e1b32276",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	},
+	{
+		uid: "849ca767",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "6d87c6be",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 480"
+		}]
+	},
+	{
+		uid: "87bd3390",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 400"
+		}]
+	}],
+	rewards: [{
+		uid: "5578e804",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "1e997ec6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "f8deb61b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	}]
+}

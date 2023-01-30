@@ -1,0 +1,68 @@
+{
+	x: -2.5d,
+	y: 12.0d,
+	dependencies: [
+		"7b9d899b"
+	],
+	tasks: [{
+		uid: "2e5ef5bd",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "101a4989",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af0806b1",
+		type: "item",
+		items: [{
+			item: "botania:terrasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f0d3b13",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "603dbea0",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "6fe3d91c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "3dd5bf58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

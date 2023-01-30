@@ -1,0 +1,32 @@
+{
+	x: 15.5d,
+	y: -9.0d,
+	dependencies: [
+		"f5e4cd4b"
+	],
+	tasks: [{
+		uid: "7e542525",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_phantom_bridge",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "596b0012",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "46be3ad3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

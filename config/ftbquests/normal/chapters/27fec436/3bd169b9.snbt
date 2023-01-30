@@ -1,0 +1,29 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: -9.5d,
+	y: -3.5d,
+	dependencies: [
+		"e0439c4b",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "ec60433f",
+		type: "checkmark",
+		title: "Finish The End"
+	}],
+	rewards: [{
+		uid: "a5207272",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "8ee4d983",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,71 @@
+{
+	x: -7.5d,
+	y: 4.5d,
+	dependencies: [
+		"88627c93",
+		"598cfbfe",
+		"bbb565c1",
+		"3643bd4f"
+	],
+	tasks: [{
+		uid: "56430e51",
+		type: "item",
+		items: [{
+			id: "ae2wtlib:wut",
+			tag: {
+				StoredTerminals: [{
+					id: "wft:wft",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wit:wit",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				InfinityEnergy: 0,
+				SelectedTerminal: 0,
+				internalCurrentPower: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0facd163",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "d78e915b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "18272596",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	}]
+}

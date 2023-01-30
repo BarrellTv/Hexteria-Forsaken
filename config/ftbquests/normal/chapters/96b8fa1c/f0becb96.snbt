@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "6d808181",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "56effa24",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

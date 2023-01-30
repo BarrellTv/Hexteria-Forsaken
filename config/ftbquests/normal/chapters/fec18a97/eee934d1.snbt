@@ -1,0 +1,39 @@
+{
+	x: 14.0d,
+	y: -5.0d,
+	dependencies: [
+		"f5e4cd4b"
+	],
+	tasks: [{
+		uid: "486806df",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a9a973f9",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "008b2a36",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "ebb0d3cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

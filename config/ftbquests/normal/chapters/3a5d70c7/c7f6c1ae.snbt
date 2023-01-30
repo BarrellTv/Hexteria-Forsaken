@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	dependencies: [
+		"15af41ac"
+	],
+	tasks: [{
+		uid: "e15183e2",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinefluidport"
+		}]
+	}],
+	rewards: [{
+		uid: "0d11f68a",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "6d69647a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

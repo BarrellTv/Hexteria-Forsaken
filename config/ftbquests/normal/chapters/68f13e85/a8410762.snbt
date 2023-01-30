@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	dependencies: [
+		"e8b136d5",
+		"c7abb885"
+	],
+	tasks: [{
+		uid: "fc99cf01",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e10a7937",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c9cb9da3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

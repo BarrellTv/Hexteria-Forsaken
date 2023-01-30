@@ -1,0 +1,10 @@
+{
+	title: "Applied Energistics 2",
+	icon: {
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 866336272,
+	default_quest_shape: ""
+}

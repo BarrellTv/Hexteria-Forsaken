@@ -1,0 +1,44 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"52b5a4a3"
+	],
+	tasks: [{
+		uid: "0a093cce",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 5
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77d0ec77",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "da5ce448",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "0448c723",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

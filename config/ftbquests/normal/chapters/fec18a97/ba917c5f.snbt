@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -6.5d,
+	dependencies: [
+		"d1b2c4e7"
+	],
+	tasks: [{
+		uid: "9d7a61e0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "2ad974a7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a278b490",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

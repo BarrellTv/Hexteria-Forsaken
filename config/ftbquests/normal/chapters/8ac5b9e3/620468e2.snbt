@@ -1,0 +1,28 @@
+{
+	title: "Challenging Start",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Must Buy Your Way Into The Harder Quest ;)"
+	],
+	tasks: [{
+		uid: "9c640a20",
+		type: "ftbmoney:money",
+		value: 10000L
+	}],
+	rewards: [{
+		uid: "56438ddf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3ec5d16c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

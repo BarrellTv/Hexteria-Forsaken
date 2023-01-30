@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	dependencies: [
+		"50af03b6"
+	],
+	tasks: [{
+		uid: "60f78f41",
+		type: "item",
+		items: [{
+			item: "bhc:yellow_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "aaf7a470",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "c7fb8c64",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 3
+	}]
+}

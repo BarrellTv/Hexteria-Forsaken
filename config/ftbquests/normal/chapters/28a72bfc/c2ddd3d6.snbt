@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"0af10b3b",
+		"f7fcd03f"
+	],
+	tasks: [{
+		uid: "5196b303",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2"
+		}]
+	}],
+	rewards: [{
+		uid: "79934096",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "60e6ed1f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

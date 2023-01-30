@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"5d8f8f99"
+	],
+	tasks: [{
+		uid: "d725f815",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_breath"
+		}]
+	}],
+	rewards: [{
+		uid: "fc3109d6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "13ffca08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"Plant The Trees You Have Or Find A Space Village To Harvest Wood From."
+	],
+	dependencies: [
+		"581aeba5"
+	],
+	tasks: [{
+		uid: "4bb50f11",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "66734995",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

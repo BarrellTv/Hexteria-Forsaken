@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: -8.0d,
+	dependencies: [
+		"19176602"
+	],
+	tasks: [{
+		uid: "add03a84",
+		type: "item",
+		items: [{
+			item: "animus:sigil_storm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4f4a5ee",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ec0c1a1b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

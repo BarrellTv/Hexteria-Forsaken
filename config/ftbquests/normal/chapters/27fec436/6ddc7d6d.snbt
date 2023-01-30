@@ -1,0 +1,29 @@
+{
+	icon: "tconstruct:seared_tank",
+	x: -8.5d,
+	y: -4.5d,
+	dependencies: [
+		"ca97590c",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "bf0c64f5",
+		type: "checkmark",
+		title: "Finish Tinkers"
+	}],
+	rewards: [{
+		uid: "36158ae3",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "dc2e6733",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

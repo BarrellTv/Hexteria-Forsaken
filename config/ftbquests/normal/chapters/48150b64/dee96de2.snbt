@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"f877b4d8"
+	],
+	tasks: [{
+		uid: "7fae24be",
+		type: "item",
+		items: [{
+			item: "netherex:frosted_wither_bone"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "90ba9675",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "16402d84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

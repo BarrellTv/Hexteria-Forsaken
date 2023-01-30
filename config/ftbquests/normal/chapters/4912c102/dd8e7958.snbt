@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	dependencies: [
+		"2ea1e759"
+	],
+	tasks: [{
+		uid: "5df11935",
+		type: "item",
+		items: [{
+			item: "ironchest:copper_silver_shulker_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7619d7d3",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "bf344f0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

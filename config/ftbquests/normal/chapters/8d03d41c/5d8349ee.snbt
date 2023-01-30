@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"d79d3320"
+	],
+	tasks: [{
+		uid: "924fdd83",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0a97bda5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "bffdb665",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

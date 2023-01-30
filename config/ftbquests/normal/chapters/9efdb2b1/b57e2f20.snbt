@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"96d87a36"
+	],
+	tasks: [{
+		uid: "744b7de2",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "7caa1978",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "be66a7c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

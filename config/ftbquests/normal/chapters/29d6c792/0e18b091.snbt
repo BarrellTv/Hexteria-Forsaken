@@ -1,0 +1,28 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	dependencies: [
+		"b327340d"
+	],
+	tasks: [{
+		uid: "c8777d4e",
+		type: "dimension",
+		title: "&5[Tier.6] &fVisit Planet: &2Uranus",
+		dim: -17
+	}],
+	rewards: [{
+		uid: "95665849",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "0a27763b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

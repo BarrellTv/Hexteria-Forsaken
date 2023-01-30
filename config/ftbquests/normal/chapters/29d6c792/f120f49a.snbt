@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"b22dfe72"
+	],
+	tasks: [{
+		uid: "ebf1861c",
+		type: "dimension",
+		title: "&b[Tier.3] &fVisit Location: &2Planet Asteriods",
+		dim: -30
+	}],
+	rewards: [{
+		uid: "f776d7e8",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "a14d58fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

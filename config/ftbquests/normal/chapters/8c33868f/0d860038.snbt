@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: -7.0d,
+	dependencies: [
+		"268c5300"
+	],
+	tasks: [{
+		uid: "a394fe5c",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6b557bc6",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "9a1d0ae9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

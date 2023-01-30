@@ -1,0 +1,32 @@
+{
+	x: 15.5d,
+	y: -8.0d,
+	dependencies: [
+		"f5e4cd4b"
+	],
+	tasks: [{
+		uid: "414c1ae2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_suppression",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1932afdc",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "a1b7c0f9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

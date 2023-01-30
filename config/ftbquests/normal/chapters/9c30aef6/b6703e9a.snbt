@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	dependencies: [
+		"19612d5e"
+	],
+	tasks: [{
+		uid: "d9164b44",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ce13c8e8",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ab2ee806",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

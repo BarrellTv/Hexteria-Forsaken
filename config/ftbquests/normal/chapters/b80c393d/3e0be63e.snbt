@@ -1,0 +1,53 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"2f3de25c"
+	],
+	tasks: [{
+		uid: "425acd6b",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_morning_star",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11f17bc2",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e2ea899",
+		type: "ftbmoney:money",
+		ftb_money: 35000L
+	},
+	{
+		uid: "91fe06ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "bd4e0369",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		},
+		count: 2
+	}]
+}

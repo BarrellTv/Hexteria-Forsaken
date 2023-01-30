@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"e194b232"
+	],
+	tasks: [{
+		uid: "46e15708",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "08a0d435",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "9c4afe4c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

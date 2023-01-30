@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	dependencies: [
+		"00aa6a70"
+	],
+	tasks: [{
+		uid: "ea6cac27",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "5dc9ae1a",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "441ceb5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

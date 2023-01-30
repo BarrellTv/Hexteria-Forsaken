@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -7.5d,
+	text: [
+		"To Unlock Extreme Reactors You Need To Finish The Planter Quest And Miner Quest From The Industrial Foregoing Page"
+	],
+	dependencies: [
+		"3be84774",
+		"32e9e806",
+		"85ee4695"
+	],
+	tasks: [{
+		uid: "320a89e4",
+		type: "checkmark",
+		title: "Unlock The Extreme Reactor Stage"
+	}],
+	rewards: [{
+		uid: "630fe73e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage6tech"
+	}]
+}

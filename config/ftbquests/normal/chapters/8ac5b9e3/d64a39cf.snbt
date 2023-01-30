@@ -1,0 +1,28 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	dependencies: [
+		"016a0516"
+	],
+	tasks: [{
+		uid: "679fcce2",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "8157bd70",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "a1f5c49f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

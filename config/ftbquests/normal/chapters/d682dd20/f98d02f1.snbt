@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	dependencies: [
+		"fc86d25c"
+	],
+	tasks: [{
+		uid: "c77e8a94",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b4017330",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ff845ead",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

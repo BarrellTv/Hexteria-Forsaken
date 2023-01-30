@@ -1,0 +1,60 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "a62b50cc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_invoker"
+		}]
+	},
+	{
+		uid: "54179e77",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_aplicator"
+		}]
+	},
+	{
+		uid: "ce00faa5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_extractor"
+		}]
+	},
+	{
+		uid: "631a04df",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_refiner"
+		}]
+	}],
+	rewards: [{
+		uid: "82391b2c",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "95b9e6ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "0effd5bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

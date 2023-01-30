@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"4e13656d"
+	],
+	tasks: [{
+		uid: "cad356a0",
+		type: "dimension",
+		title: "&3[Tier.4] &fVisit Planet: &2Ceres",
+		dim: -20
+	}],
+	rewards: [{
+		uid: "9be33cd2",
+		type: "ftbmoney:money",
+		ftb_money: 4500L
+	},
+	{
+		uid: "26f9ee50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

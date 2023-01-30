@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 10.5d,
+	dependencies: [
+		"8b222ee3"
+	],
+	tasks: [{
+		uid: "1a21d57f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:aluminum_wire 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3708ed63",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "07dfc3cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

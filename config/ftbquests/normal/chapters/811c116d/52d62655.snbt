@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	dependencies: [
+		"c15744a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b99b18e",
+		type: "checkmark",
+		title: "Finish Metallurgic Infuser",
+		icon: "mekanism:machineblock 1 8"
+	}],
+	rewards: [{
+		uid: "a07a1ad3",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

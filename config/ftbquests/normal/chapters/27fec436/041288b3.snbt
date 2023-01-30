@@ -1,0 +1,29 @@
+{
+	icon: "industrialforegoing:plastic",
+	x: 2.5d,
+	y: -5.5d,
+	dependencies: [
+		"3be84774",
+		"d682dd20"
+	],
+	tasks: [{
+		uid: "7d9f7235",
+		type: "checkmark",
+		title: "Finish Industrial Forgoing"
+	}],
+	rewards: [{
+		uid: "3d92bf5a",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "d7547c97",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

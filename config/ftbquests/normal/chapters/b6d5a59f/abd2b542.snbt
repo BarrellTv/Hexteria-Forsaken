@@ -1,0 +1,54 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "8a9076dd",
+		type: "item",
+		items: [{
+			item: "bewitchment:juniper_sapling"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a61ffec2",
+		type: "item",
+		items: [{
+			item: "bewitchment:elder_sapling"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ebfa0272",
+		type: "item",
+		items: [{
+			item: "bewitchment:dragons_blood_sapling"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1472e7de",
+		type: "item",
+		items: [{
+			item: "bewitchment:cypress_sapling"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5853a081",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "eae47901",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

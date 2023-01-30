@@ -1,0 +1,39 @@
+{
+	x: 8.0d,
+	y: -4.5d,
+	dependencies: [
+		"e194b232"
+	],
+	tasks: [{
+		uid: "78db8367",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "648861c5",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "dfab6627",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "1582c3af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	dependencies: [
+		"d0d9f9bc"
+	],
+	tasks: [{
+		uid: "2ed5eddb",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab1c02ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5eee6117",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

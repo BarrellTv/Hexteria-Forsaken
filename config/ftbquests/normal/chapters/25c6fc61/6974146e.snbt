@@ -1,0 +1,38 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"56a6f99b"
+	],
+	tasks: [{
+		uid: "5bcfffa9",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "67fc0aab",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "134e53da",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "67918a46",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

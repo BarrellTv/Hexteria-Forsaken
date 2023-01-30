@@ -1,0 +1,109 @@
+{
+	title: "Farming Crate Tier 5-6",
+	icon: "randomthings:specialchest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "mysticalagradditions:tier6_inferium_seeds"
+	},
+	{
+		item: "mysticalagradditions:nether_star_seeds"
+	},
+	{
+		item: "mysticalagradditions:dragon_egg_seeds"
+	},
+	{
+		item: "mysticalagradditions:awakened_draconium_seeds"
+	},
+	{
+		item: "mysticalagradditions:neutronium_seeds"
+	},
+	{
+		item: "mysticalagriculture:tier5_inferium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:titanium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:uranium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:emerald_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:diamond_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:enderium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:iridium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:platinum_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:vibrant_alloy_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:end_steel_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:manyullyn_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:refined_obsidian_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:iridium_ore_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:uranium_238_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:terrasteel_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:desh_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:draconium_seeds",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:yellorium_seeds",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "farming_crate_tier_5_6",
+		item_name: "Farming Crate Tier 5-6",
+		color: 1819148,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

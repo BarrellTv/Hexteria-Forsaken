@@ -1,0 +1,39 @@
+{
+	x: -6.0d,
+	y: 7.5d,
+	dependencies: [
+		"06d267b0"
+	],
+	tasks: [{
+		uid: "7a9211f7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}],
+	rewards: [{
+		uid: "318d2276",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "654adfc9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "c36632bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"96dc07cc"
+	],
+	tasks: [{
+		uid: "dee70e07",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7b57ee7b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a8f2ff50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

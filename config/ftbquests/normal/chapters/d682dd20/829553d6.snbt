@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	dependencies: [
+		"72f72739"
+	],
+	tasks: [{
+		uid: "04a11354",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ea02c67c",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "88aa2f8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

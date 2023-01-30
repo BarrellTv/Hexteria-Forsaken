@@ -1,0 +1,30 @@
+{
+	x: 6.5d,
+	y: -3.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "dfce474a",
+		type: "item",
+		items: [{
+			item: "bewitchment:liquid_witchcraft"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3575dd75",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "b1c4f16e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

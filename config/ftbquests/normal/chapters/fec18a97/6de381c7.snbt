@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: -9.0d,
+	dependencies: [
+		"19176602"
+	],
+	tasks: [{
+		uid: "a854e3a9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_fast_miner",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50a58ef0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "19cda434",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

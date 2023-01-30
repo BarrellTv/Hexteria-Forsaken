@@ -1,0 +1,31 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	dependencies: [
+		"0c0960bc"
+	],
+	tasks: [{
+		uid: "151faa8d",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:buggy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0fb1fef",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "92bfe0a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

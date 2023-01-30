@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	dependencies: [
+		"d77bb032"
+	],
+	tasks: [{
+		uid: "a6cbd3f8",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "62928f52",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "03d268d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

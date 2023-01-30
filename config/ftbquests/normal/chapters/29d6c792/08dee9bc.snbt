@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"b22dfe72"
+	],
+	tasks: [{
+		uid: "d45e0a84",
+		type: "dimension",
+		title: "&b[Tier.3] &fVisit Planet: &2Venus",
+		dim: -31
+	}],
+	rewards: [{
+		uid: "7d90bf7f",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "47f04e0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

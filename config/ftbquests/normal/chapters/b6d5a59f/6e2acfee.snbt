@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	dependencies: [
+		"fac33fc4",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "46eb5815",
+		type: "item",
+		items: [{
+			item: "bewitchment:oil_of_vitriol"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9571ea1e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "007bc52c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

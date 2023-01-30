@@ -1,0 +1,86 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "128830b2",
+		type: "item",
+		items: [{
+			item: "bewitchment:white_sage_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "82364896",
+		type: "item",
+		items: [{
+			item: "bewitchment:mandrake_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "887227cb",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellebore_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9a28e8c6",
+		type: "item",
+		items: [{
+			item: "bewitchment:garlic_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "44ec96f3",
+		type: "item",
+		items: [{
+			item: "bewitchment:belladonna_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4634ec93",
+		type: "item",
+		items: [{
+			item: "bewitchment:aconitum_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "342cc5b4",
+		type: "item",
+		items: [{
+			item: "bewitchment:wormwood_seeds"
+		}],
+		count: 8L
+	},
+	{
+		uid: "939880db",
+		type: "item",
+		items: [{
+			item: "bewitchment:spanish_moss"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "273a8d19",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f768691d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

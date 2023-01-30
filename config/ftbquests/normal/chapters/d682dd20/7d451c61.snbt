@@ -1,0 +1,39 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"73a5cc07"
+	],
+	tasks: [{
+		uid: "7b7038d4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:biofuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "0accbc2b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "1129b9ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "28cf220b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

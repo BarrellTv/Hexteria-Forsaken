@@ -1,0 +1,43 @@
+{
+	title: "Tier 3 Inferium Seed",
+	x: -3.5d,
+	y: 2.5d,
+	dependencies: [
+		"0fb8019c",
+		"00aa6a70"
+	],
+	tasks: [{
+		uid: "0e31760d",
+		type: "item",
+		title: "Tier 3 Inferium Seed",
+		items: [{
+			item: "mysticalagriculture:tier3_inferium_seeds"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fa2f77f8",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "92864e2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "5b9f3748",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	}]
+}

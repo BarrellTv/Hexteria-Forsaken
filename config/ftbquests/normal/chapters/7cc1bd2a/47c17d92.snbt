@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"f7ef8e2c"
+	],
+	tasks: [{
+		uid: "ba781186",
+		type: "item",
+		items: [{
+			item: "extraplanets:basic_purifier"
+		}]
+	}],
+	rewards: [{
+		uid: "faff82e4",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "04e6cfd2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

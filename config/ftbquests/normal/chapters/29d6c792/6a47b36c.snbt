@@ -1,0 +1,29 @@
+{
+	title: "&6[Tier.2] &fVisit Planet: &2Mars",
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"3f75c46b"
+	],
+	tasks: [{
+		uid: "3a047ab1",
+		type: "dimension",
+		title: "&6[Tier.2] &fVisit Planet: &2Mars",
+		dim: -29
+	}],
+	rewards: [{
+		uid: "a8f91a28",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "2f1ef309",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

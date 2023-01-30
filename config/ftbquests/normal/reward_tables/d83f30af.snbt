@@ -1,0 +1,731 @@
+{
+	title: "Galaxy Package",
+	icon: "moreplanets:alien_chest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "galacticraftcore:enclosed 1 14",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 15",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 1",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 2",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 3",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 5",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 6",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:enclosed 1 13",
+		count: 8
+	},
+	{
+		item: "galacticraftplanets:walkway",
+		count: 8
+	},
+	{
+		item: "galacticraftplanets:walkway 1 1",
+		count: 8
+	},
+	{
+		item: "galacticraftplanets:walkway 1 2",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:air_lock_frame",
+		count: 4
+	},
+	{
+		item: "galacticraftcore:enclosed 1 14",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 15",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 1",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 2",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 3",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 5",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 6",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:enclosed 1 13",
+		count: 16
+	},
+	{
+		item: "galacticraftplanets:walkway",
+		count: 16
+	},
+	{
+		item: "galacticraftplanets:walkway 1 1",
+		count: 16
+	},
+	{
+		item: "galacticraftplanets:walkway 1 2",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:air_lock_frame",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:air_lock_frame 1 1"
+	},
+	{
+		item: "galacticraftcore:solar"
+	},
+	{
+		item: "galacticraftcore:solar 1 4"
+	},
+	{
+		item: "galacticraftcore:space_glass_clear",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:space_glass_vanilla",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:space_glass_strong",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_light_full 1 900"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_light_full"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_med_full"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_med_full 1 1800"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_heavy_full"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_heavy_full 1 2700"
+	},
+	{
+		item: "galacticraftcore:basic_item 1 19"
+	},
+	{
+		item: "galacticraftcore:air_lock_frame 1 1",
+		count: 2
+	},
+	{
+		item: "galacticraftcore:solar",
+		count: 2
+	},
+	{
+		item: "galacticraftcore:solar 1 4",
+		count: 2
+	},
+	{
+		item: "galacticraftcore:space_glass_clear",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:space_glass_vanilla",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:space_glass_strong",
+		count: 32
+	},
+	{
+		item: "galacticraftplanets:basic_item_venus"
+	},
+	{
+		item: "galacticraftcore:emergency_kit"
+	},
+	{
+		item: {
+			id: "galacticraftcore:battery",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "galacticraftcore:battery",
+			tag: {
+				electricity: 15000.0f
+			}
+		}
+	},
+	{
+		item: "galacticraftplanets:thermal_padding"
+	},
+	{
+		item: "galacticraftplanets:thermal_padding 1 1"
+	},
+	{
+		item: "galacticraftplanets:thermal_padding 1 2"
+	},
+	{
+		item: "galacticraftplanets:thermal_padding 1 3"
+	},
+	{
+		item: "galacticraftcore:steel_helmet"
+	},
+	{
+		item: "galacticraftcore:steel_chestplate"
+	},
+	{
+		item: "galacticraftcore:steel_leggings"
+	},
+	{
+		item: "galacticraftcore:steel_boots"
+	},
+	{
+		item: "extraplanets:solar"
+	},
+	{
+		item: "extraplanets:solar 1 4"
+	},
+	{
+		item: "extraplanets:mercury_pickaxe"
+	},
+	{
+		item: "extraplanets:mercury_axe"
+	},
+	{
+		item: "extraplanets:mercury_sword"
+	},
+	{
+		item: "extraplanets:carbon_pickaxe"
+	},
+	{
+		item: "extraplanets:carbon_axe"
+	},
+	{
+		item: "extraplanets:carbon_sword"
+	},
+	{
+		item: "extraplanets:uranium_pickaxe"
+	},
+	{
+		item: "extraplanets:uranium_axe"
+	},
+	{
+		item: "extraplanets:uranium_sword"
+	},
+	{
+		item: "extraplanets:palladium_pickaxe"
+	},
+	{
+		item: "extraplanets:palladium_axe"
+	},
+	{
+		item: "extraplanets:solar",
+		count: 2
+	},
+	{
+		item: "extraplanets:solar 1 4",
+		count: 2
+	},
+	{
+		item: "extraplanets:palladium_sword"
+	},
+	{
+		item: "extraplanets:red_gem_pickaxe"
+	},
+	{
+		item: "extraplanets:red_gem_axe"
+	},
+	{
+		item: "extraplanets:red_gem_sword"
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_helmet",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_jetpack_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_legings",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier1_space_suit_gravity_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: "extraplanets:apple_iron 1 1"
+	},
+	{
+		item: "extraplanets:apple_iron"
+	},
+	{
+		item: "extraplanets:apple_diamond 1 1"
+	},
+	{
+		item: "extraplanets:apple_diamond"
+	},
+	{
+		item: "extraplanets:oxygen_tank_very_heavy_full"
+	},
+	{
+		item: "extraplanets:oxygen_tank_very_heavy_full 1 7200"
+	},
+	{
+		item: "extraplanets:oxygen_tank_extremely_heavy_full"
+	},
+	{
+		item: "extraplanets:oxygen_tank_extremely_heavy_full 1 9000"
+	},
+	{
+		item: "extraplanets:tier1_kit 1 4"
+	},
+	{
+		item: "extraplanets:tier2_kit 1 4"
+	},
+	{
+		item: "extraplanets:tier3_kit 1 4"
+	},
+	{
+		item: "extraplanets:tier4_kit 1 4"
+	},
+	{
+		item: "extraplanets:tier5_kit 1 4"
+	},
+	{
+		item: "extraplanets:apple_iron 1 1",
+		count: 2
+	},
+	{
+		item: "extraplanets:apple_iron",
+		count: 2
+	},
+	{
+		item: "extraplanets:apple_diamond 1 1",
+		count: 2
+	},
+	{
+		item: "extraplanets:apple_diamond",
+		count: 2
+	},
+	{
+		item: "moreplanets:infected_golden_apple"
+	},
+	{
+		item: "moreplanets:enchanted_infected_golden_apple"
+	},
+	{
+		item: "moreplanets:alien_berry",
+		count: 32
+	},
+	{
+		item: "moreplanets:golden_alien_berry",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:flag"
+	},
+	{
+		item: "galacticraftcore:buggy"
+	},
+	{
+		item: "galacticraftcore:fuel_canister_partial 1 1"
+	},
+	{
+		item: "galacticraftcore:oil_canister_partial 1 1001"
+	},
+	{
+		item: "galacticraftcore:oil_canister_partial 1 1001"
+	},
+	{
+		item: "galacticraftcore:aluminum_wire",
+		count: 64
+	},
+	{
+		item: "galacticraftcore:aluminum_wire 1 1",
+		count: 64
+	},
+	{
+		item: "galacticraftcore:aluminum_wire 1 2",
+		count: 16
+	},
+	{
+		item: "galacticraftcore:aluminum_wire 1 3",
+		count: 16
+	},
+	{
+		item: "moreplanets:infected_golden_apple",
+		count: 2
+	},
+	{
+		item: "moreplanets:enchanted_infected_golden_apple",
+		count: 2
+	},
+	{
+		item: "galacticraftcore:aluminum_wire",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:aluminum_wire 1 1",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:parachute 1 5"
+	},
+	{
+		item: "galacticraftcore:parachute 1 12"
+	},
+	{
+		item: "galacticraftcore:parachute 1 13"
+	},
+	{
+		item: "galacticraftcore:food 1 9",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:food 1 3",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:food 1 2",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:food 1 1",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:food",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:heavy_plating",
+		count: 4
+	},
+	{
+		item: "galacticraftplanets:item_basic_mars 1 3",
+		count: 4
+	},
+	{
+		item: "galacticraftplanets:item_basic_asteroids 1 5",
+		count: 4
+	},
+	{
+		item: "extraplanets:tier4_items 1 3",
+		count: 4
+	},
+	{
+		item: "extraplanets:tier5_items 1 3",
+		count: 4
+	},
+	{
+		item: "extraplanets:tier6_items 1 3",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier7_items 1 3",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier8_items 1 3",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier9_items 1 3",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier10_items 1 3",
+		count: 2
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_helmet",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_jetpack_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_legings",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier2_space_suit_gravity_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_helmet",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_jetpack_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_legings",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier3_space_suit_gravity_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_helmet",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_jetpack_chest",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_legings",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:tier4_space_suit_gravity_boots",
+			tag: {},
+			Damage: 100s
+		}
+	},
+	{
+		item: "extraplanets:tier11_items"
+	},
+	{
+		item: "extraplanets:tier11_items 1 1"
+	},
+	{
+		item: "extraplanets:tier11_items 1 2"
+	},
+	{
+		item: "extraplanets:tier11_items 1 3"
+	},
+	{
+		item: "extraplanets:tier11_items 1 4"
+	},
+	{
+		item: "extraplanets:tier11_items",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier11_items 1 1",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier11_items 1 2",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier11_items 1 3",
+		count: 2
+	},
+	{
+		item: "extraplanets:tier11_items 1 4",
+		count: 2
+	},
+	{
+		item: "extraplanets:mars_rover"
+	},
+	{
+		item: {
+			id: "extraplanets:mercury_battery",
+			tag: {
+				electricity: 100000.0f
+			}
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:nickel_battery",
+			tag: {
+				electricity: 85000.0f
+			}
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:zinc_battery",
+			tag: {
+				electricity: 125000.0f
+			}
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:advanced_battery",
+			tag: {
+				electricity: 150000.0f
+			}
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:ultimate_battery",
+			tag: {
+				electricity: 200000.0f
+			}
+		}
+	},
+	{
+		item: {
+			id: "extraplanets:massive_battery",
+			tag: {
+				electricity: 500000.0f
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "galaxy_package",
+		item_name: "Galaxy Package",
+		color: 141102,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

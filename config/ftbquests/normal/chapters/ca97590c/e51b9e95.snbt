@@ -1,0 +1,414 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"21e07a3f"
+	],
+	tasks: [{
+		uid: "54503d25",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast"
+		}]
+	},
+	{
+		uid: "d878cc35",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:helmet_core"
+			}
+		}]
+	},
+	{
+		uid: "96fde763",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hammer_head"
+			}
+		}]
+	},
+	{
+		uid: "75fce98f",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hand_guard"
+			}
+		}]
+	},
+	{
+		uid: "13274f36",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:broad_axe_head"
+			}
+		}]
+	},
+	{
+		uid: "c9f50d17",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "9f42186d",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:leggings_core"
+			}
+		}]
+	},
+	{
+		uid: "378899d2",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:cross_guard"
+			}
+		}]
+	},
+	{
+		uid: "a3e788a7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:polishing_kit"
+			}
+		}]
+	},
+	{
+		uid: "43cd9f17",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "e6b1cf2b",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "d9ed75f5",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:shard"
+			}
+		}]
+	},
+	{
+		uid: "59e8fd68",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tough_binding"
+			}
+		}]
+	},
+	{
+		uid: "9e3b6c91",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:knife_blade"
+			}
+		}]
+	},
+	{
+		uid: "15a60ece",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tough_tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "56febd06",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:armor_plate"
+			}
+		}]
+	},
+	{
+		uid: "a15b62d4",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}]
+	},
+	{
+		uid: "6f995c7b",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:scythe_head"
+			}
+		}]
+	},
+	{
+		uid: "16cf4a6d",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:chest_core"
+			}
+		}]
+	},
+	{
+		uid: "8a16309c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sign_head"
+			}
+		}]
+	},
+	{
+		uid: "62025237",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:armor_trim"
+			}
+		}]
+	},
+	{
+		uid: "83ff3c93",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:bow_string"
+			}
+		}]
+	},
+	{
+		uid: "b285d529",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "2f442c2c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	},
+	{
+		uid: "3514af90",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tcomplement:chisel_head"
+			}
+		}]
+	},
+	{
+		uid: "38649ad7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "baeeb091",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:arrow_head"
+			}
+		}]
+	},
+	{
+		uid: "bc995d9b",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "a5e53897",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pan_head"
+			}
+		}]
+	},
+	{
+		uid: "c293423a",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "98345d48",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "b0faf315",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:kama_head"
+			}
+		}]
+	},
+	{
+		uid: "7ad68001",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:bow_limb"
+			}
+		}]
+	},
+	{
+		uid: "0f784e94",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "conarm:boots_core"
+			}
+		}]
+	},
+	{
+		uid: "c5e991e5",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tcomplement:sledge_head"
+			}
+		}]
+	},
+	{
+		uid: "f9ab521c",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_plate"
+			}
+		}]
+	},
+	{
+		uid: "e37cd901",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	},
+	{
+		uid: "76de0bd9",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 3"
+		}]
+	},
+	{
+		uid: "33a5fc1a",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 2"
+		}]
+	},
+	{
+		uid: "2fbeabe3",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 1"
+		}]
+	},
+	{
+		uid: "f5f4f712",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:excavator_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4bc6f6ff",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "6f85b20d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

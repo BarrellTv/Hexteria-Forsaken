@@ -1,0 +1,38 @@
+{
+	x: -8.0d,
+	y: 0.5d,
+	dependencies: [
+		"10b5292f"
+	],
+	tasks: [{
+		uid: "46eaaf89",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35589d4d",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "fc05f852",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		},
+		count: 2
+	}]
+}

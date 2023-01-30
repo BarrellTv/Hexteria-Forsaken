@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"94c41be9"
+	],
+	tasks: [{
+		uid: "2be16d32",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e411ee95",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "f5706267",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

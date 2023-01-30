@@ -1,0 +1,45 @@
+{
+	x: 1.0d,
+	y: -6.5d,
+	dependencies: [
+		"b5e238ee",
+		"0ec93f7e",
+		"ad8f31cc"
+	],
+	tasks: [{
+		uid: "f3a43ef2",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "174b04f6",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "2a940a67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "3b016e4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		},
+		count: 2
+	}]
+}

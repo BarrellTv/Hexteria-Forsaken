@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"7c11ed23"
+	],
+	tasks: [{
+		uid: "a242a1dd",
+		type: "item",
+		items: [{
+			item: "bewitchment:taglock"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "48666686",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

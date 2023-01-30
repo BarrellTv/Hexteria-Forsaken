@@ -1,0 +1,44 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	dependencies: [
+		"b2793c4b"
+	],
+	tasks: [{
+		uid: "09a7b3b5",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1493d299",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "827a3f49",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "410147f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 16.5d,
+	y: -8.0d,
+	dependencies: [
+		"f5e4cd4b"
+	],
+	tasks: [{
+		uid: "f0599460",
+		type: "item",
+		items: [{
+			id: "animus:sigil_transposition",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e686ed6",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "2d9c23c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

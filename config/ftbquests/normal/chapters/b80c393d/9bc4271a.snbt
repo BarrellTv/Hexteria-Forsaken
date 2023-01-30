@@ -1,0 +1,40 @@
+{
+	x: -1.0d,
+	y: 12.0d,
+	dependencies: [
+		"1e5c1c38",
+		"d68e21cb"
+	],
+	tasks: [{
+		uid: "ebc724a7",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "4bd85875",
+		type: "ftbmoney:money",
+		ftb_money: 70000L
+	},
+	{
+		uid: "1201a1bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "fadebee2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

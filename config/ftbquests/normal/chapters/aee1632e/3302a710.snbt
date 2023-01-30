@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -4.0d,
+	dependencies: [
+		"761cae2d"
+	],
+	tasks: [{
+		uid: "ef3bba33",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "74bc8388",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "7762ec87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 9.0d,
+	y: 6.0d,
+	dependencies: [
+		"ecc186f4"
+	],
+	tasks: [{
+		uid: "d16e00e6",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4372c3bb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a945a027",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

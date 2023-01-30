@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: 8.5d,
+	dependencies: [
+		"2ee1e2d4"
+	],
+	tasks: [{
+		uid: "6319a554",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f43454db",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c5cda713",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

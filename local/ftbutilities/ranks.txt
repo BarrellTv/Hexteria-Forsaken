@@ -1,0 +1,21 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[player]
+default_player_rank: true
+power: 100
+example.permission: true
+example.other_permission: false
+example.permission_with_value: 0
+ftbutilities.chat.name_format: &8[&9Member&8] &a{name}&r
+
+[vip]
+power: 200
+ftbutilities.chat.name_format: &8[&6VIP&8] &a{name}&r
+example.other_permission: true
+example.permission_with_value: 15
+
+[admin]
+default_op_rank: true
+power: 1000
+ftbutilities.chat.name_format: &8[&cStaff&8] &b{name}&r
+example.permission_with_value: 100

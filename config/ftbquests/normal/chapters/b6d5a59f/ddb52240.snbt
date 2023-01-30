@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	dependencies: [
+		"182fe318",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "322734f8",
+		type: "item",
+		items: [{
+			item: "bewitchment:cleansing_balm"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7bb55ed6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "27c33ae2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"a5120740"
+	],
+	tasks: [{
+		uid: "c9c094f7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_link"
+		}]
+	},
+	{
+		uid: "001f34cf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "25f8a214",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "8bb2f9bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "890582dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

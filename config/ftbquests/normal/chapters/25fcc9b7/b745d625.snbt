@@ -1,0 +1,40 @@
+{
+	x: 1.5d,
+	y: -8.0d,
+	dependencies: [
+		"65e02b91"
+	],
+	tasks: [{
+		uid: "80c07531",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 6"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fcd1c4be",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "fb52f756",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "5fae5926",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"92a55eb3"
+	],
+	tasks: [{
+		uid: "d6f71d39",
+		type: "item",
+		items: [{
+			item: "avaritia:cosmic_meatballs"
+		}]
+	}],
+	rewards: [{
+		uid: "8e0a21b8",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "b49cefdd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

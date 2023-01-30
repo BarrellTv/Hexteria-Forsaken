@@ -1,0 +1,30 @@
+{
+	x: 10.5d,
+	y: 10.0d,
+	dependencies: [
+		"1d27a749"
+	],
+	tasks: [{
+		uid: "ae3fc743",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f122734f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2fe9dede",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

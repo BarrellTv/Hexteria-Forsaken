@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"0af10b3b",
+		"ba316bf2"
+	],
+	tasks: [{
+		uid: "27e1481c",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:flag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ee66649",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

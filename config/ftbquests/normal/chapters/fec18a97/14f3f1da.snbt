@@ -1,0 +1,33 @@
+{
+	x: 7.5d,
+	y: -8.0d,
+	dependencies: [
+		"19176602"
+	],
+	tasks: [{
+		uid: "5c306061",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_bounce",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6ee3c5f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f32ad9fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

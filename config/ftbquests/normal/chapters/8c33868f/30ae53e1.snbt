@@ -1,0 +1,42 @@
+{
+	x: -5.0d,
+	y: -8.5d,
+	dependencies: [
+		"ad70c749"
+	],
+	tasks: [{
+		uid: "1e05eedb",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "498f683f",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "3acee494",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "cecd0b37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

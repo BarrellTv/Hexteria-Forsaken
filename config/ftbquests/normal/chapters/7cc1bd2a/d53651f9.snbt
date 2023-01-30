@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"f7ef8e2c"
+	],
+	tasks: [{
+		uid: "9f6be224",
+		type: "item",
+		items: [{
+			item: "extraplanets:solar"
+		}]
+	}],
+	rewards: [{
+		uid: "346f93fb",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "328641b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

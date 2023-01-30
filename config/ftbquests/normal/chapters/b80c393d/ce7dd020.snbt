@@ -1,0 +1,41 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	dependencies: [
+		"809194cd"
+	],
+	tasks: [{
+		uid: "664c2c66",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff96ec7d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "e8aa0422",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "3401b3b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

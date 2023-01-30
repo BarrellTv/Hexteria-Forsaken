@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"f69841fb"
+	],
+	tasks: [{
+		uid: "1b4d732f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:info_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "a99f5be4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8c9807a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

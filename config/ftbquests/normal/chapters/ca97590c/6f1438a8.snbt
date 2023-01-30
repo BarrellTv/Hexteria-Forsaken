@@ -1,0 +1,39 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"0e3a7fb8",
+		"db95042a"
+	],
+	tasks: [{
+		uid: "97e5f52f",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}],
+		count: 3L
+	},
+	{
+		uid: "f9587ba1",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "05a43786",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0980d44a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

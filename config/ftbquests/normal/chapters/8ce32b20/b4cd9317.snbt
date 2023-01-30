@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	dependencies: [
+		"236b4c94"
+	],
+	tasks: [{
+		uid: "5fe9765e",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "092e194a",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "82c42f89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "b181f290",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

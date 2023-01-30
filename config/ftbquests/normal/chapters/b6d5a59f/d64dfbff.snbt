@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"These Items Can Help With Riturals & Protecting You From Curses."
+	],
+	dependencies: [
+		"51b1f944"
+	],
+	tasks: [{
+		uid: "ba543fcc",
+		type: "checkmark",
+		title: "Spell Casting Items"
+	}]
+}

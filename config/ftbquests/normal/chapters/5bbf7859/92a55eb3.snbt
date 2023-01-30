@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"91633278"
+	],
+	tasks: [{
+		uid: "d4d4b5d3",
+		type: "item",
+		items: [{
+			item: "avaritia:extreme_crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "0b134fa1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "158e7dfc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

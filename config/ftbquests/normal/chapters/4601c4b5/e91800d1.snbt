@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"366b6ddc"
+	],
+	tasks: [{
+		uid: "ded6c73d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:kyronite_crystal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3837eb9b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "8e4f8a3c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -7.0d,
+	dependencies: [
+		"0d860038"
+	],
+	tasks: [{
+		uid: "12b2a96d",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7136e804",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "581dbd43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

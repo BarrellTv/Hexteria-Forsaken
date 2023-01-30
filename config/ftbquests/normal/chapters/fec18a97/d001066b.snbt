@@ -1,0 +1,42 @@
+{
+	x: -8.5d,
+	y: -6.5d,
+	dependencies: [
+		"894c02df"
+	],
+	tasks: [{
+		uid: "396570de",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "02aa9846",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "a0c18eb1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "b9bb4e3c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

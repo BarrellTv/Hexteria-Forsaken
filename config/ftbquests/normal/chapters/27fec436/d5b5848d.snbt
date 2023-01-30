@@ -1,0 +1,29 @@
+{
+	icon: "extraplanets:item_tier10_electric_rocket 1 4",
+	x: -10.0d,
+	y: -2.5d,
+	dependencies: [
+		"7cc1bd2a",
+		"42794cca"
+	],
+	tasks: [{
+		uid: "85e5b27d",
+		type: "checkmark",
+		title: "Finish Extra Planets"
+	}],
+	rewards: [{
+		uid: "d538c688",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "2567a387",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

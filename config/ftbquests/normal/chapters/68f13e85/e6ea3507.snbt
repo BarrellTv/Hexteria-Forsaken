@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	dependencies: [
+		"1f08d54f"
+	],
+	tasks: [{
+		uid: "e540600d",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		count: 4L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "919eb334",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	dependencies: [
+		"fac33fc4",
+		"6d5283c1"
+	],
+	tasks: [{
+		uid: "11010ec8",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_ichor"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e1c13d37",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "071d1767",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

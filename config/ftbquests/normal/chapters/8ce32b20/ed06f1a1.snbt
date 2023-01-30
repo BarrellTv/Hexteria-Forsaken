@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"704e6377"
+	],
+	tasks: [{
+		uid: "87db196c",
+		type: "item",
+		items: [{
+			item: "enderio:block_wired_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "ce802a52",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "39b24715",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

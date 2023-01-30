@@ -1,0 +1,82 @@
+{
+	title: "Basic Kitchen",
+	x: 3.0d,
+	y: -2.5d,
+	dependencies: [
+		"d71ecc64"
+	],
+	tasks: [{
+		uid: "37380699",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "ed8900df",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "80711737",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "9c084999",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1d39c0d2",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ad91472f",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e28c8c9c",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "b8f8ef26",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "3328dd24",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5601209f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -13.0d,
+	y: -5.0d,
+	dependencies: [
+		"41d5e5ef"
+	],
+	tasks: [{
+		uid: "6a581f67",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier10_items 1 3"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "76e1812f",
+		type: "ftbmoney:money",
+		value: 20000L
+	}],
+	rewards: [{
+		uid: "bafaa1d7",
+		type: "item",
+		item: "extraplanets:schematic_tier10"
+	}]
+}

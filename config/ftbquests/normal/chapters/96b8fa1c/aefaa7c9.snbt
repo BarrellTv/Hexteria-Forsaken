@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3a61785c",
+		type: "item",
+		items: [{
+			item: "minecraft:spider_eye"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "962f3359",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,1316 @@
+{
+	title: "Magic Box",
+	icon: "extrautils2:creativechest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "bewitchment:cypress_sapling",
+		count: 16
+	},
+	{
+		item: "bewitchment:dragons_blood_sapling",
+		count: 16
+	},
+	{
+		item: "bewitchment:elder_sapling",
+		count: 16
+	},
+	{
+		item: "bewitchment:juniper_sapling",
+		count: 16
+	},
+	{
+		item: "bewitchment:ebb_of_death",
+		count: 4
+	},
+	{
+		item: "bewitchment:droplet_of_wisdom",
+		count: 4
+	},
+	{
+		item: "bewitchment:cloudy_oil",
+		count: 4
+	},
+	{
+		item: "bewitchment:acacia_resin",
+		count: 4
+	},
+	{
+		item: "bewitchment:heaven_extract",
+		count: 2
+	},
+	{
+		item: "bewitchment:stone_ichor",
+		count: 2
+	},
+	{
+		item: "bewitchment:oak_spirit",
+		count: 4
+	},
+	{
+		item: "bewitchment:essence_of_vitality",
+		count: 4
+	},
+	{
+		item: "bewitchment:liquid_witchcraft",
+		count: 4
+	},
+	{
+		item: "bewitchment:cleansing_balm",
+		count: 2
+	},
+	{
+		item: "bewitchment:spruce_heart",
+		count: 4
+	},
+	{
+		item: "bewitchment:birch_soul",
+		count: 4
+	},
+	{
+		item: "bewitchment:demonic_elixir",
+		count: 2
+	},
+	{
+		item: "bewitchment:fiery_unguent",
+		count: 2
+	},
+	{
+		item: "bewitchment:swirl_of_depths",
+		count: 2
+	},
+	{
+		item: "bewitchment:oil_of_vitriol",
+		count: 2
+	},
+	{
+		item: "bewitchment:otherworldly_tears",
+		count: 2
+	},
+	{
+		item: "bewitchment:gluttons_sash"
+	},
+	{
+		item: "bewitchment:horseshoe"
+	},
+	{
+		item: "bewitchment:fortunes_favor"
+	},
+	{
+		item: "bewitchment:hellish_bauble"
+	},
+	{
+		item: "bewitchment:vampiric_amulet"
+	},
+	{
+		item: "bewitchment:triskelion"
+	},
+	{
+		item: "bewitchment:hecates_visage"
+	},
+	{
+		item: "bewitchment:girdle_of_the_dryads"
+	},
+	{
+		item: "bewitchment:focal_chalk"
+	},
+	{
+		item: "bewitchment:phasing_chalk"
+	},
+	{
+		item: "bewitchment:fiery_chalk"
+	},
+	{
+		item: "bewitchment:ritual_chalk"
+	},
+	{
+		item: "bewitchment:golden_thread",
+		count: 2
+	},
+	{
+		item: "bewitchment:wormwood_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:nazar"
+	},
+	{
+		item: "bewitchment:belladonna_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:garlic_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:token_of_remedies"
+	},
+	{
+		item: "bewitchment:diabolical_vein",
+		count: 2
+	},
+	{
+		item: "bewitchment:witches_stitching",
+		count: 2
+	},
+	{
+		item: "bewitchment:hellebore_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:mandrake_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:white_sage_seeds",
+		count: 8
+	},
+	{
+		item: "bewitchment:pure_filament",
+		count: 2
+	},
+	{
+		item: "bewitchment:spirit_string",
+		count: 2
+	},
+	{
+		item: "bewitchment:candelabra_iron"
+	},
+	{
+		item: "bewitchment:candelabra_gold"
+	},
+	{
+		item: "bewitchment:goblet"
+	},
+	{
+		item: "bewitchment:spanish_moss",
+		count: 8
+	},
+	{
+		item: "bewitchment:candelabra_silver"
+	},
+	{
+		item: {
+			id: "animus:sigil_builder",
+			tag: {}
+		}
+	},
+	{
+		item: "bloodmagic:sigil_water"
+	},
+	{
+		item: "bloodmagic:sigil_lava"
+	},
+	{
+		item: "bloodmagic:sigil_divination"
+	},
+	{
+		item: "animus:sigil_storm"
+	},
+	{
+		item: "bloodmagic:sigil_seer"
+	},
+	{
+		item: "bloodmagic:sigil_void"
+	},
+	{
+		item: "bloodmagic:sigil_holding"
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_elemental_affinity",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_claw",
+			tag: {}
+		}
+	},
+	{
+		item: "animus:sigil_chains"
+	},
+	{
+		item: "animus:sigil_consumption"
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_blood_light",
+			tag: {}
+		}
+	},
+	{
+		item: "bloodmagic:sigil_transposition"
+	},
+	{
+		item: {
+			id: "animus:sigil_transposition",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_haste",
+			tag: {}
+		}
+	},
+	{
+		item: "bloodmagic:sigil_air"
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_bounce",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_frost",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_green_grove",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_fast_miner",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "animus:sigil_leech",
+			tag: {}
+		}
+	},
+	{
+		item: "bloodmagic:sigil_teleposition"
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_ender_severance",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_compression",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_phantom_bridge",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_suppression",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sigil_magnetism",
+			tag: {
+				binding: {
+					name: "Barrell",
+					id: {
+						L: -8891909416289502099L,
+						M: 1772147916999049291L
+					}
+				}
+			}
+		}
+	},
+	{
+		item: "bloodmagic:blood_rune 1 1",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 3",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 4",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 5",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 10",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 9",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 8",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 6",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 7",
+		count: 4
+	},
+	{
+		item: "minecraft:dragon_egg"
+	},
+	{
+		item: "enderio:block_enderman_skull"
+	},
+	{
+		item: "minecraft:skull 1 5"
+	},
+	{
+		item: "minecraft:skull 1 4"
+	},
+	{
+		item: "minecraft:skull 1 2"
+	},
+	{
+		item: "bloodmagic:decorative_brick",
+		count: 4
+	},
+	{
+		item: "bloodmagic:decorative_brick",
+		count: 2
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 64
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 32
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:ender_eye",
+		count: 4
+	},
+	{
+		item: "minecraft:ender_eye",
+		count: 2
+	},
+	{
+		item: "minecraft:dragon_breath"
+	},
+	{
+		item: "bewitchment:sanguine_cloth",
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farming_crate_tier_5_6"
+			}
+		}
+	},
+	{
+		item: "bewitchment:mandrake_root",
+		count: 4
+	},
+	{
+		item: "bewitchment:white_sage",
+		count: 4
+	},
+	{
+		item: "bewitchment:wormwood",
+		count: 4
+	},
+	{
+		item: "bewitchment:elderberries",
+		count: 4
+	},
+	{
+		item: "bewitchment:juniper_berries",
+		count: 4
+	},
+	{
+		item: "bewitchment:lizard_leg",
+		count: 2
+	},
+	{
+		item: "bewitchment:owlets_wing",
+		count: 2
+	},
+	{
+		item: "bewitchment:ravens_feather",
+		count: 4
+	},
+	{
+		item: "bewitchment:adders_fork",
+		count: 2
+	},
+	{
+		item: "bewitchment:tongue_of_dog",
+		count: 4
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "narslimmus"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "spectrolus"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "rafflowsia"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "dandelifeon"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "botania:fertilizer",
+		count: 64
+	},
+	{
+		item: "botania:flower",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 1",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 2",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 3",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 4",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 5",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 6",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 7",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 8",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 9",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 10",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 11",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 12",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 13",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 14",
+		count: 4
+	},
+	{
+		item: "botania:flower 1 15",
+		count: 4
+	},
+	{
+		item: "botania:petal",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 1",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 2",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 3",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 4",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 5",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 6",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 7",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 8",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 9",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 10",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 11",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 12",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 13",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 14",
+		count: 8
+	},
+	{
+		item: "botania:petal 1 15",
+		count: 8
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 10,
+				color2: 10,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 11,
+				color2: 11,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 14,
+				color2: 14,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}
+	},
+	{
+		item: "botania:rune"
+	},
+	{
+		item: "botania:rune",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 1"
+	},
+	{
+		item: "botania:rune 1 1",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 2"
+	},
+	{
+		item: "botania:rune 1 2",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 3"
+	},
+	{
+		item: "botania:rune 1 3",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 4"
+	},
+	{
+		item: "botania:rune 1 4",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 5"
+	},
+	{
+		item: "botania:rune 1 5",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 6"
+	},
+	{
+		item: "botania:rune 1 6",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 7"
+	},
+	{
+		item: "botania:rune 1 7",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 8"
+	},
+	{
+		item: "botania:rune 1 8",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 9"
+	},
+	{
+		item: "botania:rune 1 9",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 10"
+	},
+	{
+		item: "botania:rune 1 10",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 11"
+	},
+	{
+		item: "botania:rune 1 11",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 12"
+	},
+	{
+		item: "botania:rune 1 12",
+		count: 2
+	},
+	{
+		item: "botania:rune 1 15"
+	},
+	{
+		item: "botania:rune 1 15",
+		count: 2
+	},
+	{
+		item: "botania:pool"
+	},
+	{
+		item: "botania:pool 1 2"
+	},
+	{
+		item: "botania:pool 1 3"
+	},
+	{
+		item: "botania:livingwood",
+		count: 4
+	},
+	{
+		item: "botania:livingwood",
+		count: 8
+	},
+	{
+		item: "botania:livingrock",
+		count: 4
+	},
+	{
+		item: "botania:livingrock",
+		count: 8
+	},
+	{
+		item: "botania:manaresource"
+	},
+	{
+		item: "botania:manaresource",
+		count: 2
+	},
+	{
+		item: "botania:manaresource",
+		count: 3
+	},
+	{
+		item: "botania:manaresource 1 1"
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 3
+	},
+	{
+		item: "botania:manaresource 1 2"
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 3
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:floatingspecialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "botania:magnetring",
+			tag: {}
+		}
+	},
+	{
+		item: "botania:spreader"
+	},
+	{
+		item: "botania:spreader",
+		count: 2
+	},
+	{
+		item: "botania:spreader",
+		count: 3
+	},
+	{
+		item: "botania:runealtar"
+	},
+	{
+		item: "botania:terraplate"
+	},
+	{
+		item: "botania:spreader 1 1"
+	},
+	{
+		item: "botania:spreader 1 1",
+		count: 2
+	},
+	{
+		item: "botania:pylon"
+	},
+	{
+		item: "botania:pylon",
+		count: 2
+	},
+	{
+		item: "botania:pylon",
+		count: 3
+	},
+	{
+		item: "botania:pylon 1 1"
+	},
+	{
+		item: "botania:pylon 1 1",
+		count: 2
+	},
+	{
+		item: "botania:pylon 1 1",
+		count: 3
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 8"
+	},
+	{
+		item: "botania:manaresource 1 9"
+	},
+	{
+		item: "projecte:item.pe_repair_talisman"
+	},
+	{
+		item: "bewitchment:aconitum",
+		count: 4
+	},
+	{
+		item: "bewitchment:belladonna",
+		count: 4
+	},
+	{
+		item: "bewitchment:garlic",
+		count: 4
+	},
+	{
+		item: "bewitchment:hellebore",
+		count: 4
+	},
+	{
+		item: "bewitchment:eye_of_old"
+	},
+	{
+		item: "bewitchment:hoof",
+		count: 2
+	},
+	{
+		item: "bewitchment:demon_heart"
+	},
+	{
+		item: "bewitchment:heart"
+	},
+	{
+		item: "bewitchment:hellhound_horn"
+	},
+	{
+		item: "bewitchment:toe_of_frog",
+		count: 2
+	},
+	{
+		item: "projecte:item.pe_covalence_dust",
+		count: 4
+	},
+	{
+		item: "projecte:item.pe_covalence_dust 1 1",
+		count: 4
+	},
+	{
+		item: "projecte:item.pe_covalence_dust 1 2",
+		count: 2
+	},
+	{
+		item: {
+			id: "botania:thorring",
+			tag: {
+				soulbindUUID: "394389d0-d9e1-4832-b196-3829c04426b1"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:odinring",
+			tag: {
+				soulbindUUID: "394389d0-d9e1-4832-b196-3829c04426b1"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:lokiring",
+			tag: {
+				soulbindUUID: "394389d0-d9e1-4832-b196-3829c04426b1"
+			}
+		}
+	},
+	{
+		item: "botania:blacklotus"
+	},
+	{
+		item: "botania:blacklotus",
+		count: 2
+	},
+	{
+		item: "botania:blacklotus",
+		count: 3
+	},
+	{
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		item: "botania:blacklotus 1 1",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:fertilized_essence",
+		count: 32
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 32
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 16
+	},
+	{
+		item: "mysticalagriculture:crafting 1 1",
+		count: 16
+	},
+	{
+		item: "mysticalagriculture:crafting 1 1",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:crafting 1 2",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:crafting 1 3",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 4",
+		count: 2
+	},
+	{
+		item: "mysticalagriculture:crafting 1 4"
+	},
+	{
+		item: "mysticalagradditions:insanium",
+		count: 2
+	},
+	{
+		item: "mysticalagradditions:insanium"
+	},
+	{
+		item: "mysticalagradditions:stuff 1 69"
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:luck_of_the_sea"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:health"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:growth"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:alchemist"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:generic_protection"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:treasure_sands"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:atkdmg_ranged"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:enchanter"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:ender_manipulator"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:xp+"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:enchanting"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:crafter"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:anvil"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "magic_box",
+		item_name: "Magic Box",
+		color: 2884682,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

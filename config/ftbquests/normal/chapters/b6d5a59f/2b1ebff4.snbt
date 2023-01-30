@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	dependencies: [
+		"a22e12c3"
+	],
+	tasks: [{
+		uid: "ac921b70",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_stitching"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "be82d5e3",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "42d92825",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

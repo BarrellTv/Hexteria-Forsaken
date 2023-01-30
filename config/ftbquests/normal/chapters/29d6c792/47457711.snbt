@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	dependencies: [
+		"4e13656d"
+	],
+	tasks: [{
+		uid: "8dd817bd",
+		type: "dimension",
+		title: "&3[Tier.4] &fVisit Planet: &2Jupiter",
+		dim: -15
+	}],
+	rewards: [{
+		uid: "11677916",
+		type: "ftbmoney:money",
+		ftb_money: 4500L
+	},
+	{
+		uid: "3e7fcab4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

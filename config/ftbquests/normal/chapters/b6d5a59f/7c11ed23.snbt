@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"601ebad0"
+	],
+	tasks: [{
+		uid: "dda1b143",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "b07df2b8",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "1bcc2381",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

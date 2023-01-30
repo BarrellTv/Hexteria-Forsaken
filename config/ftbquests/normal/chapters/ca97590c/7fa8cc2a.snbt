@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	dependencies: [
+		"21e07a3f"
+	],
+	tasks: [{
+		uid: "e9026c5d",
+		type: "item",
+		items: [{
+			id: "guideapi:bloodmagic-guide",
+			tag: {
+				G-API_Category_Page: 0,
+				G-API_Category: 3,
+				G-API_Entry_Page: 0,
+				G-API_Page: 4,
+				G-API_Entry: "minecraft:guide.bloodmagic.entry.ritual.intro"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: 8.0d,
+	y: -13.0d,
+	dependencies: [
+		"eeaa9ab1"
+	],
+	tasks: [{
+		uid: "8b58c2c9",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "986f4868",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "47b32d87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "81cbd954",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		},
+		count: 2
+	}]
+}

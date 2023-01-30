@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"b22dfe72"
+	],
+	tasks: [{
+		uid: "a62b9a6c",
+		type: "dimension",
+		title: "&b[Tier.3] &fVisit Planet: &2Diona",
+		dim: -2542
+	}],
+	rewards: [{
+		uid: "6e246208",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "ddcb62be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "galaxy_package"
+			}
+		}
+	}]
+}

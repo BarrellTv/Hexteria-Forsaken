@@ -1,0 +1,32 @@
+{
+	title: "Tier 1 Inferium Seed",
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"c9c53482"
+	],
+	tasks: [{
+		uid: "d2e0d713",
+		type: "item",
+		title: "Tier 1 Inferium Seed",
+		items: [{
+			item: "mysticalagriculture:tier1_inferium_seeds"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6a1a5ceb",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "819d06cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

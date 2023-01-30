@@ -1,0 +1,29 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	dependencies: [
+		"88e5947c"
+	],
+	tasks: [{
+		uid: "d4bb4bcb",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "fee2416e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0db80d86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

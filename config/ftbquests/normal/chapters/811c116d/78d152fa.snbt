@@ -1,0 +1,44 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	dependencies: [
+		"68023a0e"
+	],
+	tasks: [{
+		uid: "be1b4e86",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09b3991a",
+		type: "ftbmoney:money",
+		ftb_money: 7500L
+	},
+	{
+		uid: "8fd9d79e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "70c0d892",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

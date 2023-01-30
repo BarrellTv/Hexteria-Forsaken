@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"fbecf17d"
+	],
+	tasks: [{
+		uid: "fc42669f",
+		type: "forge_energy",
+		value: 500000L
+	}],
+	rewards: [{
+		uid: "6e846a01",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}

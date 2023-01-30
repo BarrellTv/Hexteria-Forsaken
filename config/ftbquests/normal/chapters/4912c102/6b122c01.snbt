@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"3ca7e82e"
+	],
+	tasks: [{
+		uid: "a89bc155",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_gold_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "831b93f3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "62b35d07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

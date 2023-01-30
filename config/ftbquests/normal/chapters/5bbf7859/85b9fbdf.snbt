@@ -1,0 +1,32 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	dependencies: [
+		"10b5292f"
+	],
+	tasks: [{
+		uid: "4b0eaf9b",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c1c30b8",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "f43b2f02",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		},
+		count: 2
+	}]
+}

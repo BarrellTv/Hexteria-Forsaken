@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"d71ecc64"
+	],
+	tasks: [{
+		uid: "1fd7ae79",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "56ac7310",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "27e01ab6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"11523f08"
+	],
+	tasks: [{
+		uid: "31d49b66",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "837ae33a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "c061c2c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

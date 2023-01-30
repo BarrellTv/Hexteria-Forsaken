@@ -1,0 +1,30 @@
+{
+	x: 10.5d,
+	y: 3.5d,
+	dependencies: [
+		"fac33fc4"
+	],
+	tasks: [{
+		uid: "652b22ee",
+		type: "item",
+		items: [{
+			item: "bewitchment:fiery_unguent"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "775ed320",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "6a859723",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

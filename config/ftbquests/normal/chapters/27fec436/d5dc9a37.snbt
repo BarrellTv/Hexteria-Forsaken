@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: -7.5d,
+	dependencies: [
+		"08952a58"
+	],
+	tasks: [{
+		uid: "97564a66",
+		type: "checkmark",
+		title: "Stage 6 Mods"
+	}]
+}

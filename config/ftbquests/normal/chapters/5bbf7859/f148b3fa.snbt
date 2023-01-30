@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	dependencies: [
+		"5a8a465c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baa5e5ad",
+		type: "item",
+		items: [{
+			item: "avaritia:resource"
+		}]
+	}],
+	rewards: [{
+		uid: "41afd879",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "0b6fbbb6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

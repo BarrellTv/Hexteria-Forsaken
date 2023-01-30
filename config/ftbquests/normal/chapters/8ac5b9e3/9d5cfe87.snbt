@@ -1,0 +1,33 @@
+{
+	x: -0.5d,
+	y: 14.5d,
+	dependencies: [
+		"b5ee2864"
+	],
+	tasks: [{
+		uid: "7206cfd8",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8af8ac4d",
+		type: "ftbmoney:money",
+		ftb_money: 125000L
+	},
+	{
+		uid: "fbe937ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

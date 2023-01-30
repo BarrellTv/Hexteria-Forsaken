@@ -1,0 +1,37 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"The Digital Guide will explain how to use the different machines in Environmental Tech"
+	],
+	dependencies: [
+		"8b896643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc03e2df",
+		type: "checkmark",
+		title: "Environmental Tech"
+	}],
+	rewards: [{
+		uid: "787d73c7",
+		type: "item",
+		item: {
+			id: "valkyrielib:guide",
+			tag: {
+				guide_data: {
+					mainindex: {
+						x_scroll: 0,
+						y_scroll: 0,
+						index: "environmentaltech",
+						environmentaltech: {
+							index: {
+								index: "index.page.toc"
+							}
+						}
+					}
+				}
+			}
+		}
+	}]
+}

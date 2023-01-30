@@ -1,0 +1,31 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"8066e5f4"
+	],
+	tasks: [{
+		uid: "0938a85a",
+		type: "item",
+		items: [{
+			item: "mekanism:configurator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ed3dbbc",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "0437ebc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

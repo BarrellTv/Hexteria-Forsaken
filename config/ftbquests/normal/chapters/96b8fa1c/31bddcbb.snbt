@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 12.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "134c0ca4",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}],
+		count: 1024L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a5362599",
+		type: "ftbmoney:money",
+		ftb_money: 32L
+	}]
+}

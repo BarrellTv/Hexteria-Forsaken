@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"4f82d673",
+		"72f606a8"
+	],
+	tasks: [{
+		uid: "9fa774bb",
+		type: "item",
+		items: [{
+			item: "avaritiatweaks:enhancement_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "fe52491a",
+		type: "ftbmoney:money",
+		ftb_money: 150000L
+	},
+	{
+		uid: "5be8620a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

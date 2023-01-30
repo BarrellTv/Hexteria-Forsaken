@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"56a6f99b"
+	],
+	tasks: [{
+		uid: "15455963",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 7"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3c310c9e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "61278817",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

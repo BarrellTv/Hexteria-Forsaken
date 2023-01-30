@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"18ed25f6"
+	],
+	tasks: [{
+		uid: "a40612fc",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2dcbe9b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9b5457c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: -3.5d,
+	y: -11.0d,
+	dependencies: [
+		"d64dfbff"
+	],
+	tasks: [{
+		uid: "b1142198",
+		type: "item",
+		items: [{
+			item: "bewitchment:triskelion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c371d19a",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "441d6f8f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "6bc93a0a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "magic_box"
+			}
+		}
+	}]
+}

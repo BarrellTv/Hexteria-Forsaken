@@ -1,0 +1,78 @@
+{
+	title: "Miner Quest",
+	x: -2.0d,
+	y: 3.0d,
+	dependencies: [
+		"829553d6"
+	],
+	tasks: [{
+		uid: "822e075e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	},
+	{
+		uid: "df59e7f6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ee37a36d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:oredictionary_converter"
+		}]
+	},
+	{
+		uid: "bfe4ed27",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_processor"
+		}]
+	},
+	{
+		uid: "816c7ea2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:resourceful_furnace"
+		}]
+	},
+	{
+		uid: "586f84e1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fortune_addon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72f4ed93",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "6a214ff5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "8a899cd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

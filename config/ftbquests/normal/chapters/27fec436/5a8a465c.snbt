@@ -1,0 +1,22 @@
+{
+	x: 16.5d,
+	y: -7.5d,
+	text: [
+		"To Unlock The Final Stage You Must Make The Staff Of Power From The Draconic Evolution Page"
+	],
+	dependencies: [
+		"292d1655",
+		"862e1fbc"
+	],
+	tasks: [{
+		uid: "fcd8f045",
+		type: "checkmark",
+		title: "Unlock The Final Stage"
+	}],
+	rewards: [{
+		uid: "c50e61d6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stage10final"
+	}]
+}

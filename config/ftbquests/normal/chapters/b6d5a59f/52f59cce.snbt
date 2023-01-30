@@ -1,0 +1,43 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	dependencies: [
+		"d28f8517"
+	],
+	tasks: [{
+		uid: "e157343a",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b3fa3df",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9fd20fa7",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4eea6f6",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

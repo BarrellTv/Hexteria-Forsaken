@@ -1,0 +1,39 @@
+{
+	x: -1.5d,
+	y: 5.5d,
+	dependencies: [
+		"af7789bf"
+	],
+	tasks: [{
+		uid: "e7ce69d0",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "676fecb6",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "1292165d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "25934537",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	dependencies: [
+		"998dbbbc"
+	],
+	tasks: [{
+		uid: "f1951f96",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25c71634",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "21f4b3e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "aff94301",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

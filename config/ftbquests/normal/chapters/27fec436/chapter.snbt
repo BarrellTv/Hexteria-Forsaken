@@ -1,0 +1,7 @@
+{
+	title: "Checklist",
+	icon: "galacticraftcore:prelaunch_checklist",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

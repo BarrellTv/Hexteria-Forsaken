@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	dependencies: [
+		"5d5243ac"
+	],
+	tasks: [{
+		uid: "287640d4",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "4ebc1d51",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "7eb2369d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "0926794a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

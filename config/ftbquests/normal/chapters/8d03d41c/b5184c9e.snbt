@@ -1,0 +1,45 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	dependencies: [
+		"a59b0757"
+	],
+	tasks: [{
+		uid: "ef7b4ec4",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "808da961",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e473df6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "d73456ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

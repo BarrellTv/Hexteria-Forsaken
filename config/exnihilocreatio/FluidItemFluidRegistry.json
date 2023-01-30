@@ -1,0 +1,12 @@
+[
+  {
+    "inputFluid": "water",
+    "reactant": "exnihilocreatio:item_material:3",
+    "output": "witchwater"
+  },
+  {
+    "inputFluid": "witchwater",
+    "reactant": "minecraft:rotten_flesh",
+    "output": "oil"
+  }
+]

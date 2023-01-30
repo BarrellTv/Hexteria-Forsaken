@@ -1,0 +1,31 @@
+{
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"ed9e7a37"
+	],
+	tasks: [{
+		uid: "55447d6a",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "39b633bb",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "3b661325",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	}]
+}

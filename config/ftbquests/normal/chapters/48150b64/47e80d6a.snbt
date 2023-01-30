@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"efa7362b",
+		"11523f08"
+	],
+	tasks: [{
+		uid: "5212969e",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5a285fd8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "edf8be0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

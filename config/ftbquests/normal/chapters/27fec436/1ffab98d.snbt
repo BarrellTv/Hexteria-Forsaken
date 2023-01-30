@@ -1,0 +1,29 @@
+{
+	icon: "mekanism:machineblock 1 8",
+	x: -3.5d,
+	y: -5.5d,
+	dependencies: [
+		"811c116d",
+		"4ee209ef"
+	],
+	tasks: [{
+		uid: "7ea17ed0",
+		type: "checkmark",
+		title: "Finish Mekanism"
+	}],
+	rewards: [{
+		uid: "d09e8dbd",
+		type: "ftbmoney:money",
+		ftb_money: 35000L
+	},
+	{
+		uid: "af1c2d37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

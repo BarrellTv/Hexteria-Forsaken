@@ -1,0 +1,49 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	dependencies: [
+		"b2793c4b"
+	],
+	tasks: [{
+		uid: "aac9e461",
+		type: "item",
+		items: [{
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}]
+	},
+	{
+		uid: "be3b928a",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}],
+	rewards: [{
+		uid: "7e51fc47",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "3e5b7bfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "46e3cbc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tech_box"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"d987dd32"
+	],
+	tasks: [{
+		uid: "7ec2d18b",
+		type: "item",
+		items: [{
+			item: "ironchest:wood_copper_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b56ea270",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "864b82c7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

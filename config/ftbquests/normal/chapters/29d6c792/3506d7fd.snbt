@@ -1,0 +1,16 @@
+{
+	title: "&e[Tier.1] &fVisit Moon: &2Moon",
+	x: -5.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "3cb1e081",
+		type: "dimension",
+		title: "&e[Tier.1] &fVisit Moon: &2Moon",
+		dim: -28
+	}],
+	rewards: [{
+		uid: "a6e1478b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

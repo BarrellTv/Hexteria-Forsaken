@@ -1,0 +1,58 @@
+{
+	x: 3.0d,
+	y: -7.5d,
+	dependencies: [
+		"2b1ebff4"
+	],
+	tasks: [{
+		uid: "bd3e03b2",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10c44796",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cowl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "828a47f9",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d83b424b",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07f63f7d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "c99c32af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}
