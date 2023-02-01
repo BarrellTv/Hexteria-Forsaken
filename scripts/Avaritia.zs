@@ -68,7 +68,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:cosmic_meatballs>,
 [<harvestcraft:turkeyrawitem>, <harvestcraft:venisonrawitem>, <harvestcraft:duckrawitem>, <harvestcraft:calamarirawitem>, <harvestcraft:anchovyrawitem>, <harvestcraft:bassrawitem>, <harvestcraft:carprawitem>, <harvestcraft:charrrawitem>, <harvestcraft:catfishrawitem>], 
 [<harvestcraft:clamrawitem>, <harvestcraft:crabrawitem>, <harvestcraft:crayfishrawitem>, <harvestcraft:eelrawitem>, <harvestcraft:frograwitem>, <harvestcraft:grouperrawitem>, <harvestcraft:herringrawitem>, <harvestcraft:jellyfishrawitem>, <harvestcraft:mudfishrawitem>], 
 [<harvestcraft:octopusrawitem>, <harvestcraft:perchrawitem>, <harvestcraft:snailrawitem>, <harvestcraft:snapperrawitem>, <harvestcraft:tilapiarawitem>, <harvestcraft:troutrawitem>, <harvestcraft:tunarawitem>, <harvestcraft:turtlerawitem>, <harvestcraft:walleyerawitem>], 
-[<harvestcraft:scalloprawitem>, <harvestcraft:shrimprawitem>, <harvestcraft:greenheartfishitem>, <harvestcraft:sardinerawitem>, <harvestcraft:musselrawitem>, <harvestcraft:oysterrawitem>]]);  
+[<harvestcraft:scalloprawitem>, <harvestcraft:shrimprawitem>, <harvestcraft:greenheartfishitem>, <harvestcraft:sardinerawitem>, <harvestcraft:musselrawitem>, <null>]]);  
 
 #Neutron Collector
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
